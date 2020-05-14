@@ -6483,9 +6483,10 @@
    </room>
    <room id="471" area="25" title="The eastern end of the Northern Highway" environment="50">
       <coord x="5" y="0" z="0" />
-      <exit direction="south" target="549"/>
-      <exit direction="west" target="548"/>
       <exit direction="north" target="546"/>
+      <exit direction="west" target="548"/>
+      <exit direction="south" target="549"/>
+      <exit direction="in" target="1539"/>
       <exit direction="east" target="547"/>
    </room>
    <room id="550" area="25" title="The Northern Highway" environment="50">
@@ -13228,6 +13229,7 @@
       <exit direction="north" target="2227"/>
       <exit direction="south" target="2225"/>
    </room>
+
    <room id="2307" area="50" title="Very old ruins" environment="62">
       <coord x="-3" y="-3" z="0" />
       <exit direction="east" target="2306"/>

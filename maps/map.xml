@@ -6095,7 +6095,7 @@
       <exit direction="south" target="19728"/>
    </room>
    <room id="19749" area="58" title="Miner's home" environment="9">
-      <coord x="-4" y="4" z="0" />
+      <coord x="-2" y="4" z="0" />
       <exit direction="north" target="15621"/>
    </room>
    <room id="15616" area="58" title="Tailor's home" environment="9">

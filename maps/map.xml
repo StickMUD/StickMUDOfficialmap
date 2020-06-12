@@ -39656,11 +39656,11 @@
    </room>
    <room id="682" area="35" title="Entrance to a dark cave" environment="10">
       <coord x="7" y="3" z="0" />
-      <exit direction="northwest" target="680"/>
-      <exit direction="southwest" target="683"/>
+      <exit direction="in" target="685"/>
       <exit direction="west" target="681"/>
       <exit direction="south" target="684"/>
-      <exit direction="in" target="685"/>
+      <exit direction="southwest" target="683"/>
+      <exit direction="northwest" target="680"/>
    </room>
    <room id="4837" area="35" title="Forest Clearing" environment="32">
       <coord x="5" y="1" z="0" />
@@ -41016,8 +41016,8 @@
    </room>
    <room id="6202" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-12" y="-1" z="0" />
-      <exit direction="northeast" target="6204"/>
       <exit direction="southeast" target="6201"/>
+      <exit direction="northeast" target="6204"/>
    </room>
    <room id="694" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-6" y="-5" z="0" />
@@ -41026,19 +41026,19 @@
    </room>
    <room id="693" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-5" y="-5" z="0" />
-      <exit direction="south" target="695"/>
       <exit direction="east" target="692"/>
       <exit direction="west" target="694"/>
+      <exit direction="south" target="695"/>
    </room>
    <room id="6204" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-11" y="0" z="0" />
-      <exit direction="southeast" target="6203"/>
       <exit direction="southwest" target="6202"/>
+      <exit direction="southeast" target="6203"/>
    </room>
    <room id="695" area="57" title="A candlelit chamber" environment="11">
       <coord x="-5" y="-6" z="0" />
-      <exit direction="south" target="696"/>
       <exit direction="north" target="693"/>
+      <exit direction="south" target="696"/>
    </room>
    <room id="6203" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-10" y="-1" z="0" />
@@ -41052,14 +41052,14 @@
    </room>
    <room id="6201" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-11" y="-2" z="0" />
-      <exit direction="northeast" target="6203"/>
-      <exit direction="southeast" target="6200"/>
       <exit direction="northwest" target="6202"/>
+      <exit direction="southeast" target="6200"/>
+      <exit direction="northeast" target="6203"/>
    </room>
    <room id="6200" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-10" y="-3" z="0" />
-      <exit direction="southeast" target="4421"/>
       <exit direction="northwest" target="6201"/>
+      <exit direction="southeast" target="4421"/>
    </room>
    <room id="692" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-4" y="-5" z="0" />
@@ -41068,13 +41068,13 @@
    </room>
    <room id="696" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-5" y="-7" z="0" />
-      <exit direction="south" target="697"/>
       <exit direction="north" target="695"/>
+      <exit direction="south" target="697"/>
    </room>
    <room id="4421" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-9" y="-4" z="0" />
-      <exit direction="southeast" target="4420"/>
       <exit direction="northwest" target="6200"/>
+      <exit direction="southeast" target="4420"/>
    </room>
    <room id="697" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-5" y="-8" z="0" />
@@ -41084,18 +41084,18 @@
    </room>
    <room id="699" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-4" y="-9" z="0" />
-      <exit direction="southeast" target="705"/>
       <exit direction="northwest" target="697"/>
+      <exit direction="southeast" target="705"/>
    </room>
    <room id="691" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-3" y="-5" z="0" />
-      <exit direction="northeast" target="690"/>
       <exit direction="west" target="692"/>
+      <exit direction="northeast" target="690"/>
    </room>
    <room id="698" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-6" y="-9" z="0" />
-      <exit direction="northeast" target="697"/>
       <exit direction="southwest" target="700"/>
+      <exit direction="northeast" target="697"/>
    </room>
    <room id="4420" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-8" y="-5" z="0" />
@@ -41104,47 +41104,47 @@
    </room>
    <room id="10185" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="10" y="-30" z="-1" />
-      <exit direction="northeast" target="10189"/>
-      <exit direction="southwest" target="10184"/>
-      <exit direction="north" target="10186"/>
-      <exit direction="northwest" target="10183"/>
-      <exit direction="west" target="10182"/>
-      <exit direction="southeast" target="10190"/>
-      <exit direction="south" target="10187"/>
       <exit direction="east" target="10188"/>
+      <exit direction="west" target="10182"/>
+      <exit direction="north" target="10186"/>
+      <exit direction="south" target="10187"/>
+      <exit direction="southwest" target="10184"/>
+      <exit direction="northwest" target="10183"/>
+      <exit direction="southeast" target="10190"/>
+      <exit direction="northeast" target="10189"/>
    </room>
    <room id="10179" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="8" y="-30" z="-1" />
-      <exit direction="northeast" target="10183"/>
-      <exit direction="southwest" target="10178"/>
-      <exit direction="north" target="10180"/>
-      <exit direction="northwest" target="10177"/>
-      <exit direction="west" target="10176"/>
-      <exit direction="southeast" target="10184"/>
-      <exit direction="south" target="10181"/>
       <exit direction="east" target="10182"/>
+      <exit direction="west" target="10176"/>
+      <exit direction="north" target="10180"/>
+      <exit direction="south" target="10181"/>
+      <exit direction="southwest" target="10178"/>
+      <exit direction="northwest" target="10177"/>
+      <exit direction="southeast" target="10184"/>
+      <exit direction="northeast" target="10183"/>
    </room>
    <room id="705" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-3" y="-10" z="0" />
-      <exit direction="southeast" target="706"/>
-      <exit direction="northwest" target="699"/>
       <exit direction="southwest" target="707"/>
+      <exit direction="northwest" target="699"/>
+      <exit direction="southeast" target="706"/>
    </room>
    <room id="10022" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-23" z="-1" />
-      <exit direction="southeast" target="10023"/>
       <exit direction="northwest" target="10021"/>
+      <exit direction="southeast" target="10023"/>
    </room>
    <room id="10175" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="6" y="-31" z="-1" />
-      <exit direction="northeast" target="10176"/>
-      <exit direction="southwest" target="10039"/>
-      <exit direction="north" target="10173"/>
-      <exit direction="northwest" target="10170"/>
-      <exit direction="west" target="10172"/>
-      <exit direction="southeast" target="10043"/>
-      <exit direction="south" target="10041"/>
       <exit direction="east" target="10178"/>
+      <exit direction="west" target="10172"/>
+      <exit direction="north" target="10173"/>
+      <exit direction="south" target="10041"/>
+      <exit direction="southwest" target="10039"/>
+      <exit direction="northwest" target="10170"/>
+      <exit direction="southeast" target="10043"/>
+      <exit direction="northeast" target="10176"/>
    </room>
    <room id="10074" area="57" title="Alchemist's lab" environment="54">
       <coord x="22" y="-34" z="-1" />
@@ -41152,19 +41152,19 @@
    </room>
    <room id="10186" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="10" y="-29" z="-1" />
-      <exit direction="southeast" target="10188"/>
-      <exit direction="west" target="10183"/>
-      <exit direction="southwest" target="10182"/>
-      <exit direction="south" target="10185"/>
       <exit direction="east" target="10189"/>
+      <exit direction="west" target="10183"/>
+      <exit direction="south" target="10185"/>
+      <exit direction="southwest" target="10182"/>
+      <exit direction="southeast" target="10188"/>
    </room>
    <room id="10048" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="10" y="-33" z="-1" />
-      <exit direction="northeast" target="10051"/>
+      <exit direction="east" target="10050"/>
       <exit direction="west" target="10046"/>
       <exit direction="north" target="10049"/>
       <exit direction="northwest" target="10047"/>
-      <exit direction="east" target="10050"/>
+      <exit direction="northeast" target="10051"/>
    </room>
    <room id="685" area="57" title="Inside a dark uninviting cave" environment="10">
       <coord x="0" y="0" z="0" />
@@ -41182,43 +41182,43 @@
    </room>
    <room id="10024" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-25" z="-1" />
-      <exit direction="northeast" target="10023"/>
       <exit direction="southwest" target="10025"/>
+      <exit direction="northeast" target="10023"/>
    </room>
    <room id="722" area="57" title="Underground crypt" environment="11">
       <coord x="-11" y="-20" z="-1" />
-      <exit direction="north" target="718"/>
       <exit direction="east" target="723"/>
+      <exit direction="north" target="718"/>
    </room>
    <room id="10180" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="8" y="-29" z="-1" />
-      <exit direction="southeast" target="10182"/>
-      <exit direction="west" target="10177"/>
-      <exit direction="southwest" target="10176"/>
-      <exit direction="south" target="10179"/>
       <exit direction="east" target="10183"/>
+      <exit direction="west" target="10177"/>
+      <exit direction="south" target="10179"/>
+      <exit direction="southwest" target="10176"/>
+      <exit direction="southeast" target="10182"/>
    </room>
    <room id="10045" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="8" y="-32" z="-1" />
-      <exit direction="northeast" target="10184"/>
-      <exit direction="southwest" target="10042"/>
-      <exit direction="north" target="10181"/>
-      <exit direction="northwest" target="10178"/>
-      <exit direction="west" target="10043"/>
-      <exit direction="southeast" target="10046"/>
-      <exit direction="south" target="10044"/>
       <exit direction="east" target="10047"/>
+      <exit direction="west" target="10043"/>
+      <exit direction="north" target="10181"/>
+      <exit direction="south" target="10044"/>
+      <exit direction="southwest" target="10042"/>
+      <exit direction="northwest" target="10178"/>
+      <exit direction="southeast" target="10046"/>
+      <exit direction="northeast" target="10184"/>
    </room>
    <room id="10173" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="6" y="-30" z="-1" />
-      <exit direction="northeast" target="10177"/>
-      <exit direction="southwest" target="10172"/>
-      <exit direction="north" target="10174"/>
-      <exit direction="northwest" target="10171"/>
-      <exit direction="west" target="10170"/>
-      <exit direction="southeast" target="10178"/>
-      <exit direction="south" target="10175"/>
       <exit direction="east" target="10176"/>
+      <exit direction="west" target="10170"/>
+      <exit direction="north" target="10174"/>
+      <exit direction="south" target="10175"/>
+      <exit direction="southwest" target="10172"/>
+      <exit direction="northwest" target="10171"/>
+      <exit direction="southeast" target="10178"/>
+      <exit direction="northeast" target="10177"/>
    </room>
    <room id="10021" area="57" title="Entrance to a dark cave" environment="26">
       <coord x="2" y="-22" z="-1" />
@@ -41227,22 +41227,22 @@
    </room>
    <room id="10039" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="5" y="-32" z="-1" />
-      <exit direction="northeast" target="10175"/>
-      <exit direction="southwest" target="10036"/>
-      <exit direction="north" target="10172"/>
-      <exit direction="northwest" target="10032"/>
-      <exit direction="west" target="10035"/>
-      <exit direction="southeast" target="10040"/>
-      <exit direction="south" target="10038"/>
       <exit direction="east" target="10041"/>
+      <exit direction="west" target="10035"/>
+      <exit direction="north" target="10172"/>
+      <exit direction="south" target="10038"/>
+      <exit direction="southwest" target="10036"/>
+      <exit direction="northwest" target="10032"/>
+      <exit direction="southeast" target="10040"/>
+      <exit direction="northeast" target="10175"/>
    </room>
    <room id="10042" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="7" y="-33" z="-1" />
-      <exit direction="northeast" target="10045"/>
+      <exit direction="east" target="10044"/>
       <exit direction="west" target="10040"/>
       <exit direction="north" target="10043"/>
       <exit direction="northwest" target="10041"/>
-      <exit direction="east" target="10044"/>
+      <exit direction="northeast" target="10045"/>
    </room>
    <room id="704" area="57" title="Inner Chamber of Vampire Morlock" environment="11">
       <coord x="-7" y="-13" z="0" />
@@ -41250,14 +41250,14 @@
    </room>
    <room id="10035" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-32" z="-1" />
-      <exit direction="northeast" target="10172"/>
-      <exit direction="southwest" target="10037"/>
-      <exit direction="north" target="10032"/>
-      <exit direction="northwest" target="10033"/>
-      <exit direction="west" target="10034"/>
-      <exit direction="southeast" target="10038"/>
-      <exit direction="south" target="10036"/>
       <exit direction="east" target="10039"/>
+      <exit direction="west" target="10034"/>
+      <exit direction="north" target="10032"/>
+      <exit direction="south" target="10036"/>
+      <exit direction="southwest" target="10037"/>
+      <exit direction="northwest" target="10033"/>
+      <exit direction="southeast" target="10038"/>
+      <exit direction="northeast" target="10172"/>
    </room>
    <room id="702" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-6" y="-11" z="0" />
@@ -41266,89 +41266,94 @@
    </room>
    <room id="10049" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="10" y="-32" z="-1" />
-      <exit direction="northeast" target="10190"/>
-      <exit direction="southwest" target="10046"/>
-      <exit direction="north" target="10187"/>
-      <exit direction="northwest" target="10184"/>
-      <exit direction="west" target="10047"/>
-      <exit direction="southeast" target="10050"/>
-      <exit direction="south" target="10048"/>
       <exit direction="east" target="10051"/>
+      <exit direction="west" target="10047"/>
+      <exit direction="north" target="10187"/>
+      <exit direction="south" target="10048"/>
+      <exit direction="southwest" target="10046"/>
+      <exit direction="northwest" target="10184"/>
+      <exit direction="southeast" target="10050"/>
+      <exit direction="northeast" target="10190"/>
    </room>
    <room id="690" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-2" y="-4" z="0" />
-      <exit direction="northeast" target="689"/>
       <exit direction="southwest" target="691"/>
+      <exit direction="northeast" target="689"/>
    </room>
    <room id="10026" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="2" y="-27" z="-1" />
-      <exit direction="south" target="10027"/>
       <exit direction="north" target="10025"/>
+      <exit direction="south" target="10027"/>
    </room>
    <room id="708" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-3" y="-12" z="0" />
-      <exit direction="northeast" target="706"/>
       <exit direction="south" target="709"/>
       <exit direction="northwest" target="707"/>
+      <exit direction="northeast" target="706"/>
    </room>
    <room id="10172" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="5" y="-31" z="-1" />
-      <exit direction="northeast" target="10173"/>
-      <exit direction="southwest" target="10035"/>
-      <exit direction="north" target="10170"/>
-      <exit direction="northwest" target="10031"/>
-      <exit direction="west" target="10032"/>
-      <exit direction="southeast" target="10041"/>
-      <exit direction="south" target="10039"/>
       <exit direction="east" target="10175"/>
+      <exit direction="west" target="10032"/>
+      <exit direction="north" target="10170"/>
+      <exit direction="south" target="10039"/>
+      <exit direction="southwest" target="10035"/>
+      <exit direction="northwest" target="10031"/>
+      <exit direction="southeast" target="10041"/>
+      <exit direction="northeast" target="10173"/>
    </room>
    <room id="10044" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="8" y="-33" z="-1" />
-      <exit direction="northeast" target="10047"/>
+      <exit direction="east" target="10046"/>
       <exit direction="west" target="10042"/>
       <exit direction="north" target="10045"/>
       <exit direction="northwest" target="10043"/>
-      <exit direction="east" target="10046"/>
+      <exit direction="northeast" target="10047"/>
    </room>
    <room id="10184" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="9" y="-31" z="-1" />
-      <exit direction="northeast" target="10185"/>
-      <exit direction="southwest" target="10045"/>
-      <exit direction="north" target="10182"/>
-      <exit direction="northwest" target="10179"/>
-      <exit direction="west" target="10181"/>
-      <exit direction="southeast" target="10049"/>
-      <exit direction="south" target="10047"/>
       <exit direction="east" target="10187"/>
+      <exit direction="west" target="10181"/>
+      <exit direction="north" target="10182"/>
+      <exit direction="south" target="10047"/>
+      <exit direction="southwest" target="10045"/>
+      <exit direction="northwest" target="10179"/>
+      <exit direction="southeast" target="10049"/>
+      <exit direction="northeast" target="10185"/>
    </room>
    <room id="10034" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-32" z="-1" />
-      <exit direction="northeast" target="10032"/>
-      <exit direction="north" target="10033"/>
-      <exit direction="southeast" target="10036"/>
-      <exit direction="south" target="10037"/>
       <exit direction="east" target="10035"/>
+      <exit direction="north" target="10033"/>
+      <exit direction="south" target="10037"/>
+      <exit direction="southeast" target="10036"/>
+      <exit direction="northeast" target="10032"/>
    </room>
    <room id="701" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-8" y="-11" z="0" />
-      <exit direction="northeast" target="700"/>
       <exit direction="southeast" target="703"/>
+      <exit direction="northeast" target="700"/>
+   </room>
+   <room id="707" area="57" title="Blood soaked hallway" environment="11">
+      <coord x="-4" y="-11" z="0" />
+      <exit direction="southeast" target="708"/>
+      <exit direction="northeast" target="705"/>
    </room>
    <room id="10178" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="7" y="-31" z="-1" />
-      <exit direction="northeast" target="10179"/>
-      <exit direction="southwest" target="10041"/>
-      <exit direction="north" target="10176"/>
-      <exit direction="northwest" target="10173"/>
-      <exit direction="west" target="10175"/>
-      <exit direction="southeast" target="10045"/>
-      <exit direction="south" target="10043"/>
       <exit direction="east" target="10181"/>
+      <exit direction="west" target="10175"/>
+      <exit direction="north" target="10176"/>
+      <exit direction="south" target="10043"/>
+      <exit direction="southwest" target="10041"/>
+      <exit direction="northwest" target="10173"/>
+      <exit direction="southeast" target="10045"/>
+      <exit direction="northeast" target="10179"/>
    </room>
    <room id="689" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-1" y="-3" z="0" />
-      <exit direction="northeast" target="688"/>
       <exit direction="southwest" target="690"/>
+      <exit direction="northeast" target="688"/>
    </room>
    <room id="687" area="57" title="Blood soaked hallway" environment="11">
       <coord x="1" y="-1" z="0" />
@@ -41357,22 +41362,22 @@
    </room>
    <room id="10036" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-33" z="-1" />
-      <exit direction="northeast" target="10039"/>
+      <exit direction="east" target="10038"/>
       <exit direction="west" target="10037"/>
       <exit direction="north" target="10035"/>
       <exit direction="northwest" target="10034"/>
-      <exit direction="east" target="10038"/>
+      <exit direction="northeast" target="10039"/>
    </room>
    <room id="10043" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="7" y="-32" z="-1" />
-      <exit direction="northeast" target="10181"/>
-      <exit direction="southwest" target="10040"/>
-      <exit direction="north" target="10178"/>
-      <exit direction="northwest" target="10175"/>
-      <exit direction="west" target="10041"/>
-      <exit direction="southeast" target="10044"/>
-      <exit direction="south" target="10042"/>
       <exit direction="east" target="10045"/>
+      <exit direction="west" target="10041"/>
+      <exit direction="north" target="10178"/>
+      <exit direction="south" target="10042"/>
+      <exit direction="southwest" target="10040"/>
+      <exit direction="northwest" target="10175"/>
+      <exit direction="southeast" target="10044"/>
+      <exit direction="northeast" target="10181"/>
    </room>
    <room id="10023" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-24" z="-1" />
@@ -41386,9 +41391,9 @@
    </room>
    <room id="700" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-7" y="-10" z="0" />
-      <exit direction="northeast" target="698"/>
-      <exit direction="southeast" target="702"/>
       <exit direction="southwest" target="701"/>
+      <exit direction="southeast" target="702"/>
+      <exit direction="northeast" target="698"/>
    </room>
    <room id="715" area="57" title="Underground crypt" environment="11">
       <coord x="-8" y="-16" z="-1" />
@@ -41397,75 +41402,75 @@
    </room>
    <room id="10182" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="9" y="-30" z="-1" />
-      <exit direction="northeast" target="10186"/>
-      <exit direction="southwest" target="10181"/>
-      <exit direction="north" target="10183"/>
-      <exit direction="northwest" target="10180"/>
-      <exit direction="west" target="10179"/>
-      <exit direction="southeast" target="10187"/>
-      <exit direction="south" target="10184"/>
       <exit direction="east" target="10185"/>
+      <exit direction="west" target="10179"/>
+      <exit direction="north" target="10183"/>
+      <exit direction="south" target="10184"/>
+      <exit direction="southwest" target="10181"/>
+      <exit direction="northwest" target="10180"/>
+      <exit direction="southeast" target="10187"/>
+      <exit direction="northeast" target="10186"/>
    </room>
    <room id="10183" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="9" y="-29" z="-1" />
-      <exit direction="southeast" target="10185"/>
-      <exit direction="west" target="10180"/>
-      <exit direction="southwest" target="10179"/>
-      <exit direction="south" target="10182"/>
       <exit direction="east" target="10186"/>
+      <exit direction="west" target="10180"/>
+      <exit direction="south" target="10182"/>
+      <exit direction="southwest" target="10179"/>
+      <exit direction="southeast" target="10185"/>
    </room>
    <room id="688" area="57" title="Blood soaked hallway" environment="11">
       <coord x="0" y="-2" z="0" />
-      <exit direction="northeast" target="687"/>
       <exit direction="southwest" target="689"/>
       <exit direction="northwest" target="686"/>
+      <exit direction="northeast" target="687"/>
    </room>
    <room id="10032" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-31" z="-1" />
-      <exit direction="northeast" target="10170"/>
-      <exit direction="southwest" target="10034"/>
-      <exit direction="north" target="10031"/>
-      <exit direction="northwest" target="10030"/>
-      <exit direction="west" target="10033"/>
-      <exit direction="southeast" target="10039"/>
-      <exit direction="south" target="10035"/>
       <exit direction="east" target="10172"/>
+      <exit direction="west" target="10033"/>
+      <exit direction="north" target="10031"/>
+      <exit direction="south" target="10035"/>
+      <exit direction="southwest" target="10034"/>
+      <exit direction="northwest" target="10030"/>
+      <exit direction="southeast" target="10039"/>
+      <exit direction="northeast" target="10170"/>
    </room>
    <room id="10038" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="5" y="-33" z="-1" />
-      <exit direction="northeast" target="10041"/>
+      <exit direction="east" target="10040"/>
       <exit direction="west" target="10036"/>
       <exit direction="north" target="10039"/>
       <exit direction="northwest" target="10035"/>
-      <exit direction="east" target="10040"/>
+      <exit direction="northeast" target="10041"/>
    </room>
    <room id="716" area="57" title="Underground crypt" environment="11">
       <coord x="-9" y="-17" z="-1" />
-      <exit direction="northeast" target="715"/>
       <exit direction="southwest" target="717"/>
+      <exit direction="northeast" target="715"/>
    </room>
    <room id="725" area="57" title="Underground crypt" environment="11">
       <coord x="-8" y="-20" z="-1" />
-      <exit direction="south" target="728"/>
+      <exit direction="east" target="727"/>
       <exit direction="west" target="724"/>
       <exit direction="north" target="726"/>
-      <exit direction="east" target="727"/>
+      <exit direction="south" target="728"/>
    </room>
    <room id="10041" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="6" y="-32" z="-1" />
-      <exit direction="northeast" target="10178"/>
-      <exit direction="southwest" target="10038"/>
-      <exit direction="north" target="10175"/>
-      <exit direction="northwest" target="10172"/>
-      <exit direction="west" target="10039"/>
-      <exit direction="southeast" target="10042"/>
-      <exit direction="south" target="10040"/>
       <exit direction="east" target="10043"/>
+      <exit direction="west" target="10039"/>
+      <exit direction="north" target="10175"/>
+      <exit direction="south" target="10040"/>
+      <exit direction="southwest" target="10038"/>
+      <exit direction="northwest" target="10172"/>
+      <exit direction="southeast" target="10042"/>
+      <exit direction="northeast" target="10178"/>
    </room>
    <room id="723" area="57" title="Entrance to the inner crypt." environment="11">
       <coord x="-10" y="-20" z="-1" />
-      <exit direction="west" target="722"/>
       <exit direction="east" target="724"/>
+      <exit direction="west" target="722"/>
    </room>
    <room id="718" area="57" title="An underground crypt" environment="11">
       <coord x="-11" y="-19" z="-1" />
@@ -41474,76 +41479,76 @@
    </room>
    <room id="717" area="57" title="Underground crypt" environment="11">
       <coord x="-10" y="-18" z="-1" />
-      <exit direction="northeast" target="716"/>
       <exit direction="southwest" target="718"/>
+      <exit direction="northeast" target="716"/>
    </room>
    <room id="10171" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="5" y="-29" z="-1" />
-      <exit direction="southeast" target="10173"/>
-      <exit direction="west" target="10029"/>
-      <exit direction="southwest" target="10031"/>
-      <exit direction="south" target="10170"/>
       <exit direction="east" target="10174"/>
+      <exit direction="west" target="10029"/>
+      <exit direction="south" target="10170"/>
+      <exit direction="southwest" target="10031"/>
+      <exit direction="southeast" target="10173"/>
    </room>
    <room id="10031" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-30" z="-1" />
-      <exit direction="northeast" target="10171"/>
-      <exit direction="southwest" target="10033"/>
-      <exit direction="north" target="10029"/>
-      <exit direction="northwest" target="10028"/>
-      <exit direction="west" target="10030"/>
-      <exit direction="southeast" target="10172"/>
-      <exit direction="south" target="10032"/>
       <exit direction="east" target="10170"/>
+      <exit direction="west" target="10030"/>
+      <exit direction="north" target="10029"/>
+      <exit direction="south" target="10032"/>
+      <exit direction="southwest" target="10033"/>
+      <exit direction="northwest" target="10028"/>
+      <exit direction="southeast" target="10172"/>
+      <exit direction="northeast" target="10171"/>
    </room>
    <room id="10033" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-31" z="-1" />
-      <exit direction="northeast" target="10031"/>
-      <exit direction="north" target="10030"/>
-      <exit direction="southeast" target="10035"/>
-      <exit direction="south" target="10034"/>
       <exit direction="east" target="10032"/>
+      <exit direction="north" target="10030"/>
+      <exit direction="south" target="10034"/>
+      <exit direction="southeast" target="10035"/>
+      <exit direction="northeast" target="10031"/>
    </room>
    <room id="10028" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-29" z="-1" />
+      <exit direction="east" target="10029"/>
       <exit direction="south" target="10030"/>
       <exit direction="northwest" target="10027"/>
       <exit direction="southeast" target="10031"/>
-      <exit direction="east" target="10029"/>
    </room>
    <room id="10037" area="57" title="Yaargh Rainforest Clearing" environment="32">
       <coord x="3" y="-33" z="-1" />
-      <exit direction="northeast" target="10035"/>
-      <exit direction="north" target="10034"/>
       <exit direction="east" target="10036"/>
+      <exit direction="north" target="10034"/>
+      <exit direction="northeast" target="10035"/>
    </room>
    <room id="703" area="57" title="Outer Chamber of Vampire Morlock" environment="11">
       <coord x="-7" y="-12" z="0" />
       <exit direction="south" target="704"/>
-      <exit direction="northeast" target="702"/>
       <exit direction="northwest" target="701"/>
+      <exit direction="northeast" target="702"/>
    </room>
    <room id="10047" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="9" y="-32" z="-1" />
-      <exit direction="northeast" target="10187"/>
-      <exit direction="southwest" target="10044"/>
-      <exit direction="north" target="10184"/>
-      <exit direction="northwest" target="10181"/>
-      <exit direction="west" target="10045"/>
-      <exit direction="southeast" target="10048"/>
-      <exit direction="south" target="10046"/>
       <exit direction="east" target="10049"/>
+      <exit direction="west" target="10045"/>
+      <exit direction="north" target="10184"/>
+      <exit direction="south" target="10046"/>
+      <exit direction="southwest" target="10044"/>
+      <exit direction="northwest" target="10181"/>
+      <exit direction="southeast" target="10048"/>
+      <exit direction="northeast" target="10187"/>
    </room>
    <room id="10187" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="10" y="-31" z="-1" />
-      <exit direction="northeast" target="10188"/>
-      <exit direction="southwest" target="10047"/>
-      <exit direction="north" target="10185"/>
-      <exit direction="northwest" target="10182"/>
-      <exit direction="west" target="10184"/>
-      <exit direction="southeast" target="10051"/>
-      <exit direction="south" target="10049"/>
       <exit direction="east" target="10190"/>
+      <exit direction="west" target="10184"/>
+      <exit direction="north" target="10185"/>
+      <exit direction="south" target="10049"/>
+      <exit direction="southwest" target="10047"/>
+      <exit direction="northwest" target="10182"/>
+      <exit direction="southeast" target="10051"/>
+      <exit direction="northeast" target="10188"/>
    </room>
    <room id="10027" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="2" y="-28" z="-1" />
@@ -41552,30 +41557,30 @@
    </room>
    <room id="10181" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="8" y="-31" z="-1" />
-      <exit direction="northeast" target="10182"/>
-      <exit direction="southwest" target="10043"/>
-      <exit direction="north" target="10179"/>
-      <exit direction="northwest" target="10176"/>
-      <exit direction="west" target="10178"/>
-      <exit direction="southeast" target="10047"/>
-      <exit direction="south" target="10045"/>
       <exit direction="east" target="10184"/>
+      <exit direction="west" target="10178"/>
+      <exit direction="north" target="10179"/>
+      <exit direction="south" target="10045"/>
+      <exit direction="southwest" target="10043"/>
+      <exit direction="northwest" target="10176"/>
+      <exit direction="southeast" target="10047"/>
+      <exit direction="northeast" target="10182"/>
    </room>
    <room id="10040" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="6" y="-33" z="-1" />
-      <exit direction="northeast" target="10043"/>
+      <exit direction="east" target="10042"/>
       <exit direction="west" target="10038"/>
       <exit direction="north" target="10041"/>
       <exit direction="northwest" target="10039"/>
-      <exit direction="east" target="10042"/>
+      <exit direction="northeast" target="10043"/>
    </room>
    <room id="10174" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="6" y="-29" z="-1" />
-      <exit direction="southeast" target="10176"/>
-      <exit direction="west" target="10171"/>
-      <exit direction="southwest" target="10170"/>
-      <exit direction="south" target="10173"/>
       <exit direction="east" target="10177"/>
+      <exit direction="west" target="10171"/>
+      <exit direction="south" target="10173"/>
+      <exit direction="southwest" target="10170"/>
+      <exit direction="southeast" target="10176"/>
    </room>
    <room id="724" area="57" title="Underground crypt" environment="11">
       <coord x="-9" y="-20" z="-1" />
@@ -41588,90 +41593,90 @@
    </room>
    <room id="10046" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="9" y="-33" z="-1" />
-      <exit direction="northeast" target="10049"/>
+      <exit direction="east" target="10048"/>
       <exit direction="west" target="10044"/>
       <exit direction="north" target="10047"/>
       <exit direction="northwest" target="10045"/>
-      <exit direction="east" target="10048"/>
+      <exit direction="northeast" target="10049"/>
    </room>
    <room id="10170" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="5" y="-30" z="-1" />
-      <exit direction="northeast" target="10174"/>
-      <exit direction="southwest" target="10032"/>
-      <exit direction="north" target="10171"/>
-      <exit direction="northwest" target="10029"/>
-      <exit direction="west" target="10031"/>
-      <exit direction="southeast" target="10175"/>
-      <exit direction="south" target="10172"/>
       <exit direction="east" target="10173"/>
+      <exit direction="west" target="10031"/>
+      <exit direction="north" target="10171"/>
+      <exit direction="south" target="10172"/>
+      <exit direction="southwest" target="10032"/>
+      <exit direction="northwest" target="10029"/>
+      <exit direction="southeast" target="10175"/>
+      <exit direction="northeast" target="10174"/>
    </room>
    <room id="10176" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="7" y="-30" z="-1" />
-      <exit direction="northeast" target="10180"/>
-      <exit direction="southwest" target="10175"/>
-      <exit direction="north" target="10177"/>
-      <exit direction="northwest" target="10174"/>
-      <exit direction="west" target="10173"/>
-      <exit direction="southeast" target="10181"/>
-      <exit direction="south" target="10178"/>
       <exit direction="east" target="10179"/>
+      <exit direction="west" target="10173"/>
+      <exit direction="north" target="10177"/>
+      <exit direction="south" target="10178"/>
+      <exit direction="southwest" target="10175"/>
+      <exit direction="northwest" target="10174"/>
+      <exit direction="southeast" target="10181"/>
+      <exit direction="northeast" target="10180"/>
    </room>
    <room id="10177" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="7" y="-29" z="-1" />
-      <exit direction="southeast" target="10179"/>
-      <exit direction="west" target="10174"/>
-      <exit direction="southwest" target="10173"/>
-      <exit direction="south" target="10176"/>
       <exit direction="east" target="10180"/>
+      <exit direction="west" target="10174"/>
+      <exit direction="south" target="10176"/>
+      <exit direction="southwest" target="10173"/>
+      <exit direction="southeast" target="10179"/>
    </room>
    <room id="10029" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="4" y="-29" z="-1" />
-      <exit direction="southeast" target="10170"/>
-      <exit direction="west" target="10028"/>
-      <exit direction="southwest" target="10030"/>
-      <exit direction="south" target="10031"/>
       <exit direction="east" target="10171"/>
+      <exit direction="west" target="10028"/>
+      <exit direction="south" target="10031"/>
+      <exit direction="southwest" target="10030"/>
+      <exit direction="southeast" target="10170"/>
    </room>
    <room id="686" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-1" y="-1" z="0" />
-      <exit direction="northeast" target="685"/>
       <exit direction="southeast" target="688"/>
+      <exit direction="northeast" target="685"/>
    </room>
    <room id="10030" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="3" y="-30" z="-1" />
-      <exit direction="northeast" target="10029"/>
+      <exit direction="east" target="10031"/>
       <exit direction="west" target="5994"/>
       <exit direction="north" target="10028"/>
-      <exit direction="southeast" target="10032"/>
       <exit direction="south" target="10033"/>
-      <exit direction="east" target="10031"/>
+      <exit direction="southeast" target="10032"/>
+      <exit direction="northeast" target="10029"/>
    </room>
    <room id="10083" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="17" y="-29" z="-1" />
-      <exit direction="southeast" target="10197"/>
-      <exit direction="west" target="10082"/>
-      <exit direction="southwest" target="10079"/>
-      <exit direction="south" target="10080"/>
       <exit direction="east" target="10198"/>
+      <exit direction="west" target="10082"/>
+      <exit direction="south" target="10080"/>
+      <exit direction="southwest" target="10079"/>
+      <exit direction="southeast" target="10197"/>
    </room>
    <room id="10054" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="13" y="-33" z="-1" />
-      <exit direction="northeast" target="10057"/>
+      <exit direction="east" target="10056"/>
       <exit direction="west" target="10052"/>
       <exit direction="north" target="10055"/>
       <exit direction="northwest" target="10053"/>
-      <exit direction="east" target="10056"/>
+      <exit direction="northeast" target="10057"/>
    </room>
    <room id="10061" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="16" y="-32" z="-1" />
-      <exit direction="northeast" target="10077"/>
-      <exit direction="southwest" target="10058"/>
-      <exit direction="north" target="10076"/>
-      <exit direction="northwest" target="10075"/>
-      <exit direction="west" target="10059"/>
-      <exit direction="southeast" target="10062"/>
-      <exit direction="south" target="10060"/>
       <exit direction="east" target="10063"/>
+      <exit direction="west" target="10059"/>
+      <exit direction="north" target="10076"/>
+      <exit direction="south" target="10060"/>
+      <exit direction="southwest" target="10058"/>
+      <exit direction="northwest" target="10075"/>
+      <exit direction="southeast" target="10062"/>
+      <exit direction="northeast" target="10077"/>
    </room>
    <room id="714" area="57" title="Underground crypt" environment="11">
       <coord x="-7" y="-16" z="-1" />
@@ -41680,8 +41685,8 @@
    </room>
    <room id="711" area="57" title="Underground crypt" environment="11">
       <coord x="-4" y="-14" z="-1" />
-      <exit direction="northeast" target="710"/>
       <exit direction="southwest" target="712"/>
+      <exit direction="northeast" target="710"/>
    </room>
    <room id="731" area="57" title="Underground crypt" environment="11">
       <coord x="-5" y="-19" z="-1" />
@@ -41689,104 +41694,104 @@
    </room>
    <room id="10077" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="17" y="-31" z="-1" />
-      <exit direction="northeast" target="10197"/>
-      <exit direction="southwest" target="10061"/>
-      <exit direction="north" target="10080"/>
-      <exit direction="northwest" target="10079"/>
-      <exit direction="west" target="10076"/>
-      <exit direction="southeast" target="10065"/>
-      <exit direction="south" target="10063"/>
       <exit direction="east" target="10087"/>
+      <exit direction="west" target="10076"/>
+      <exit direction="north" target="10080"/>
+      <exit direction="south" target="10063"/>
+      <exit direction="southwest" target="10061"/>
+      <exit direction="northwest" target="10079"/>
+      <exit direction="southeast" target="10065"/>
+      <exit direction="northeast" target="10197"/>
    </room>
    <room id="10082" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="16" y="-29" z="-1" />
-      <exit direction="southeast" target="10080"/>
-      <exit direction="west" target="10081"/>
-      <exit direction="southwest" target="10078"/>
-      <exit direction="south" target="10079"/>
       <exit direction="east" target="10083"/>
+      <exit direction="west" target="10081"/>
+      <exit direction="south" target="10079"/>
+      <exit direction="southwest" target="10078"/>
+      <exit direction="southeast" target="10080"/>
    </room>
    <room id="10203" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="20" y="-29" z="-1" />
-      <exit direction="southeast" target="10205"/>
-      <exit direction="west" target="10200"/>
-      <exit direction="southwest" target="10199"/>
-      <exit direction="south" target="10202"/>
       <exit direction="east" target="10206"/>
+      <exit direction="west" target="10200"/>
+      <exit direction="south" target="10202"/>
+      <exit direction="southwest" target="10199"/>
+      <exit direction="southeast" target="10205"/>
    </room>
    <room id="10193" area="57" title="Watering hole" environment="44">
       <coord x="12" y="-31" z="-1" />
-      <exit direction="northeast" target="10194"/>
-      <exit direction="southwest" target="10051"/>
-      <exit direction="north" target="10191"/>
-      <exit direction="northwest" target="10188"/>
-      <exit direction="west" target="10190"/>
-      <exit direction="southeast" target="10055"/>
-      <exit direction="south" target="10053"/>
       <exit direction="east" target="10196"/>
+      <exit direction="west" target="10190"/>
+      <exit direction="north" target="10191"/>
+      <exit direction="south" target="10053"/>
+      <exit direction="southwest" target="10051"/>
+      <exit direction="northwest" target="10188"/>
+      <exit direction="southeast" target="10055"/>
+      <exit direction="northeast" target="10194"/>
    </room>
    <room id="10210" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="22" y="-31" z="-1" />
-      <exit direction="southwest" target="10071"/>
       <exit direction="west" target="10207"/>
       <exit direction="north" target="10208"/>
-      <exit direction="northwest" target="10205"/>
       <exit direction="south" target="10073"/>
+      <exit direction="southwest" target="10071"/>
+      <exit direction="northwest" target="10205"/>
    </room>
    <room id="10069" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="20" y="-32" z="-1" />
-      <exit direction="northeast" target="10207"/>
-      <exit direction="southwest" target="10066"/>
-      <exit direction="north" target="10204"/>
-      <exit direction="northwest" target="10201"/>
-      <exit direction="west" target="10067"/>
-      <exit direction="southeast" target="10070"/>
-      <exit direction="south" target="10068"/>
       <exit direction="east" target="10071"/>
+      <exit direction="west" target="10067"/>
+      <exit direction="north" target="10204"/>
+      <exit direction="south" target="10068"/>
+      <exit direction="southwest" target="10066"/>
+      <exit direction="northwest" target="10201"/>
+      <exit direction="southeast" target="10070"/>
+      <exit direction="northeast" target="10207"/>
    </room>
    <room id="10209" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="22" y="-29" z="-1" />
-      <exit direction="south" target="10208"/>
       <exit direction="west" target="10206"/>
+      <exit direction="south" target="10208"/>
       <exit direction="southwest" target="10205"/>
    </room>
    <room id="10064" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="18" y="-33" z="-1" />
-      <exit direction="northeast" target="10067"/>
+      <exit direction="east" target="10066"/>
       <exit direction="west" target="10062"/>
       <exit direction="north" target="10065"/>
       <exit direction="northwest" target="10063"/>
-      <exit direction="east" target="10066"/>
+      <exit direction="northeast" target="10067"/>
    </room>
    <room id="10062" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="17" y="-33" z="-1" />
-      <exit direction="northeast" target="10065"/>
+      <exit direction="east" target="10064"/>
       <exit direction="west" target="10060"/>
       <exit direction="north" target="10063"/>
       <exit direction="northwest" target="10061"/>
-      <exit direction="east" target="10064"/>
+      <exit direction="northeast" target="10065"/>
    </room>
    <room id="10086" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="14" y="-31" z="-1" />
-      <exit direction="northeast" target="10078"/>
-      <exit direction="southwest" target="10055"/>
-      <exit direction="north" target="10084"/>
-      <exit direction="northwest" target="10194"/>
-      <exit direction="west" target="10196"/>
-      <exit direction="southeast" target="10059"/>
-      <exit direction="south" target="10057"/>
       <exit direction="east" target="10075"/>
+      <exit direction="west" target="10196"/>
+      <exit direction="north" target="10084"/>
+      <exit direction="south" target="10057"/>
+      <exit direction="southwest" target="10055"/>
+      <exit direction="northwest" target="10194"/>
+      <exit direction="southeast" target="10059"/>
+      <exit direction="northeast" target="10078"/>
    </room>
    <room id="10197" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="18" y="-30" z="-1" />
-      <exit direction="northeast" target="10200"/>
-      <exit direction="southwest" target="10077"/>
-      <exit direction="north" target="10198"/>
-      <exit direction="northwest" target="10083"/>
-      <exit direction="west" target="10080"/>
-      <exit direction="southeast" target="10201"/>
-      <exit direction="south" target="10087"/>
       <exit direction="east" target="10199"/>
+      <exit direction="west" target="10080"/>
+      <exit direction="north" target="10198"/>
+      <exit direction="south" target="10087"/>
+      <exit direction="southwest" target="10077"/>
+      <exit direction="northwest" target="10083"/>
+      <exit direction="southeast" target="10201"/>
+      <exit direction="northeast" target="10200"/>
    </room>
    <room id="732" area="57" title="Underground crypt" environment="11">
       <coord x="-4" y="-20" z="-1" />
@@ -41795,22 +41800,22 @@
    </room>
    <room id="10050" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="11" y="-33" z="-1" />
-      <exit direction="northeast" target="10053"/>
+      <exit direction="east" target="10052"/>
       <exit direction="west" target="10048"/>
       <exit direction="north" target="10051"/>
       <exit direction="northwest" target="10049"/>
-      <exit direction="east" target="10052"/>
+      <exit direction="northeast" target="10053"/>
    </room>
    <room id="10201" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="19" y="-31" z="-1" />
-      <exit direction="northeast" target="10202"/>
-      <exit direction="southwest" target="10065"/>
-      <exit direction="north" target="10199"/>
-      <exit direction="northwest" target="10197"/>
-      <exit direction="west" target="10087"/>
-      <exit direction="southeast" target="10069"/>
-      <exit direction="south" target="10067"/>
       <exit direction="east" target="10204"/>
+      <exit direction="west" target="10087"/>
+      <exit direction="north" target="10199"/>
+      <exit direction="south" target="10067"/>
+      <exit direction="southwest" target="10065"/>
+      <exit direction="northwest" target="10197"/>
+      <exit direction="southeast" target="10069"/>
+      <exit direction="northeast" target="10202"/>
    </room>
    <room id="739" area="57" title="Underground crypt" environment="11">
       <coord x="0" y="-20" z="-1" />
@@ -41819,19 +41824,19 @@
    </room>
    <room id="10188" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="11" y="-30" z="-1" />
-      <exit direction="northeast" target="10192"/>
-      <exit direction="southwest" target="10187"/>
-      <exit direction="north" target="10189"/>
-      <exit direction="northwest" target="10186"/>
-      <exit direction="west" target="10185"/>
-      <exit direction="southeast" target="10193"/>
-      <exit direction="south" target="10190"/>
       <exit direction="east" target="10191"/>
+      <exit direction="west" target="10185"/>
+      <exit direction="north" target="10189"/>
+      <exit direction="south" target="10190"/>
+      <exit direction="southwest" target="10187"/>
+      <exit direction="northwest" target="10186"/>
+      <exit direction="southeast" target="10193"/>
+      <exit direction="northeast" target="10192"/>
    </room>
    <room id="742" area="57" title="Limestone Cavern" environment="10">
       <coord x="2" y="-20" z="-1" />
-      <exit direction="northeast" target="744"/>
       <exit direction="west" target="740"/>
+      <exit direction="northeast" target="744"/>
    </room>
    <room id="727" area="57" title="Underground crypt" environment="11">
       <coord x="-7" y="-20" z="-1" />
@@ -41840,51 +41845,51 @@
    </room>
    <room id="10205" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="21" y="-30" z="-1" />
-      <exit direction="northeast" target="10209"/>
-      <exit direction="southwest" target="10204"/>
-      <exit direction="north" target="10206"/>
-      <exit direction="northwest" target="10203"/>
-      <exit direction="west" target="10202"/>
-      <exit direction="southeast" target="10210"/>
-      <exit direction="south" target="10207"/>
       <exit direction="east" target="10208"/>
+      <exit direction="west" target="10202"/>
+      <exit direction="north" target="10206"/>
+      <exit direction="south" target="10207"/>
+      <exit direction="southwest" target="10204"/>
+      <exit direction="northwest" target="10203"/>
+      <exit direction="southeast" target="10210"/>
+      <exit direction="northeast" target="10209"/>
    </room>
    <room id="735" area="57" title="Underground crypt" environment="11">
       <coord x="-2" y="-20" z="-1" />
-      <exit direction="south" target="738"/>
+      <exit direction="east" target="737"/>
       <exit direction="west" target="734"/>
       <exit direction="north" target="736"/>
-      <exit direction="east" target="737"/>
+      <exit direction="south" target="738"/>
    </room>
    <room id="10189" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="11" y="-29" z="-1" />
-      <exit direction="southeast" target="10191"/>
-      <exit direction="west" target="10186"/>
-      <exit direction="southwest" target="10185"/>
-      <exit direction="south" target="10188"/>
       <exit direction="east" target="10192"/>
+      <exit direction="west" target="10186"/>
+      <exit direction="south" target="10188"/>
+      <exit direction="southwest" target="10185"/>
+      <exit direction="southeast" target="10191"/>
    </room>
    <room id="10202" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="20" y="-30" z="-1" />
-      <exit direction="northeast" target="10206"/>
-      <exit direction="southwest" target="10201"/>
-      <exit direction="north" target="10203"/>
-      <exit direction="northwest" target="10200"/>
-      <exit direction="west" target="10199"/>
-      <exit direction="southeast" target="10207"/>
-      <exit direction="south" target="10204"/>
       <exit direction="east" target="10205"/>
+      <exit direction="west" target="10199"/>
+      <exit direction="north" target="10203"/>
+      <exit direction="south" target="10204"/>
+      <exit direction="southwest" target="10201"/>
+      <exit direction="northwest" target="10200"/>
+      <exit direction="southeast" target="10207"/>
+      <exit direction="northeast" target="10206"/>
    </room>
    <room id="10057" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="14" y="-32" z="-1" />
-      <exit direction="northeast" target="10075"/>
-      <exit direction="southwest" target="10054"/>
-      <exit direction="north" target="10086"/>
-      <exit direction="northwest" target="10196"/>
-      <exit direction="west" target="10055"/>
-      <exit direction="southeast" target="10058"/>
-      <exit direction="south" target="10056"/>
       <exit direction="east" target="10059"/>
+      <exit direction="west" target="10055"/>
+      <exit direction="north" target="10086"/>
+      <exit direction="south" target="10056"/>
+      <exit direction="southwest" target="10054"/>
+      <exit direction="northwest" target="10196"/>
+      <exit direction="southeast" target="10058"/>
+      <exit direction="northeast" target="10075"/>
    </room>
    <room id="706" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-2" y="-11" z="0" />
@@ -41893,22 +41898,22 @@
    </room>
    <room id="10080" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="17" y="-30" z="-1" />
-      <exit direction="northeast" target="10198"/>
-      <exit direction="southwest" target="10076"/>
-      <exit direction="north" target="10083"/>
-      <exit direction="northwest" target="10082"/>
-      <exit direction="west" target="10079"/>
-      <exit direction="southeast" target="10087"/>
-      <exit direction="south" target="10077"/>
       <exit direction="east" target="10197"/>
+      <exit direction="west" target="10079"/>
+      <exit direction="north" target="10083"/>
+      <exit direction="south" target="10077"/>
+      <exit direction="southwest" target="10076"/>
+      <exit direction="northwest" target="10082"/>
+      <exit direction="southeast" target="10087"/>
+      <exit direction="northeast" target="10198"/>
    </room>
    <room id="10085" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="14" y="-29" z="-1" />
-      <exit direction="southeast" target="10078"/>
-      <exit direction="west" target="10195"/>
-      <exit direction="southwest" target="10194"/>
-      <exit direction="south" target="10084"/>
       <exit direction="east" target="10081"/>
+      <exit direction="west" target="10195"/>
+      <exit direction="south" target="10084"/>
+      <exit direction="southwest" target="10194"/>
+      <exit direction="southeast" target="10078"/>
    </room>
    <room id="734" area="57" title="Underground crypt" environment="11">
       <coord x="-3" y="-20" z="-1" />
@@ -41917,14 +41922,14 @@
    </room>
    <room id="10053" area="57" title="Watering hole" environment="44">
       <coord x="12" y="-32" z="-1" />
-      <exit direction="northeast" target="10196"/>
-      <exit direction="southwest" target="10050"/>
-      <exit direction="north" target="10193"/>
-      <exit direction="northwest" target="10190"/>
-      <exit direction="west" target="10051"/>
-      <exit direction="southeast" target="10054"/>
-      <exit direction="south" target="10052"/>
       <exit direction="east" target="10055"/>
+      <exit direction="west" target="10051"/>
+      <exit direction="north" target="10193"/>
+      <exit direction="south" target="10052"/>
+      <exit direction="southwest" target="10050"/>
+      <exit direction="northwest" target="10190"/>
+      <exit direction="southeast" target="10054"/>
+      <exit direction="northeast" target="10196"/>
    </room>
    <room id="744" area="57" title="Limestone Chamber" environment="11">
       <coord x="3" y="-19" z="-1" />
@@ -41936,30 +41941,30 @@
    </room>
    <room id="10087" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="18" y="-31" z="-1" />
-      <exit direction="northeast" target="10199"/>
-      <exit direction="southwest" target="10063"/>
-      <exit direction="north" target="10197"/>
-      <exit direction="northwest" target="10080"/>
-      <exit direction="west" target="10077"/>
-      <exit direction="southeast" target="10067"/>
-      <exit direction="south" target="10065"/>
       <exit direction="east" target="10201"/>
+      <exit direction="west" target="10077"/>
+      <exit direction="north" target="10197"/>
+      <exit direction="south" target="10065"/>
+      <exit direction="southwest" target="10063"/>
+      <exit direction="northwest" target="10080"/>
+      <exit direction="southeast" target="10067"/>
+      <exit direction="northeast" target="10199"/>
    </room>
    <room id="712" area="57" title="Underground crypt" environment="11">
       <coord x="-5" y="-15" z="-1" />
-      <exit direction="northeast" target="711"/>
       <exit direction="southwest" target="713"/>
+      <exit direction="northeast" target="711"/>
    </room>
    <room id="10084" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="14" y="-30" z="-1" />
-      <exit direction="northeast" target="10081"/>
-      <exit direction="southwest" target="10196"/>
-      <exit direction="north" target="10085"/>
-      <exit direction="northwest" target="10195"/>
-      <exit direction="west" target="10194"/>
-      <exit direction="southeast" target="10075"/>
-      <exit direction="south" target="10086"/>
       <exit direction="east" target="10078"/>
+      <exit direction="west" target="10194"/>
+      <exit direction="north" target="10085"/>
+      <exit direction="south" target="10086"/>
+      <exit direction="southwest" target="10196"/>
+      <exit direction="northwest" target="10195"/>
+      <exit direction="southeast" target="10075"/>
+      <exit direction="northeast" target="10081"/>
    </room>
    <room id="733" area="57" title="Underground crypt" environment="11">
       <coord x="-5" y="-21" z="-1" />
@@ -41967,94 +41972,94 @@
    </room>
    <room id="10081" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="15" y="-29" z="-1" />
-      <exit direction="southeast" target="10079"/>
-      <exit direction="west" target="10085"/>
-      <exit direction="southwest" target="10084"/>
-      <exit direction="south" target="10078"/>
       <exit direction="east" target="10082"/>
+      <exit direction="west" target="10085"/>
+      <exit direction="south" target="10078"/>
+      <exit direction="southwest" target="10084"/>
+      <exit direction="southeast" target="10079"/>
    </room>
    <room id="10065" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="18" y="-32" z="-1" />
-      <exit direction="northeast" target="10201"/>
-      <exit direction="southwest" target="10062"/>
-      <exit direction="north" target="10087"/>
-      <exit direction="northwest" target="10077"/>
-      <exit direction="west" target="10063"/>
-      <exit direction="southeast" target="10066"/>
-      <exit direction="south" target="10064"/>
       <exit direction="east" target="10067"/>
+      <exit direction="west" target="10063"/>
+      <exit direction="north" target="10087"/>
+      <exit direction="south" target="10064"/>
+      <exit direction="southwest" target="10062"/>
+      <exit direction="northwest" target="10077"/>
+      <exit direction="southeast" target="10066"/>
+      <exit direction="northeast" target="10201"/>
    </room>
    <room id="10200" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="19" y="-29" z="-1" />
-      <exit direction="southeast" target="10202"/>
-      <exit direction="west" target="10198"/>
-      <exit direction="southwest" target="10197"/>
-      <exit direction="south" target="10199"/>
       <exit direction="east" target="10203"/>
+      <exit direction="west" target="10198"/>
+      <exit direction="south" target="10199"/>
+      <exit direction="southwest" target="10197"/>
+      <exit direction="southeast" target="10202"/>
    </room>
    <room id="10075" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="15" y="-31" z="-1" />
-      <exit direction="northeast" target="10079"/>
-      <exit direction="southwest" target="10057"/>
-      <exit direction="north" target="10078"/>
-      <exit direction="northwest" target="10084"/>
-      <exit direction="west" target="10086"/>
-      <exit direction="southeast" target="10061"/>
-      <exit direction="south" target="10059"/>
       <exit direction="east" target="10076"/>
+      <exit direction="west" target="10086"/>
+      <exit direction="north" target="10078"/>
+      <exit direction="south" target="10059"/>
+      <exit direction="southwest" target="10057"/>
+      <exit direction="northwest" target="10084"/>
+      <exit direction="southeast" target="10061"/>
+      <exit direction="northeast" target="10079"/>
    </room>
    <room id="10070" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="21" y="-33" z="-1" />
-      <exit direction="northeast" target="10073"/>
+      <exit direction="east" target="10072"/>
       <exit direction="west" target="10068"/>
       <exit direction="north" target="10071"/>
       <exit direction="northwest" target="10069"/>
-      <exit direction="east" target="10072"/>
+      <exit direction="northeast" target="10073"/>
    </room>
    <room id="10196" area="57" title="Watering hole" environment="44">
       <coord x="13" y="-31" z="-1" />
-      <exit direction="northeast" target="10084"/>
-      <exit direction="southwest" target="10053"/>
-      <exit direction="north" target="10194"/>
-      <exit direction="northwest" target="10191"/>
-      <exit direction="west" target="10193"/>
-      <exit direction="southeast" target="10057"/>
-      <exit direction="south" target="10055"/>
       <exit direction="east" target="10086"/>
+      <exit direction="west" target="10193"/>
+      <exit direction="north" target="10194"/>
+      <exit direction="south" target="10055"/>
+      <exit direction="southwest" target="10053"/>
+      <exit direction="northwest" target="10191"/>
+      <exit direction="southeast" target="10057"/>
+      <exit direction="northeast" target="10084"/>
    </room>
    <room id="10073" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="22" y="-32" z="-1" />
-      <exit direction="southwest" target="10070"/>
       <exit direction="west" target="10071"/>
       <exit direction="north" target="10210"/>
-      <exit direction="northwest" target="10207"/>
       <exit direction="south" target="10072"/>
+      <exit direction="southwest" target="10070"/>
+      <exit direction="northwest" target="10207"/>
    </room>
    <room id="10071" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="21" y="-32" z="-1" />
-      <exit direction="northeast" target="10210"/>
-      <exit direction="southwest" target="10068"/>
-      <exit direction="north" target="10207"/>
-      <exit direction="northwest" target="10204"/>
-      <exit direction="west" target="10069"/>
-      <exit direction="southeast" target="10072"/>
-      <exit direction="south" target="10070"/>
       <exit direction="east" target="10073"/>
+      <exit direction="west" target="10069"/>
+      <exit direction="north" target="10207"/>
+      <exit direction="south" target="10070"/>
+      <exit direction="southwest" target="10068"/>
+      <exit direction="northwest" target="10204"/>
+      <exit direction="southeast" target="10072"/>
+      <exit direction="northeast" target="10210"/>
    </room>
    <room id="730" area="57" title="Underground crypt" environment="11">
       <coord x="-5" y="-20" z="-1" />
-      <exit direction="south" target="733"/>
+      <exit direction="east" target="732"/>
       <exit direction="west" target="729"/>
       <exit direction="north" target="731"/>
-      <exit direction="east" target="732"/>
+      <exit direction="south" target="733"/>
    </room>
    <room id="10058" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="15" y="-33" z="-1" />
-      <exit direction="northeast" target="10061"/>
+      <exit direction="east" target="10060"/>
       <exit direction="west" target="10056"/>
       <exit direction="north" target="10059"/>
       <exit direction="northwest" target="10057"/>
-      <exit direction="east" target="10060"/>
+      <exit direction="northeast" target="10061"/>
    </room>
    <room id="743" area="57" title="An underground crypt" environment="11">
       <coord x="1" y="-21" z="-1" />
@@ -42063,25 +42068,25 @@
    </room>
    <room id="740" area="57" title="Underground crypt" environment="11">
       <coord x="1" y="-20" z="-1" />
-      <exit direction="south" target="743"/>
+      <exit direction="east" target="742"/>
       <exit direction="west" target="739"/>
       <exit direction="north" target="741"/>
-      <exit direction="east" target="742"/>
+      <exit direction="south" target="743"/>
    </room>
    <room id="10072" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="22" y="-33" z="-1" />
       <exit direction="in" target="10074"/>
-      <exit direction="north" target="10073"/>
       <exit direction="west" target="10070"/>
+      <exit direction="north" target="10073"/>
       <exit direction="northwest" target="10071"/>
    </room>
    <room id="10052" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="12" y="-33" z="-1" />
-      <exit direction="northeast" target="10055"/>
+      <exit direction="east" target="10054"/>
       <exit direction="west" target="10050"/>
       <exit direction="north" target="10053"/>
       <exit direction="northwest" target="10051"/>
-      <exit direction="east" target="10054"/>
+      <exit direction="northeast" target="10055"/>
    </room>
    <room id="729" area="57" title="Underground crypt" environment="11">
       <coord x="-6" y="-20" z="-1" />
@@ -42090,63 +42095,63 @@
    </room>
    <room id="10190" area="57" title="Watering hole" environment="44">
       <coord x="11" y="-31" z="-1" />
-      <exit direction="northeast" target="10191"/>
-      <exit direction="southwest" target="10049"/>
-      <exit direction="north" target="10188"/>
-      <exit direction="northwest" target="10185"/>
-      <exit direction="west" target="10187"/>
-      <exit direction="southeast" target="10053"/>
-      <exit direction="south" target="10051"/>
       <exit direction="east" target="10193"/>
+      <exit direction="west" target="10187"/>
+      <exit direction="north" target="10188"/>
+      <exit direction="south" target="10051"/>
+      <exit direction="southwest" target="10049"/>
+      <exit direction="northwest" target="10185"/>
+      <exit direction="southeast" target="10053"/>
+      <exit direction="northeast" target="10191"/>
    </room>
    <room id="10194" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="13" y="-30" z="-1" />
-      <exit direction="northeast" target="10085"/>
-      <exit direction="southwest" target="10193"/>
-      <exit direction="north" target="10195"/>
-      <exit direction="northwest" target="10192"/>
-      <exit direction="west" target="10191"/>
-      <exit direction="southeast" target="10086"/>
-      <exit direction="south" target="10196"/>
       <exit direction="east" target="10084"/>
+      <exit direction="west" target="10191"/>
+      <exit direction="north" target="10195"/>
+      <exit direction="south" target="10196"/>
+      <exit direction="southwest" target="10193"/>
+      <exit direction="northwest" target="10192"/>
+      <exit direction="southeast" target="10086"/>
+      <exit direction="northeast" target="10085"/>
    </room>
    <room id="10078" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="15" y="-30" z="-1" />
-      <exit direction="northeast" target="10082"/>
-      <exit direction="southwest" target="10086"/>
-      <exit direction="north" target="10081"/>
-      <exit direction="northwest" target="10085"/>
-      <exit direction="west" target="10084"/>
-      <exit direction="southeast" target="10076"/>
-      <exit direction="south" target="10075"/>
       <exit direction="east" target="10079"/>
+      <exit direction="west" target="10084"/>
+      <exit direction="north" target="10081"/>
+      <exit direction="south" target="10075"/>
+      <exit direction="southwest" target="10086"/>
+      <exit direction="northwest" target="10085"/>
+      <exit direction="southeast" target="10076"/>
+      <exit direction="northeast" target="10082"/>
    </room>
    <room id="10198" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="18" y="-29" z="-1" />
-      <exit direction="southeast" target="10199"/>
-      <exit direction="west" target="10083"/>
-      <exit direction="southwest" target="10080"/>
-      <exit direction="south" target="10197"/>
       <exit direction="east" target="10200"/>
+      <exit direction="west" target="10083"/>
+      <exit direction="south" target="10197"/>
+      <exit direction="southwest" target="10080"/>
+      <exit direction="southeast" target="10199"/>
    </room>
    <room id="10195" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="13" y="-29" z="-1" />
-      <exit direction="southeast" target="10084"/>
-      <exit direction="west" target="10192"/>
-      <exit direction="southwest" target="10191"/>
-      <exit direction="south" target="10194"/>
       <exit direction="east" target="10085"/>
+      <exit direction="west" target="10192"/>
+      <exit direction="south" target="10194"/>
+      <exit direction="southwest" target="10191"/>
+      <exit direction="southeast" target="10084"/>
    </room>
    <room id="10059" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="15" y="-32" z="-1" />
-      <exit direction="northeast" target="10076"/>
-      <exit direction="southwest" target="10056"/>
-      <exit direction="north" target="10075"/>
-      <exit direction="northwest" target="10086"/>
-      <exit direction="west" target="10057"/>
-      <exit direction="southeast" target="10060"/>
-      <exit direction="south" target="10058"/>
       <exit direction="east" target="10061"/>
+      <exit direction="west" target="10057"/>
+      <exit direction="north" target="10075"/>
+      <exit direction="south" target="10058"/>
+      <exit direction="southwest" target="10056"/>
+      <exit direction="northwest" target="10086"/>
+      <exit direction="southeast" target="10060"/>
+      <exit direction="northeast" target="10076"/>
    </room>
    <room id="710" area="57" title="Underground crypt" environment="11">
       <coord x="-3" y="-13" z="-1" />
@@ -42159,11 +42164,11 @@
    </room>
    <room id="10068" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="20" y="-33" z="-1" />
-      <exit direction="northeast" target="10071"/>
+      <exit direction="east" target="10070"/>
       <exit direction="west" target="10066"/>
       <exit direction="north" target="10069"/>
       <exit direction="northwest" target="10067"/>
-      <exit direction="east" target="10070"/>
+      <exit direction="northeast" target="10071"/>
    </room>
    <room id="741" area="57" title="Underground crypt" environment="11">
       <coord x="1" y="-19" z="-1" />
@@ -42171,153 +42176,153 @@
    </room>
    <room id="10066" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="19" y="-33" z="-1" />
-      <exit direction="northeast" target="10069"/>
+      <exit direction="east" target="10068"/>
       <exit direction="west" target="10064"/>
       <exit direction="north" target="10067"/>
       <exit direction="northwest" target="10065"/>
-      <exit direction="east" target="10068"/>
+      <exit direction="northeast" target="10069"/>
    </room>
    <room id="10063" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="17" y="-32" z="-1" />
-      <exit direction="northeast" target="10087"/>
-      <exit direction="southwest" target="10060"/>
-      <exit direction="north" target="10077"/>
-      <exit direction="northwest" target="10076"/>
-      <exit direction="west" target="10061"/>
-      <exit direction="southeast" target="10064"/>
-      <exit direction="south" target="10062"/>
       <exit direction="east" target="10065"/>
+      <exit direction="west" target="10061"/>
+      <exit direction="north" target="10077"/>
+      <exit direction="south" target="10062"/>
+      <exit direction="southwest" target="10060"/>
+      <exit direction="northwest" target="10076"/>
+      <exit direction="southeast" target="10064"/>
+      <exit direction="northeast" target="10087"/>
    </room>
    <room id="10056" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="14" y="-33" z="-1" />
-      <exit direction="northeast" target="10059"/>
+      <exit direction="east" target="10058"/>
       <exit direction="west" target="10054"/>
       <exit direction="north" target="10057"/>
       <exit direction="northwest" target="10055"/>
-      <exit direction="east" target="10058"/>
+      <exit direction="northeast" target="10059"/>
    </room>
    <room id="10055" area="57" title="Watering hole" environment="44">
       <coord x="13" y="-32" z="-1" />
-      <exit direction="northeast" target="10086"/>
-      <exit direction="southwest" target="10052"/>
-      <exit direction="north" target="10196"/>
-      <exit direction="northwest" target="10193"/>
-      <exit direction="west" target="10053"/>
-      <exit direction="southeast" target="10056"/>
-      <exit direction="south" target="10054"/>
       <exit direction="east" target="10057"/>
+      <exit direction="west" target="10053"/>
+      <exit direction="north" target="10196"/>
+      <exit direction="south" target="10054"/>
+      <exit direction="southwest" target="10052"/>
+      <exit direction="northwest" target="10193"/>
+      <exit direction="southeast" target="10056"/>
+      <exit direction="northeast" target="10086"/>
    </room>
    <room id="10206" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="21" y="-29" z="-1" />
-      <exit direction="southeast" target="10208"/>
-      <exit direction="west" target="10203"/>
-      <exit direction="southwest" target="10202"/>
-      <exit direction="south" target="10205"/>
       <exit direction="east" target="10209"/>
+      <exit direction="west" target="10203"/>
+      <exit direction="south" target="10205"/>
+      <exit direction="southwest" target="10202"/>
+      <exit direction="southeast" target="10208"/>
    </room>
    <room id="10204" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="20" y="-31" z="-1" />
-      <exit direction="northeast" target="10205"/>
-      <exit direction="southwest" target="10067"/>
-      <exit direction="north" target="10202"/>
-      <exit direction="northwest" target="10199"/>
-      <exit direction="west" target="10201"/>
-      <exit direction="southeast" target="10071"/>
-      <exit direction="south" target="10069"/>
       <exit direction="east" target="10207"/>
+      <exit direction="west" target="10201"/>
+      <exit direction="north" target="10202"/>
+      <exit direction="south" target="10069"/>
+      <exit direction="southwest" target="10067"/>
+      <exit direction="northwest" target="10199"/>
+      <exit direction="southeast" target="10071"/>
+      <exit direction="northeast" target="10205"/>
    </room>
    <room id="10208" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="22" y="-30" z="-1" />
-      <exit direction="southwest" target="10207"/>
       <exit direction="west" target="10205"/>
       <exit direction="north" target="10209"/>
-      <exit direction="northwest" target="10206"/>
       <exit direction="south" target="10210"/>
+      <exit direction="southwest" target="10207"/>
+      <exit direction="northwest" target="10206"/>
    </room>
    <room id="10192" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="12" y="-29" z="-1" />
-      <exit direction="southeast" target="10194"/>
-      <exit direction="west" target="10189"/>
-      <exit direction="southwest" target="10188"/>
-      <exit direction="south" target="10191"/>
       <exit direction="east" target="10195"/>
+      <exit direction="west" target="10189"/>
+      <exit direction="south" target="10191"/>
+      <exit direction="southwest" target="10188"/>
+      <exit direction="southeast" target="10194"/>
    </room>
    <room id="10051" area="57" title="Watering hole" environment="44">
       <coord x="11" y="-32" z="-1" />
-      <exit direction="northeast" target="10193"/>
-      <exit direction="southwest" target="10048"/>
-      <exit direction="north" target="10190"/>
-      <exit direction="northwest" target="10187"/>
-      <exit direction="west" target="10049"/>
-      <exit direction="southeast" target="10052"/>
-      <exit direction="south" target="10050"/>
       <exit direction="east" target="10053"/>
+      <exit direction="west" target="10049"/>
+      <exit direction="north" target="10190"/>
+      <exit direction="south" target="10050"/>
+      <exit direction="southwest" target="10048"/>
+      <exit direction="northwest" target="10187"/>
+      <exit direction="southeast" target="10052"/>
+      <exit direction="northeast" target="10193"/>
    </room>
    <room id="10076" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="16" y="-31" z="-1" />
-      <exit direction="northeast" target="10080"/>
-      <exit direction="southwest" target="10059"/>
-      <exit direction="north" target="10079"/>
-      <exit direction="northwest" target="10078"/>
-      <exit direction="west" target="10075"/>
-      <exit direction="southeast" target="10063"/>
-      <exit direction="south" target="10061"/>
       <exit direction="east" target="10077"/>
+      <exit direction="west" target="10075"/>
+      <exit direction="north" target="10079"/>
+      <exit direction="south" target="10061"/>
+      <exit direction="southwest" target="10059"/>
+      <exit direction="northwest" target="10078"/>
+      <exit direction="southeast" target="10063"/>
+      <exit direction="northeast" target="10080"/>
    </room>
    <room id="10067" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="19" y="-32" z="-1" />
-      <exit direction="northeast" target="10204"/>
-      <exit direction="southwest" target="10064"/>
-      <exit direction="north" target="10201"/>
-      <exit direction="northwest" target="10087"/>
-      <exit direction="west" target="10065"/>
-      <exit direction="southeast" target="10068"/>
-      <exit direction="south" target="10066"/>
       <exit direction="east" target="10069"/>
+      <exit direction="west" target="10065"/>
+      <exit direction="north" target="10201"/>
+      <exit direction="south" target="10066"/>
+      <exit direction="southwest" target="10064"/>
+      <exit direction="northwest" target="10087"/>
+      <exit direction="southeast" target="10068"/>
+      <exit direction="northeast" target="10204"/>
    </room>
    <room id="10191" area="57" title="Watering hole" environment="44">
       <coord x="12" y="-30" z="-1" />
-      <exit direction="northeast" target="10195"/>
-      <exit direction="southwest" target="10190"/>
-      <exit direction="north" target="10192"/>
-      <exit direction="northwest" target="10189"/>
-      <exit direction="west" target="10188"/>
-      <exit direction="southeast" target="10196"/>
-      <exit direction="south" target="10193"/>
       <exit direction="east" target="10194"/>
+      <exit direction="west" target="10188"/>
+      <exit direction="north" target="10192"/>
+      <exit direction="south" target="10193"/>
+      <exit direction="southwest" target="10190"/>
+      <exit direction="northwest" target="10189"/>
+      <exit direction="southeast" target="10196"/>
+      <exit direction="northeast" target="10195"/>
    </room>
    <room id="10207" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="21" y="-31" z="-1" />
-      <exit direction="northeast" target="10208"/>
-      <exit direction="southwest" target="10069"/>
-      <exit direction="north" target="10205"/>
-      <exit direction="northwest" target="10202"/>
-      <exit direction="west" target="10204"/>
-      <exit direction="southeast" target="10073"/>
-      <exit direction="south" target="10071"/>
       <exit direction="east" target="10210"/>
+      <exit direction="west" target="10204"/>
+      <exit direction="north" target="10205"/>
+      <exit direction="south" target="10071"/>
+      <exit direction="southwest" target="10069"/>
+      <exit direction="northwest" target="10202"/>
+      <exit direction="southeast" target="10073"/>
+      <exit direction="northeast" target="10208"/>
    </room>
    <room id="10079" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="16" y="-30" z="-1" />
-      <exit direction="northeast" target="10083"/>
-      <exit direction="southwest" target="10075"/>
-      <exit direction="north" target="10082"/>
-      <exit direction="northwest" target="10081"/>
-      <exit direction="west" target="10078"/>
-      <exit direction="southeast" target="10077"/>
-      <exit direction="south" target="10076"/>
       <exit direction="east" target="10080"/>
+      <exit direction="west" target="10078"/>
+      <exit direction="north" target="10082"/>
+      <exit direction="south" target="10076"/>
+      <exit direction="southwest" target="10075"/>
+      <exit direction="northwest" target="10081"/>
+      <exit direction="southeast" target="10077"/>
+      <exit direction="northeast" target="10083"/>
    </room>
    <room id="10199" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="19" y="-30" z="-1" />
-      <exit direction="northeast" target="10203"/>
-      <exit direction="southwest" target="10087"/>
-      <exit direction="north" target="10200"/>
-      <exit direction="northwest" target="10198"/>
-      <exit direction="west" target="10197"/>
-      <exit direction="southeast" target="10204"/>
-      <exit direction="south" target="10201"/>
       <exit direction="east" target="10202"/>
+      <exit direction="west" target="10197"/>
+      <exit direction="north" target="10200"/>
+      <exit direction="south" target="10201"/>
+      <exit direction="southwest" target="10087"/>
+      <exit direction="northwest" target="10198"/>
+      <exit direction="southeast" target="10204"/>
+      <exit direction="northeast" target="10203"/>
    </room>
    <room id="738" area="57" title="Underground crypt" environment="11">
       <coord x="-2" y="-21" z="-1" />
@@ -42325,16 +42330,16 @@
    </room>
    <room id="713" area="57" title="Underground crypt" environment="11">
       <coord x="-6" y="-16" z="-1" />
-      <exit direction="northeast" target="712"/>
       <exit direction="west" target="714"/>
+      <exit direction="northeast" target="712"/>
    </room>
    <room id="10060" area="57" title="Yaargh Rainforest" environment="26">
       <coord x="16" y="-33" z="-1" />
-      <exit direction="northeast" target="10063"/>
+      <exit direction="east" target="10062"/>
       <exit direction="west" target="10058"/>
       <exit direction="north" target="10061"/>
       <exit direction="northwest" target="10059"/>
-      <exit direction="east" target="10062"/>
+      <exit direction="northeast" target="10063"/>
    </room>
 
    <room id="6408" area="51" title="Alcove" environment="11">

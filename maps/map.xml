@@ -59,6 +59,7 @@
    <area id="56" name="Mountains of Faraway" x="0" y="0" />
    <area id="57" name="Coven of the Vampires" x="0" y="0" />
    <area id="58" name="Colony of Crag Pool" x="0" y="0" />
+   <area id="59" name="Realm of Middle Earth" x="0" y="0" />
 </areas>
 <rooms>
    <room id="359" area="2" title="A path leading behind the church" environment="39">
@@ -5530,9 +5531,9 @@
    </room>
    <room id="15557" area="58" title="Tunnel" environment="67">
       <coord x="-9" y="5" z="0" />
-      <exit direction="south" target="15554"/>
       <exit direction="east" target="15559"/>
       <exit direction="west" target="15558"/>
+      <exit direction="south" target="15554"/>
    </room>
    <room id="15576" area="58" title="Axe Street" environment="67">
       <coord x="-6" y="-1" z="0" />
@@ -5605,8 +5606,8 @@
    </room>
    <room id="15554" area="58" title="Tunnel" environment="67">
       <coord x="-9" y="4" z="0" />
-      <exit direction="south" target="3779"/>
       <exit direction="north" target="15557"/>
+      <exit direction="south" target="3779"/>
    </room>
    <room id="15578" area="58" title="Digger's Road" environment="67">
       <coord x="-4" y="-3" z="0" />
@@ -5687,8 +5688,8 @@
    </room>
    <room id="15627" area="58" title="Gold Street" environment="67">
       <coord x="-3" y="4" z="0" />
-      <exit direction="south" target="15626"/>
       <exit direction="north" target="19750"/>
+      <exit direction="south" target="15626"/>
    </room>
    <room id="15565" area="58" title="Platinum Street" environment="67">
       <coord x="-5" y="6" z="0" />
@@ -6122,7 +6123,6 @@
       <exit direction="east" target="19752"/>
       <exit direction="west" target="19755"/>
    </room>
-
    <room id="4744" area="42" title="Holding cells" environment="67">
       <coord x="2" y="-1" z="0" />
       <exit direction="north" target="4740"/>
@@ -13380,6 +13380,3835 @@
       <exit direction="west" target="822"/>
       <exit direction="north" target="828"/>
       <exit direction="south" target="832"/>
+   </room>
+   <room id="19620" area="59" title="On a sea shore" environment="14">
+      <coord x="-18" y="30" z="0" />
+      <exit direction="east" target="19626"/>
+      <exit direction="north" target="19621"/>
+      <exit direction="south" target="19625"/>
+      <exit direction="southwest" target="19623"/>
+      <exit direction="northwest" target="19619"/>
+      <exit direction="southeast" target="19624"/>
+      <exit direction="northeast" target="19622"/>
+   </room>
+   <room id="19637" area="59" title="On a sea shore" environment="14">
+      <coord x="-23" y="28" z="0" />
+      <exit direction="east" target="19633"/>
+      <exit direction="south" target="19636"/>
+      <exit direction="southeast" target="19632"/>
+   </room>
+   <room id="19619" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="31" z="0" />
+      <exit direction="east" target="19621"/>
+      <exit direction="west" target="19618"/>
+      <exit direction="north" target="19617"/>
+      <exit direction="northwest" target="19615"/>
+      <exit direction="southeast" target="19620"/>
+      <exit direction="northeast" target="19616"/>
+   </room>
+   <room id="19633" area="59" title="On a sea shore" environment="14">
+      <coord x="-22" y="28" z="0" />
+      <exit direction="east" target="19631"/>
+      <exit direction="west" target="19637"/>
+      <exit direction="south" target="19632"/>
+      <exit direction="southwest" target="19636"/>
+      <exit direction="southeast" target="19635"/>
+   </room>
+   <room id="19614" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="34" z="0" />
+      <exit direction="east" target="19612"/>
+      <exit direction="south" target="19613"/>
+      <exit direction="southeast" target="19611"/>
+   </room>
+   <room id="19618" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="31" z="0" />
+      <exit direction="east" target="19619"/>
+      <exit direction="north" target="19615"/>
+      <exit direction="northeast" target="19617"/>
+   </room>
+   <room id="19612" area="59" title="On a sea shore" environment="14">
+      <coord x="-18" y="34" z="0" />
+      <exit direction="east" target="19610"/>
+      <exit direction="west" target="19614"/>
+      <exit direction="south" target="19611"/>
+      <exit direction="southwest" target="19613"/>
+      <exit direction="southeast" target="19609"/>
+   </room>
+   <room id="19607" area="59" title="On a sea shore" environment="14">
+      <coord x="-16" y="34" z="0" />
+      <exit direction="east" target="19606"/>
+      <exit direction="west" target="19610"/>
+      <exit direction="south" target="19608"/>
+      <exit direction="southwest" target="19609"/>
+   </room>
+   <room id="19610" area="59" title="On a sea shore" environment="14">
+      <coord x="-17" y="34" z="0" />
+      <exit direction="east" target="19607"/>
+      <exit direction="west" target="19612"/>
+      <exit direction="south" target="19609"/>
+      <exit direction="southwest" target="19611"/>
+      <exit direction="southeast" target="19608"/>
+   </room>
+   <room id="19631" area="59" title="On a sea shore" environment="14">
+      <coord x="-21" y="28" z="0" />
+      <exit direction="east" target="19627"/>
+      <exit direction="west" target="19633"/>
+      <exit direction="south" target="19635"/>
+      <exit direction="southwest" target="19632"/>
+      <exit direction="southeast" target="19634"/>
+      <exit direction="northeast" target="19628"/>
+   </room>
+   <room id="19628" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="29" z="0" />
+      <exit direction="east" target="19623"/>
+      <exit direction="south" target="19627"/>
+      <exit direction="southwest" target="19631"/>
+      <exit direction="southeast" target="19630"/>
+   </room>
+   <room id="19615" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="32" z="0" />
+      <exit direction="east" target="19617"/>
+      <exit direction="south" target="19618"/>
+      <exit direction="southeast" target="19619"/>
+      <exit direction="northeast" target="19613"/>
+   </room>
+   <room id="19627" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-20" y="28" z="0" />
+      <exit direction="east" target="19630"/>
+      <exit direction="west" target="19631"/>
+      <exit direction="north" target="19628"/>
+      <exit direction="south" target="19634"/>
+      <exit direction="southwest" target="19635"/>
+      <exit direction="southeast" target="20822"/>
+      <exit direction="northeast" target="19623"/>
+   </room>
+   <room id="19613" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="33" z="0" />
+      <exit direction="east" target="19611"/>
+      <exit direction="north" target="19614"/>
+      <exit direction="south" target="19617"/>
+      <exit direction="southwest" target="19615"/>
+      <exit direction="southeast" target="19616"/>
+      <exit direction="northeast" target="19612"/>
+   </room>
+   <room id="19623" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="29" z="0" />
+      <exit direction="east" target="19625"/>
+      <exit direction="west" target="19628"/>
+      <exit direction="south" target="19630"/>
+      <exit direction="southwest" target="19627"/>
+      <exit direction="southeast" target="19629"/>
+      <exit direction="northeast" target="19620"/>
+   </room>
+   <room id="9452" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="25" y="36" z="0" />
+      <exit direction="east" target="9450"/>
+      <exit direction="west" target="9454"/>
+      <exit direction="south" target="9451"/>
+      <exit direction="southwest" target="9453"/>
+      <exit direction="southeast" target="9449"/>
+   </room>
+   <room id="15646" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="47" y="36" z="0" />
+      <exit direction="east" target="15648"/>
+      <exit direction="west" target="15644"/>
+      <exit direction="south" target="15645"/>
+      <exit direction="southwest" target="15643"/>
+      <exit direction="southeast" target="15647"/>
+   </room>
+   <room id="19690" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="18" z="0" />
+      <exit direction="east" target="19692"/>
+      <exit direction="west" target="19693"/>
+      <exit direction="north" target="19688"/>
+      <exit direction="northwest" target="19694"/>
+      <exit direction="northeast" target="19684"/>
+   </room>
+   <room id="15640" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="44" y="36" z="0" />
+      <exit direction="east" target="15642"/>
+      <exit direction="west" target="15638"/>
+      <exit direction="south" target="15639"/>
+      <exit direction="southwest" target="15637"/>
+      <exit direction="southeast" target="15641"/>
+   </room>
+   <room id="9470" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="16" y="36" z="0" />
+      <exit direction="east" target="9468"/>
+      <exit direction="west" target="9472"/>
+      <exit direction="south" target="9469"/>
+      <exit direction="southwest" target="9471"/>
+      <exit direction="southeast" target="9467"/>
+   </room>
+   <room id="15644" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="46" y="36" z="0" />
+      <exit direction="east" target="15646"/>
+      <exit direction="west" target="15642"/>
+      <exit direction="south" target="15643"/>
+      <exit direction="southwest" target="15641"/>
+      <exit direction="southeast" target="15645"/>
+   </room>
+   <room id="9502" area="59" title="On a sea shore" environment="14">
+      <coord x="0" y="36" z="0" />
+      <exit direction="east" target="9500"/>
+      <exit direction="south" target="9501"/>
+      <exit direction="southwest" target="9503"/>
+      <exit direction="southeast" target="9499"/>
+   </room>
+   <room id="15632" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="40" y="36" z="0" />
+      <exit direction="east" target="15634"/>
+      <exit direction="west" target="15630"/>
+      <exit direction="south" target="15631"/>
+      <exit direction="southwest" target="15629"/>
+      <exit direction="southeast" target="15633"/>
+   </room>
+   <room id="9444" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="31" y="36" z="0" />
+      <exit direction="east" target="12628"/>
+      <exit direction="west" target="9442"/>
+      <exit direction="south" target="9441"/>
+      <exit direction="southwest" target="9439"/>
+      <exit direction="southeast" target="12627"/>
+   </room>
+   <room id="15642" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="45" y="36" z="0" />
+      <exit direction="east" target="15644"/>
+      <exit direction="west" target="15640"/>
+      <exit direction="south" target="15641"/>
+      <exit direction="southwest" target="15639"/>
+      <exit direction="southeast" target="15643"/>
+   </room>
+   <room id="19605" area="59" title="On a sea shore" environment="14">
+      <coord x="-14" y="34" z="0" />
+      <exit direction="east" target="19604"/>
+      <exit direction="west" target="19606"/>
+      <exit direction="northeast" target="19603"/>
+   </room>
+   <room id="12628" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="32" y="36" z="0" />
+      <exit direction="east" target="12625"/>
+      <exit direction="west" target="9444"/>
+      <exit direction="south" target="12627"/>
+      <exit direction="southwest" target="9441"/>
+      <exit direction="southeast" target="12624"/>
+   </room>
+   <room id="12621" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="36" y="36" z="0" />
+      <exit direction="east" target="14680"/>
+      <exit direction="west" target="12623"/>
+      <exit direction="south" target="12618"/>
+      <exit direction="southwest" target="12620"/>
+      <exit direction="southeast" target="14679"/>
+   </room>
+   <room id="14356" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="52" y="36" z="0" />
+      <exit direction="east" target="14358"/>
+      <exit direction="west" target="14352"/>
+      <exit direction="south" target="14355"/>
+      <exit direction="southwest" target="14349"/>
+      <exit direction="southeast" target="14357"/>
+   </room>
+   <room id="9462" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="20" y="36" z="0" />
+      <exit direction="east" target="9460"/>
+      <exit direction="west" target="9464"/>
+      <exit direction="south" target="9461"/>
+      <exit direction="southwest" target="9463"/>
+      <exit direction="southeast" target="9459"/>
+   </room>
+   <room id="9468" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="17" y="36" z="0" />
+      <exit direction="east" target="9466"/>
+      <exit direction="west" target="9470"/>
+      <exit direction="south" target="9467"/>
+      <exit direction="southwest" target="9469"/>
+      <exit direction="southeast" target="9465"/>
+   </room>
+   <room id="14354" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="50" y="36" z="0" />
+      <exit direction="east" target="14352"/>
+      <exit direction="west" target="14353"/>
+      <exit direction="south" target="14351"/>
+      <exit direction="southwest" target="14350"/>
+      <exit direction="southeast" target="14349"/>
+   </room>
+   <room id="9498" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="2" y="36" z="0" />
+      <exit direction="east" target="9496"/>
+      <exit direction="west" target="9500"/>
+      <exit direction="south" target="9497"/>
+      <exit direction="southwest" target="9499"/>
+      <exit direction="southeast" target="9495"/>
+   </room>
+   <room id="19694" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="19" z="0" />
+      <exit direction="east" target="19688"/>
+      <exit direction="north" target="19942"/>
+      <exit direction="south" target="19693"/>
+      <exit direction="southeast" target="19690"/>
+      <exit direction="northeast" target="19689"/>
+   </room>
+   <room id="9492" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="5" y="36" z="0" />
+      <exit direction="east" target="9490"/>
+      <exit direction="west" target="9494"/>
+      <exit direction="south" target="9491"/>
+      <exit direction="southwest" target="9493"/>
+      <exit direction="southeast" target="9489"/>
+   </room>
+   <room id="14856" area="59" title="On a sea shore" environment="14">
+      <coord x="-7" y="33" z="0" />
+      <exit direction="east" target="14854"/>
+      <exit direction="west" target="14858"/>
+      <exit direction="south" target="14855"/>
+      <exit direction="southwest" target="14857"/>
+      <exit direction="southeast" target="14853"/>
+   </room>
+   <room id="9472" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="15" y="36" z="0" />
+      <exit direction="east" target="9470"/>
+      <exit direction="west" target="9474"/>
+      <exit direction="south" target="9471"/>
+      <exit direction="southwest" target="9473"/>
+      <exit direction="southeast" target="9469"/>
+   </room>
+   <room id="19692" area="59" title="On a sea shore" environment="14">
+      <coord x="-18" y="18" z="0" />
+      <exit direction="east" target="19691"/>
+      <exit direction="west" target="19690"/>
+      <exit direction="north" target="19684"/>
+      <exit direction="northwest" target="19688"/>
+      <exit direction="northeast" target="19687"/>
+   </room>
+   <room id="15824" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-10" y="33" z="0" />
+      <exit direction="east" target="14860"/>
+      <exit direction="west" target="15827"/>
+      <exit direction="north" target="15825"/>
+      <exit direction="south" target="15823"/>
+      <exit direction="southwest" target="15826"/>
+      <exit direction="southeast" target="14859"/>
+   </room>
+   <room id="14353" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="49" y="36" z="0" />
+      <exit direction="east" target="14354"/>
+      <exit direction="west" target="15648"/>
+      <exit direction="south" target="14350"/>
+      <exit direction="southwest" target="15647"/>
+      <exit direction="southeast" target="14351"/>
+   </room>
+   <room id="15648" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="48" y="36" z="0" />
+      <exit direction="east" target="14353"/>
+      <exit direction="west" target="15646"/>
+      <exit direction="south" target="15647"/>
+      <exit direction="southwest" target="15645"/>
+      <exit direction="southeast" target="14350"/>
+   </room>
+   <room id="14368" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="32" z="0" />
+      <exit direction="west" target="14367"/>
+      <exit direction="north" target="14366"/>
+      <exit direction="south" target="14370"/>
+      <exit direction="southwest" target="14369"/>
+      <exit direction="northwest" target="14365"/>
+   </room>
+   <room id="9466" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="18" y="36" z="0" />
+      <exit direction="east" target="9464"/>
+      <exit direction="west" target="9468"/>
+      <exit direction="south" target="9465"/>
+      <exit direction="southwest" target="9467"/>
+      <exit direction="southeast" target="9463"/>
+   </room>
+   <room id="15630" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="39" y="36" z="0" />
+      <exit direction="east" target="15632"/>
+      <exit direction="west" target="14682"/>
+      <exit direction="south" target="15629"/>
+      <exit direction="southwest" target="14681"/>
+      <exit direction="southeast" target="15631"/>
+   </room>
+   <room id="9488" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="7" y="36" z="0" />
+      <exit direction="east" target="9486"/>
+      <exit direction="west" target="9490"/>
+      <exit direction="south" target="9487"/>
+      <exit direction="southwest" target="9489"/>
+      <exit direction="southeast" target="9485"/>
+   </room>
+   <room id="14361" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="35" z="0" />
+      <exit direction="west" target="14359"/>
+      <exit direction="north" target="14362"/>
+      <exit direction="south" target="14364"/>
+      <exit direction="southwest" target="14363"/>
+      <exit direction="northwest" target="14360"/>
+   </room>
+   <room id="9482" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="10" y="36" z="0" />
+      <exit direction="east" target="9480"/>
+      <exit direction="west" target="9484"/>
+      <exit direction="south" target="9481"/>
+      <exit direction="southwest" target="9483"/>
+      <exit direction="southeast" target="9479"/>
+   </room>
+   <room id="14360" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="54" y="36" z="0" />
+      <exit direction="east" target="14362"/>
+      <exit direction="west" target="14358"/>
+      <exit direction="south" target="14359"/>
+      <exit direction="southwest" target="14357"/>
+      <exit direction="southeast" target="14361"/>
+   </room>
+   <room id="14358" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="53" y="36" z="0" />
+      <exit direction="east" target="14360"/>
+      <exit direction="west" target="14356"/>
+      <exit direction="south" target="14357"/>
+      <exit direction="southwest" target="14355"/>
+      <exit direction="southeast" target="14359"/>
+   </room>
+   <room id="12622" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="34" y="36" z="0" />
+      <exit direction="east" target="12623"/>
+      <exit direction="west" target="12625"/>
+      <exit direction="south" target="12619"/>
+      <exit direction="southwest" target="12624"/>
+      <exit direction="southeast" target="12620"/>
+   </room>
+   <room id="14680" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="37" y="36" z="0" />
+      <exit direction="east" target="14682"/>
+      <exit direction="west" target="12621"/>
+      <exit direction="south" target="14679"/>
+      <exit direction="southwest" target="12618"/>
+      <exit direction="southeast" target="14681"/>
+   </room>
+   <room id="19598" area="59" title="On a sea shore" environment="14">
+      <coord x="-9" y="35" z="0" />
+      <exit direction="west" target="19600"/>
+      <exit direction="north" target="19601"/>
+      <exit direction="southwest" target="15825"/>
+   </room>
+   <room id="19689" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="20" z="0" />
+      <exit direction="east" target="19685"/>
+      <exit direction="west" target="19942"/>
+      <exit direction="south" target="19688"/>
+      <exit direction="southwest" target="19694"/>
+      <exit direction="southeast" target="19684"/>
+   </room>
+   <room id="9478" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="12" y="36" z="0" />
+      <exit direction="east" target="9476"/>
+      <exit direction="west" target="9480"/>
+      <exit direction="south" target="9477"/>
+      <exit direction="southwest" target="9479"/>
+      <exit direction="southeast" target="9475"/>
+   </room>
+   <room id="19601" area="59" title="On a sea shore" environment="14">
+      <coord x="-9" y="36" z="0" />
+      <exit direction="south" target="19598"/>
+      <exit direction="southwest" target="19600"/>
+   </room>
+   <room id="12372" area="59" title="On a sea shore" environment="14">
+      <coord x="-4" y="34" z="0" />
+      <exit direction="east" target="12369"/>
+      <exit direction="north" target="14844"/>
+      <exit direction="south" target="12371"/>
+      <exit direction="southwest" target="12374"/>
+      <exit direction="northwest" target="14843"/>
+      <exit direction="southeast" target="12368"/>
+      <exit direction="northeast" target="14677"/>
+   </room>
+   <room id="19644" area="59" title="On a sea shore" environment="14">
+      <coord x="-22" y="23" z="0" />
+      <exit direction="east" target="19646"/>
+      <exit direction="north" target="19642"/>
+      <exit direction="northwest" target="19643"/>
+      <exit direction="northeast" target="19645"/>
+   </room>
+   <room id="19643" area="59" title="On a sea shore" environment="14">
+      <coord x="-23" y="24" z="0" />
+      <exit direction="east" target="19642"/>
+      <exit direction="north" target="19641"/>
+      <exit direction="southeast" target="19644"/>
+      <exit direction="northeast" target="19640"/>
+   </room>
+   <room id="14854" area="59" title="On a sea shore" environment="14">
+      <coord x="-6" y="33" z="0" />
+      <exit direction="east" target="12374"/>
+      <exit direction="west" target="14856"/>
+      <exit direction="south" target="14853"/>
+      <exit direction="southwest" target="14855"/>
+      <exit direction="southeast" target="12375"/>
+   </room>
+   <room id="14376" area="59" title="Rhun" environment="21">
+      <coord x="55" y="28" z="0" />
+      <exit direction="west" target="14375"/>
+      <exit direction="north" target="14374"/>
+      <exit direction="south" target="14378"/>
+      <exit direction="southwest" target="14377"/>
+      <exit direction="northwest" target="14373"/>
+   </room>
+   <room id="9454" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="24" y="36" z="0" />
+      <exit direction="east" target="9452"/>
+      <exit direction="west" target="9456"/>
+      <exit direction="south" target="9453"/>
+      <exit direction="southwest" target="9455"/>
+      <exit direction="southeast" target="9451"/>
+   </room>
+   <room id="9460" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="21" y="36" z="0" />
+      <exit direction="east" target="9458"/>
+      <exit direction="west" target="9462"/>
+      <exit direction="south" target="9459"/>
+      <exit direction="southwest" target="9461"/>
+      <exit direction="southeast" target="9457"/>
+   </room>
+   <room id="14682" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="38" y="36" z="0" />
+      <exit direction="east" target="15630"/>
+      <exit direction="west" target="14680"/>
+      <exit direction="south" target="14681"/>
+      <exit direction="southwest" target="14679"/>
+      <exit direction="southeast" target="15629"/>
+   </room>
+   <room id="9503" area="59" title="On a sea shore" environment="14">
+      <coord x="-1" y="35" z="0" />
+      <exit direction="east" target="9501"/>
+      <exit direction="west" target="14678"/>
+      <exit direction="south" target="9504"/>
+      <exit direction="southwest" target="12366"/>
+      <exit direction="southeast" target="9505"/>
+      <exit direction="northeast" target="9502"/>
+   </room>
+   <room id="9501" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="0" y="35" z="0" />
+      <exit direction="east" target="9499"/>
+      <exit direction="west" target="9503"/>
+      <exit direction="north" target="9502"/>
+      <exit direction="south" target="9505"/>
+      <exit direction="southwest" target="9504"/>
+      <exit direction="northeast" target="9500"/>
+   </room>
+   <room id="12374" area="59" title="On a sea shore" environment="14">
+      <coord x="-5" y="33" z="0" />
+      <exit direction="east" target="12371"/>
+      <exit direction="west" target="14854"/>
+      <exit direction="south" target="12375"/>
+      <exit direction="southwest" target="14853"/>
+      <exit direction="southeast" target="12373"/>
+      <exit direction="northeast" target="12372"/>
+   </room>
+   <room id="9443" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="29" y="36" z="0" />
+      <exit direction="east" target="9442"/>
+      <exit direction="west" target="9446"/>
+      <exit direction="south" target="9440"/>
+      <exit direction="southwest" target="9445"/>
+      <exit direction="southeast" target="9439"/>
+   </room>
+   <room id="14678" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="35" z="0" />
+      <exit direction="east" target="9503"/>
+      <exit direction="west" target="14677"/>
+      <exit direction="south" target="12366"/>
+      <exit direction="southwest" target="12369"/>
+      <exit direction="southeast" target="9504"/>
+   </room>
+   <room id="14843" area="59" title="On a sea shore" environment="14">
+      <coord x="-5" y="35" z="0" />
+      <exit direction="east" target="14844"/>
+      <exit direction="southeast" target="12372"/>
+   </room>
+   <room id="9496" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="3" y="36" z="0" />
+      <exit direction="east" target="9494"/>
+      <exit direction="west" target="9498"/>
+      <exit direction="south" target="9495"/>
+      <exit direction="southwest" target="9497"/>
+      <exit direction="southeast" target="9493"/>
+   </room>
+   <room id="19942" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="20" z="0" />
+      <exit direction="east" target="19689"/>
+      <exit direction="south" target="19694"/>
+      <exit direction="southeast" target="19688"/>
+   </room>
+   <room id="14844" area="59" title="On a sea shore" environment="14">
+      <coord x="-4" y="35" z="0" />
+      <exit direction="east" target="14677"/>
+      <exit direction="west" target="14843"/>
+      <exit direction="south" target="12372"/>
+      <exit direction="southeast" target="12369"/>
+   </room>
+   <room id="9476" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="13" y="36" z="0" />
+      <exit direction="east" target="9474"/>
+      <exit direction="west" target="9478"/>
+      <exit direction="south" target="9475"/>
+      <exit direction="southwest" target="9477"/>
+      <exit direction="southeast" target="9473"/>
+   </room>
+   <room id="14677" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="35" z="0" />
+      <exit direction="east" target="14678"/>
+      <exit direction="west" target="14844"/>
+      <exit direction="south" target="12369"/>
+      <exit direction="southwest" target="12372"/>
+      <exit direction="southeast" target="12366"/>
+   </room>
+   <room id="19693" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="18" z="0" />
+      <exit direction="east" target="19690"/>
+      <exit direction="north" target="19694"/>
+      <exit direction="northeast" target="19688"/>
+   </room>
+   <room id="19660" area="59" title="On a sea shore" environment="14">
+      <coord x="-17" y="23" z="0" />
+      <exit direction="east" target="19659"/>
+      <exit direction="north" target="19656"/>
+      <exit direction="northwest" target="19651"/>
+      <exit direction="northeast" target="19661"/>
+   </room>
+   <room id="14352" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="51" y="36" z="0" />
+      <exit direction="east" target="14356"/>
+      <exit direction="west" target="14354"/>
+      <exit direction="south" target="14349"/>
+      <exit direction="southwest" target="14351"/>
+      <exit direction="southeast" target="14355"/>
+   </room>
+   <room id="9456" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="23" y="36" z="0" />
+      <exit direction="east" target="9454"/>
+      <exit direction="west" target="9458"/>
+      <exit direction="south" target="9455"/>
+      <exit direction="southwest" target="9457"/>
+      <exit direction="southeast" target="9453"/>
+   </room>
+   <room id="14374" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="29" z="0" />
+      <exit direction="west" target="14373"/>
+      <exit direction="north" target="14372"/>
+      <exit direction="south" target="14376"/>
+      <exit direction="southwest" target="14375"/>
+      <exit direction="northwest" target="14371"/>
+   </room>
+   <room id="19639" area="59" title="On a sea shore" environment="14">
+      <coord x="-23" y="26" z="0" />
+      <exit direction="east" target="19638"/>
+      <exit direction="north" target="19636"/>
+      <exit direction="south" target="19641"/>
+      <exit direction="southeast" target="19640"/>
+      <exit direction="northeast" target="19632"/>
+   </room>
+   <room id="19682" area="59" title="On a sea shore" environment="14">
+      <coord x="-16" y="21" z="0" />
+      <exit direction="east" target="19679"/>
+      <exit direction="south" target="19681"/>
+      <exit direction="southwest" target="19683"/>
+      <exit direction="southeast" target="19680"/>
+   </room>
+   <room id="19641" area="59" title="On a sea shore" environment="14">
+      <coord x="-23" y="25" z="0" />
+      <exit direction="east" target="19640"/>
+      <exit direction="north" target="19639"/>
+      <exit direction="south" target="19643"/>
+      <exit direction="southeast" target="19642"/>
+      <exit direction="northeast" target="19638"/>
+   </room>
+   <room id="19651" area="59" title="On a sea shore" environment="14">
+      <coord x="-18" y="24" z="0" />
+      <exit direction="east" target="19656"/>
+      <exit direction="west" target="19649"/>
+      <exit direction="north" target="19650"/>
+      <exit direction="northwest" target="19652"/>
+      <exit direction="southeast" target="19660"/>
+      <exit direction="northeast" target="19657"/>
+   </room>
+   <room id="9494" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="4" y="36" z="0" />
+      <exit direction="east" target="9492"/>
+      <exit direction="west" target="9496"/>
+      <exit direction="south" target="9493"/>
+      <exit direction="southwest" target="9495"/>
+      <exit direction="southeast" target="9491"/>
+   </room>
+   <room id="15638" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="43" y="36" z="0" />
+      <exit direction="east" target="15640"/>
+      <exit direction="west" target="15636"/>
+      <exit direction="south" target="15637"/>
+      <exit direction="southwest" target="15635"/>
+      <exit direction="southeast" target="15639"/>
+   </room>
+   <room id="19599" area="59" title="On a sea shore" environment="14">
+      <coord x="-11" y="35" z="0" />
+      <exit direction="east" target="19600"/>
+      <exit direction="west" target="19602"/>
+      <exit direction="southeast" target="15825"/>
+   </room>
+   <room id="9474" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="14" y="36" z="0" />
+      <exit direction="east" target="9472"/>
+      <exit direction="west" target="9476"/>
+      <exit direction="south" target="9473"/>
+      <exit direction="southwest" target="9475"/>
+      <exit direction="southeast" target="9471"/>
+   </room>
+   <room id="14362" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="36" z="0" />
+      <exit direction="west" target="14360"/>
+      <exit direction="south" target="14361"/>
+      <exit direction="southwest" target="14359"/>
+   </room>
+   <room id="14364" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="34" z="0" />
+      <exit direction="west" target="14363"/>
+      <exit direction="north" target="14361"/>
+      <exit direction="south" target="14366"/>
+      <exit direction="southwest" target="14365"/>
+      <exit direction="northwest" target="14359"/>
+   </room>
+   <room id="9446" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="28" y="36" z="0" />
+      <exit direction="east" target="9443"/>
+      <exit direction="west" target="9448"/>
+      <exit direction="south" target="9445"/>
+      <exit direction="southwest" target="9447"/>
+      <exit direction="southeast" target="9440"/>
+   </room>
+   <room id="19659" area="59" title="On a sea shore" environment="14">
+      <coord x="-16" y="23" z="0" />
+      <exit direction="east" target="19663"/>
+      <exit direction="west" target="19660"/>
+      <exit direction="north" target="19661"/>
+      <exit direction="northwest" target="19656"/>
+      <exit direction="northeast" target="19662"/>
+   </room>
+   <room id="9464" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="19" y="36" z="0" />
+      <exit direction="east" target="9462"/>
+      <exit direction="west" target="9466"/>
+      <exit direction="south" target="9463"/>
+      <exit direction="southwest" target="9465"/>
+      <exit direction="southeast" target="9461"/>
+   </room>
+   <room id="9442" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="30" y="36" z="0" />
+      <exit direction="east" target="9444"/>
+      <exit direction="west" target="9443"/>
+      <exit direction="south" target="9439"/>
+      <exit direction="southwest" target="9440"/>
+      <exit direction="southeast" target="9441"/>
+   </room>
+   <room id="19603" area="59" title="On a sea shore" environment="14">
+      <coord x="-13" y="35" z="0" />
+      <exit direction="east" target="19602"/>
+      <exit direction="south" target="19604"/>
+      <exit direction="southwest" target="19605"/>
+   </room>
+   <room id="12625" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="33" y="36" z="0" />
+      <exit direction="east" target="12622"/>
+      <exit direction="west" target="12628"/>
+      <exit direction="south" target="12624"/>
+      <exit direction="southwest" target="12627"/>
+      <exit direction="southeast" target="12619"/>
+   </room>
+   <room id="9458" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="22" y="36" z="0" />
+      <exit direction="east" target="9456"/>
+      <exit direction="west" target="9460"/>
+      <exit direction="south" target="9457"/>
+      <exit direction="southwest" target="9459"/>
+      <exit direction="southeast" target="9455"/>
+   </room>
+   <room id="19636" area="59" title="On a sea shore" environment="14">
+      <coord x="-23" y="27" z="0" />
+      <exit direction="east" target="19632"/>
+      <exit direction="north" target="19637"/>
+      <exit direction="south" target="19639"/>
+      <exit direction="southeast" target="19638"/>
+      <exit direction="northeast" target="19633"/>
+   </room>
+   <room id="9484" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="9" y="36" z="0" />
+      <exit direction="east" target="9482"/>
+      <exit direction="west" target="9486"/>
+      <exit direction="south" target="9483"/>
+      <exit direction="southwest" target="9485"/>
+      <exit direction="southeast" target="9481"/>
+   </room>
+   <room id="19699" area="59" title="On a sea shore" environment="14">
+      <coord x="-16" y="16" z="0" />
+      <exit direction="east" target="19698"/>
+      <exit direction="north" target="19695"/>
+      <exit direction="northeast" target="19700"/>
+   </room>
+   <room id="19646" area="59" title="On a sea shore" environment="14">
+      <coord x="-21" y="23" z="0" />
+      <exit direction="east" target="19648"/>
+      <exit direction="west" target="19644"/>
+      <exit direction="north" target="19645"/>
+      <exit direction="northwest" target="19642"/>
+      <exit direction="northeast" target="19647"/>
+   </room>
+   <room id="9448" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="27" y="36" z="0" />
+      <exit direction="east" target="9446"/>
+      <exit direction="west" target="9450"/>
+      <exit direction="south" target="9447"/>
+      <exit direction="southwest" target="9449"/>
+      <exit direction="southeast" target="9445"/>
+   </room>
+   <room id="19691" area="59" title="On a sea shore" environment="14">
+      <coord x="-17" y="18" z="0" />
+      <exit direction="east" target="19696"/>
+      <exit direction="west" target="19692"/>
+      <exit direction="north" target="19687"/>
+      <exit direction="northwest" target="19684"/>
+      <exit direction="southeast" target="19695"/>
+      <exit direction="northeast" target="19686"/>
+   </room>
+   <room id="12623" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="35" y="36" z="0" />
+      <exit direction="east" target="12621"/>
+      <exit direction="west" target="12622"/>
+      <exit direction="south" target="12620"/>
+      <exit direction="southwest" target="12619"/>
+      <exit direction="southeast" target="12618"/>
+   </room>
+   <room id="14858" area="59" title="On a sea shore" environment="14">
+      <coord x="-8" y="33" z="0" />
+      <exit direction="east" target="14856"/>
+      <exit direction="west" target="14860"/>
+      <exit direction="south" target="14857"/>
+      <exit direction="southwest" target="14859"/>
+      <exit direction="southeast" target="14855"/>
+   </room>
+   <room id="14370" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="31" z="0" />
+      <exit direction="west" target="14369"/>
+      <exit direction="north" target="14368"/>
+      <exit direction="south" target="14372"/>
+      <exit direction="southwest" target="14371"/>
+      <exit direction="northwest" target="14367"/>
+   </room>
+   <room id="19600" area="59" title="On a sea shore" environment="14">
+      <coord x="-10" y="35" z="0" />
+      <exit direction="east" target="19598"/>
+      <exit direction="west" target="19599"/>
+      <exit direction="south" target="15825"/>
+      <exit direction="northeast" target="19601"/>
+   </room>
+   <room id="9490" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="6" y="36" z="0" />
+      <exit direction="east" target="9488"/>
+      <exit direction="west" target="9492"/>
+      <exit direction="south" target="9489"/>
+      <exit direction="southwest" target="9491"/>
+      <exit direction="southeast" target="9487"/>
+   </room>
+   <room id="19695" area="59" title="On a sea shore" environment="14">
+      <coord x="-16" y="17" z="0" />
+      <exit direction="east" target="19700"/>
+      <exit direction="north" target="19696"/>
+      <exit direction="south" target="19699"/>
+      <exit direction="northwest" target="19691"/>
+      <exit direction="southeast" target="19698"/>
+      <exit direction="northeast" target="19697"/>
+   </room>
+   <room id="19649" area="59" title="On a sea shore" environment="14">
+      <coord x="-19" y="24" z="0" />
+      <exit direction="east" target="19651"/>
+      <exit direction="north" target="19652"/>
+      <exit direction="southwest" target="19648"/>
+      <exit direction="northeast" target="19650"/>
+   </room>
+
+   <room id="19602" area="59" title="On a sea shore" environment="14">
+      <coord x="-12" y="35" z="0" />
+      <exit direction="east" target="19599"/>
+      <exit direction="west" target="19603"/>
+      <exit direction="southwest" target="19604"/>
+   </room>
+   <room id="14372" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="30" z="0" />
+      <exit direction="west" target="14371"/>
+      <exit direction="north" target="14370"/>
+      <exit direction="south" target="14374"/>
+      <exit direction="southwest" target="14373"/>
+      <exit direction="northwest" target="14369"/>
+   </room>
+   <room id="19604" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-13" y="34" z="0" />
+      <exit direction="west" target="19605"/>
+      <exit direction="north" target="19603"/>
+      <exit direction="northeast" target="19602"/>
+   </room>
+   <room id="19685" area="59" title="On a sea shore" environment="14">
+      <coord x="-18" y="20" z="0" />
+      <exit direction="east" target="19683"/>
+      <exit direction="west" target="19689"/>
+      <exit direction="south" target="19684"/>
+      <exit direction="southwest" target="19688"/>
+      <exit direction="southeast" target="19687"/>
+   </room>
+   <room id="19606" area="59" title="On a sea shore" environment="14">
+      <coord x="-15" y="34" z="0" />
+      <exit direction="east" target="19605"/>
+      <exit direction="west" target="19607"/>
+      <exit direction="southwest" target="19608"/>
+   </room>
+   <room id="9480" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="11" y="36" z="0" />
+      <exit direction="east" target="9478"/>
+      <exit direction="west" target="9482"/>
+      <exit direction="south" target="9479"/>
+      <exit direction="southwest" target="9481"/>
+      <exit direction="southeast" target="9477"/>
+   </room>
+   <room id="15636" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="42" y="36" z="0" />
+      <exit direction="east" target="15638"/>
+      <exit direction="west" target="15634"/>
+      <exit direction="south" target="15635"/>
+      <exit direction="southwest" target="15633"/>
+      <exit direction="southeast" target="15637"/>
+   </room>
+   <room id="9500" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="1" y="36" z="0" />
+      <exit direction="east" target="9498"/>
+      <exit direction="west" target="9502"/>
+      <exit direction="south" target="9499"/>
+      <exit direction="southwest" target="9501"/>
+      <exit direction="southeast" target="9497"/>
+   </room>
+   <room id="19648" area="59" title="On a sea shore" environment="14">
+      <coord x="-20" y="23" z="0" />
+      <exit direction="west" target="19646"/>
+      <exit direction="north" target="19647"/>
+      <exit direction="northwest" target="19645"/>
+      <exit direction="northeast" target="19649"/>
+   </room>
+   <room id="14366" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="55" y="33" z="0" />
+      <exit direction="west" target="14365"/>
+      <exit direction="north" target="14364"/>
+      <exit direction="south" target="14368"/>
+      <exit direction="southwest" target="14367"/>
+      <exit direction="northwest" target="14363"/>
+   </room>
+   <room id="15634" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="41" y="36" z="0" />
+      <exit direction="east" target="15636"/>
+      <exit direction="west" target="15632"/>
+      <exit direction="south" target="15633"/>
+      <exit direction="southwest" target="15631"/>
+      <exit direction="southeast" target="15635"/>
+   </room>
+   <room id="9486" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="8" y="36" z="0" />
+      <exit direction="east" target="9484"/>
+      <exit direction="west" target="9488"/>
+      <exit direction="south" target="9485"/>
+      <exit direction="southwest" target="9487"/>
+      <exit direction="southeast" target="9483"/>
+   </room>
+   <room id="15825" area="59" title="On a sea shore" environment="14">
+      <coord x="-10" y="34" z="0" />
+      <exit direction="north" target="19600"/>
+      <exit direction="south" target="15824"/>
+      <exit direction="southwest" target="15827"/>
+      <exit direction="northwest" target="19599"/>
+      <exit direction="southeast" target="14860"/>
+      <exit direction="northeast" target="19598"/>
+   </room>
+   <room id="14860" area="59" title="On a sea shore" environment="14">
+      <coord x="-9" y="33" z="0" />
+      <exit direction="east" target="14858"/>
+      <exit direction="west" target="15824"/>
+      <exit direction="south" target="14859"/>
+      <exit direction="southwest" target="15823"/>
+      <exit direction="northwest" target="15825"/>
+      <exit direction="southeast" target="14857"/>
+   </room>
+   <room id="19683" area="59" title="On a sea shore" environment="14">
+      <coord x="-17" y="20" z="0" />
+      <exit direction="east" target="19681"/>
+      <exit direction="west" target="19685"/>
+      <exit direction="south" target="19687"/>
+      <exit direction="southwest" target="19684"/>
+      <exit direction="southeast" target="19686"/>
+      <exit direction="northeast" target="19682"/>
+   </room>
+   <room id="9450" area="59" title="The ice plains of Forodwaith" environment="42">
+      <coord x="26" y="36" z="0" />
+      <exit direction="east" target="9448"/>
+      <exit direction="west" target="9452"/>
+      <exit direction="south" target="9449"/>
+      <exit direction="southwest" target="9451"/>
+      <exit direction="southeast" target="9447"/>
+   </room>
+   <room id="3743" area="59" title="In Gondor" environment="45">
+      <coord x="3" y="0" z="0" />
+      <exit direction="east" target="3740"/>
+      <exit direction="west" target="3745"/>
+      <exit direction="north" target="3741"/>
+      <exit direction="south" target="3742"/>
+      <exit direction="northwest" target="3744"/>
+      <exit direction="southeast" target="3739"/>
+      <exit direction="northeast" target="3738"/>
+   </room>
+   <room id="3739" area="59" title="In Gondor" environment="45">
+      <coord x="4" y="-1" z="0" />
+      <exit direction="east" target="3736"/>
+      <exit direction="west" target="3742"/>
+      <exit direction="north" target="3740"/>
+      <exit direction="south" target="18440"/>
+      <exit direction="southwest" target="18441"/>
+      <exit direction="northwest" target="3743"/>
+      <exit direction="northeast" target="3737"/>
+   </room>
+   <room id="19787" area="59" title="Khand" environment="40">
+      <coord x="54" y="-7" z="0" />
+      <exit direction="northeast" target="19788"/>
+      <exit direction="southeast" target="19784"/>
+      <exit direction="north" target="19789"/>
+      <exit direction="west" target="20827"/>
+      <exit direction="northwest" target="20828"/>
+      <exit direction="southwest" target="20826"/>
+      <exit direction="south" target="19785"/>
+      <exit direction="east" target="19786"/>
+   </room>
+   <room id="9349" area="59" title="On a road" environment="50">
+      <coord x="29" y="5" z="0" />
+      <exit direction="west" target="9347"/>
+      <exit direction="north" target="9354"/>
+      <exit direction="south" target="9345"/>
+      <exit direction="southwest" target="9344"/>
+      <exit direction="northwest" target="9352"/>
+      <exit direction="northeast" target="12512"/>
+   </room>
+   <room id="12055" area="59" title="Near Harad" environment="28">
+      <coord x="23" y="-13" z="0" />
+      <exit direction="northeast" target="12056"/>
+      <exit direction="west" target="12053"/>
+      <exit direction="northwest" target="12052"/>
+      <exit direction="north" target="12054"/>
+      <exit direction="east" target="12057"/>
+   </room>
+   <room id="3779" area="59" title="In Gondor" environment="10">
+      <coord x="0" y="0" z="0" />
+      <exit direction="east" target="3780"/>
+      <exit direction="north" target="15554"/>
+      <exit direction="south" target="15556"/>
+      <exit direction="southeast" target="15555"/>
+      <exit direction="northeast" target="3778"/>
+   </room>
+   <room id="15121" area="59" title="Rhun" environment="21">
+      <coord x="45" y="6" z="0" />
+      <exit direction="west" target="15124"/>
+      <exit direction="north" target="15119"/>
+      <exit direction="northwest" target="15122"/>
+      <exit direction="northeast" target="15117"/>
+   </room>
+   <room id="12512" area="59" title="On a road" environment="50">
+      <coord x="30" y="6" z="0" />
+      <exit direction="east" target="12516"/>
+      <exit direction="west" target="9354"/>
+      <exit direction="north" target="12514"/>
+      <exit direction="southwest" target="9349"/>
+      <exit direction="northwest" target="9357"/>
+      <exit direction="southeast" target="12515"/>
+      <exit direction="northeast" target="12513"/>
+   </room>
+   <room id="15868" area="59" title="Enedwaith" environment="16">
+      <coord x="4" y="6" z="0" />
+      <exit direction="west" target="15865"/>
+      <exit direction="north" target="15867"/>
+      <exit direction="northwest" target="15866"/>
+   </room>
+   <room id="3734" area="59" title="On a sea shore" environment="14">
+      <coord x="6" y="-1" z="0" />
+      <exit direction="east" target="3731"/>
+      <exit direction="west" target="3736"/>
+      <exit direction="north" target="3733"/>
+      <exit direction="northwest" target="3737"/>
+      <exit direction="northeast" target="3730"/>
+   </room>
+   <room id="18457" area="59" title="In the forest Eryn Vorn" environment="32">
+      <coord x="-9" y="12" z="0" />
+      <exit direction="east" target="18456"/>
+      <exit direction="north" target="18454"/>
+      <exit direction="northeast" target="18453"/>
+   </room>
+   <room id="18444" area="59" title="On a sea shore" environment="14">
+      <coord x="1" y="-2" z="0" />
+      <exit direction="east" target="19713"/>
+      <exit direction="west" target="18445"/>
+      <exit direction="north" target="15555"/>
+      <exit direction="northwest" target="15556"/>
+      <exit direction="southeast" target="20817"/>
+      <exit direction="northeast" target="19712"/>
+   </room>
+   <room id="3751" area="59" title="In Gondor" environment="45">
+      <coord x="3" y="3" z="0" />
+      <exit direction="east" target="3748"/>
+      <exit direction="west" target="3754"/>
+      <exit direction="north" target="3750"/>
+      <exit direction="southwest" target="3755"/>
+      <exit direction="northwest" target="3753"/>
+      <exit direction="southeast" target="3747"/>
+   </room>
+   <room id="19775" area="59" title="Khand" environment="40">
+      <coord x="54" y="-13" z="0" />
+      <exit direction="northeast" target="19776"/>
+      <exit direction="west" target="19773"/>
+      <exit direction="northwest" target="19772"/>
+      <exit direction="north" target="19774"/>
+      <exit direction="east" target="19777"/>
+   </room>
+   <room id="3717" area="59" title="On a sea shore" environment="14">
+      <coord x="12" y="0" z="0" />
+      <exit direction="east" target="3714"/>
+      <exit direction="west" target="3720"/>
+      <exit direction="north" target="3716"/>
+      <exit direction="northwest" target="3721"/>
+   </room>
+   <room id="3765" area="59" title="On a sea shore" environment="14">
+      <coord x="-1" y="5" z="0" />
+      <exit direction="east" target="3760"/>
+      <exit direction="south" target="3767"/>
+      <exit direction="southwest" target="3769"/>
+      <exit direction="northwest" target="3768"/>
+      <exit direction="southeast" target="3763"/>
+   </room>
+   <room id="15090" area="59" title="Rhun" environment="21">
+      <coord x="55" y="15" z="0" />
+      <exit direction="west" target="14274"/>
+      <exit direction="north" target="15089"/>
+      <exit direction="south" target="15091"/>
+      <exit direction="southwest" target="14276"/>
+      <exit direction="northwest" target="14277"/>
+   </room>
+   <room id="14536" area="59" title="Plains of Rohan" environment="45">
+      <coord x="13" y="7" z="0" />
+      <exit direction="northeast" target="14539"/>
+      <exit direction="southeast" target="14532"/>
+      <exit direction="west" target="14538"/>
+      <exit direction="northwest" target="14540"/>
+      <exit direction="north" target="14541"/>
+      <exit direction="south" target="14534"/>
+      <exit direction="east" target="14537"/>
+   </room>
+   <room id="12096" area="59" title="Near Harad" environment="28">
+      <coord x="40" y="-13" z="0" />
+      <exit direction="northeast" target="12100"/>
+      <exit direction="west" target="12093"/>
+      <exit direction="northwest" target="12094"/>
+      <exit direction="north" target="12097"/>
+      <exit direction="east" target="12099"/>
+   </room>
+   <room id="18452" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="0" z="0" />
+      <exit direction="north" target="15875"/>
+      <exit direction="southwest" target="18449"/>
+   </room>
+   <room id="11998" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="27" y="0" z="0" />
+      <exit direction="south" target="12001"/>
+      <exit direction="southeast" target="12003"/>
+      <exit direction="east" target="12000"/>
+   </room>
+   <room id="14515" area="59" title="On a road" environment="50">
+      <coord x="22" y="3" z="0" />
+      <exit direction="east" target="14513"/>
+      <exit direction="west" target="14517"/>
+      <exit direction="north" target="14516"/>
+      <exit direction="northwest" target="14518"/>
+      <exit direction="northeast" target="14514"/>
+   </room>
+   <room id="12069" area="59" title="Near Harad" environment="28">
+      <coord x="30" y="-13" z="0" />
+      <exit direction="northeast" target="12070"/>
+      <exit direction="west" target="12067"/>
+      <exit direction="northwest" target="12066"/>
+      <exit direction="north" target="12068"/>
+      <exit direction="east" target="12071"/>
+   </room>
+   <room id="14378" area="59" title="Rhun" environment="21">
+      <coord x="55" y="27" z="0" />
+      <exit direction="west" target="14377"/>
+      <exit direction="north" target="14376"/>
+      <exit direction="south" target="14380"/>
+      <exit direction="southwest" target="14379"/>
+      <exit direction="northwest" target="14375"/>
+   </room>
+   <room id="15117" area="59" title="Rhun" environment="21">
+      <coord x="46" y="7" z="0" />
+      <exit direction="east" target="15115"/>
+      <exit direction="west" target="15119"/>
+      <exit direction="north" target="15118"/>
+      <exit direction="southwest" target="15121"/>
+      <exit direction="northwest" target="15120"/>
+      <exit direction="northeast" target="15116"/>
+   </room>
+   <room id="15849" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="9" z="0" />
+      <exit direction="east" target="15848"/>
+      <exit direction="north" target="14940"/>
+      <exit direction="south" target="15852"/>
+      <exit direction="southwest" target="15850"/>
+      <exit direction="southeast" target="15851"/>
+      <exit direction="northeast" target="15846"/>
+   </room>
+   <room id="3729" area="59" title="In Gondor" environment="45">
+      <coord x="7" y="1" z="0" />
+      <exit direction="east" target="3727"/>
+      <exit direction="west" target="3732"/>
+      <exit direction="north" target="3776"/>
+      <exit direction="south" target="3730"/>
+      <exit direction="southwest" target="3733"/>
+      <exit direction="northwest" target="3777"/>
+      <exit direction="southeast" target="3728"/>
+   </room>
+   <room id="15130" area="59" title="Brown Lands" environment="40">
+      <coord x="42" y="6" z="0" />
+      <exit direction="east" target="15127"/>
+      <exit direction="west" target="15133"/>
+      <exit direction="north" target="15128"/>
+      <exit direction="northwest" target="15131"/>
+      <exit direction="northeast" target="15125"/>
+   </room>
+   <room id="3723" area="59" title="On a sea shore" environment="14">
+      <coord x="10" y="0" z="0" />
+      <exit direction="east" target="3720"/>
+      <exit direction="west" target="3725"/>
+      <exit direction="north" target="3722"/>
+      <exit direction="southwest" target="3726"/>
+      <exit direction="northwest" target="3724"/>
+      <exit direction="northeast" target="3721"/>
+   </room>
+   <room id="11995" area="59" title="On a road" environment="50">
+      <coord x="29" y="2" z="0" />
+      <exit direction="east" target="15300"/>
+      <exit direction="west" target="7385"/>
+      <exit direction="north" target="9351"/>
+      <exit direction="south" target="11996"/>
+      <exit direction="southwest" target="11997"/>
+      <exit direction="northwest" target="9350"/>
+   </room>
+   <room id="14382" area="59" title="Rhun" environment="21">
+      <coord x="55" y="25" z="0" />
+      <exit direction="west" target="14381"/>
+      <exit direction="north" target="14380"/>
+      <exit direction="south" target="14384"/>
+      <exit direction="southwest" target="14383"/>
+      <exit direction="northwest" target="14379"/>
+   </room>
+   <room id="15461" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="31" y="-11" z="0" />
+      <exit direction="east" target="15464"/>
+      <exit direction="west" target="15458"/>
+      <exit direction="north" target="15462"/>
+      <exit direction="northwest" target="15459"/>
+      <exit direction="northeast" target="15463"/>
+   </room>
+   <room id="3672" area="59" title="On a road" environment="50">
+      <coord x="25" y="3" z="0" />
+      <exit direction="east" target="3670"/>
+      <exit direction="west" target="14511"/>
+      <exit direction="northwest" target="14512"/>
+      <exit direction="southeast" target="3669"/>
+   </room>
+   <room id="12049" area="59" title="Near Harad" environment="28">
+      <coord x="21" y="-13" z="0" />
+      <exit direction="northeast" target="12052"/>
+      <exit direction="west" target="12050"/>
+      <exit direction="northwest" target="12047"/>
+      <exit direction="north" target="12051"/>
+      <exit direction="east" target="12053"/>
+   </room>
+   <room id="15094" area="59" title="Rhun" environment="21">
+      <coord x="55" y="11" z="0" />
+      <exit direction="west" target="14396"/>
+      <exit direction="north" target="15093"/>
+      <exit direction="south" target="15096"/>
+      <exit direction="southwest" target="15095"/>
+      <exit direction="northwest" target="14395"/>
+   </room>
+   <room id="14592" area="59" title="Enedwaith" environment="16">
+      <coord x="3" y="15" z="0" />
+      <exit direction="east" target="14589"/>
+      <exit direction="west" target="14595"/>
+      <exit direction="north" target="14593"/>
+      <exit direction="south" target="14594"/>
+      <exit direction="southwest" target="14596"/>
+      <exit direction="southeast" target="14591"/>
+      <exit direction="northeast" target="14590"/>
+   </room>
+   <room id="18178" area="59" title="In South-Gondor" environment="2">
+      <coord x="30" y="-5" z="0" />
+      <exit direction="west" target="12018"/>
+      <exit direction="north" target="15452"/>
+      <exit direction="south" target="15476"/>
+      <exit direction="southwest" target="12015"/>
+   </room>
+   <room id="19705" area="59" title="In the forest of Harlindon" environment="32">
+      <coord x="-12" y="16" z="0" />
+      <exit direction="east" target="19708"/>
+      <exit direction="west" target="19704"/>
+      <exit direction="northwest" target="19703"/>
+      <exit direction="southeast" target="19707"/>
+      <exit direction="northeast" target="19706"/>
+   </room>
+   <room id="12102" area="59" title="Near Harad" environment="28">
+      <coord x="42" y="-13" z="0" />
+      <exit direction="northeast" target="12104"/>
+      <exit direction="west" target="12099"/>
+      <exit direction="northwest" target="12100"/>
+      <exit direction="north" target="12103"/>
+      <exit direction="east" target="12105"/>
+   </room>
+   <room id="15854" area="59" title="Enedwaith" environment="16">
+      <coord x="-1" y="7" z="0" />
+      <exit direction="northeast" target="15859"/>
+      <exit direction="southeast" target="3764"/>
+      <exit direction="north" target="15851"/>
+      <exit direction="west" target="15855"/>
+      <exit direction="northwest" target="15852"/>
+      <exit direction="southwest" target="3768"/>
+      <exit direction="south" target="15857"/>
+      <exit direction="east" target="15858"/>
+   </room>
+   <room id="15115" area="59" title="Rhun" environment="21">
+      <coord x="47" y="7" z="0" />
+      <exit direction="east" target="15113"/>
+      <exit direction="west" target="15117"/>
+      <exit direction="north" target="15116"/>
+      <exit direction="northwest" target="15118"/>
+      <exit direction="northeast" target="15114"/>
+   </room>
+   <room id="18186" area="59" title="Near Harad" environment="28">
+      <coord x="45" y="-13" z="0" />
+      <exit direction="northeast" target="18190"/>
+      <exit direction="west" target="12107"/>
+      <exit direction="northwest" target="12106"/>
+      <exit direction="north" target="18187"/>
+      <exit direction="east" target="18189"/>
+   </room>
+   <room id="15714" area="59" title="In South-Gondor" environment="2">
+      <coord x="24" y="-5" z="0" />
+      <exit direction="south" target="15716"/>
+      <exit direction="west" target="14483"/>
+      <exit direction="southeast" target="15718"/>
+      <exit direction="southwest" target="15713"/>
+   </room>
+   <room id="3719" area="59" title="In Gondor" environment="45">
+      <coord x="12" y="2" z="0" />
+      <exit direction="west" target="3718"/>
+      <exit direction="north" target="20819"/>
+      <exit direction="south" target="3716"/>
+      <exit direction="southwest" target="3721"/>
+      <exit direction="northwest" target="18413"/>
+      <exit direction="northeast" target="20818"/>
+   </room>
+   <room id="15555" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="-1" z="0" />
+      <exit direction="east" target="19712"/>
+      <exit direction="west" target="15556"/>
+      <exit direction="north" target="3780"/>
+      <exit direction="south" target="18444"/>
+      <exit direction="southwest" target="18445"/>
+      <exit direction="northwest" target="3779"/>
+      <exit direction="southeast" target="19713"/>
+   </room>
+   <room id="14542" area="59" title="On a road" environment="50">
+      <coord x="11" y="8" z="0" />
+      <exit direction="east" target="14540"/>
+      <exit direction="west" target="14546"/>
+      <exit direction="north" target="14544"/>
+      <exit direction="northwest" target="14547"/>
+      <exit direction="southeast" target="14538"/>
+      <exit direction="northeast" target="14545"/>
+   </room>
+   <room id="14384" area="59" title="Rhun" environment="21">
+      <coord x="55" y="24" z="0" />
+      <exit direction="west" target="14383"/>
+      <exit direction="north" target="14382"/>
+      <exit direction="south" target="14386"/>
+      <exit direction="southwest" target="14385"/>
+      <exit direction="northwest" target="14381"/>
+   </room>
+   <room id="19791" area="59" title="Khand" environment="40">
+      <coord x="54" y="-5" z="0" />
+      <exit direction="northeast" target="19792"/>
+      <exit direction="southeast" target="19788"/>
+      <exit direction="north" target="19793"/>
+      <exit direction="west" target="20829"/>
+      <exit direction="northwest" target="20830"/>
+      <exit direction="southwest" target="20828"/>
+      <exit direction="south" target="19789"/>
+      <exit direction="east" target="19790"/>
+   </room>
+   <room id="12048" area="59" title="On a sea shore" environment="14">
+      <coord x="19" y="-13" z="0" />
+      <exit direction="northeast" target="12047"/>
+      <exit direction="east" target="12050"/>
+   </room>
+   <room id="18455" area="59" title="On a sea shore" environment="14">
+      <coord x="-10" y="15" z="0" />
+      <exit direction="west" target="19707"/>
+      <exit direction="north" target="19709"/>
+      <exit direction="northwest" target="19708"/>
+      <exit direction="southeast" target="14963"/>
+      <exit direction="northeast" target="19710"/>
+   </room>
+   <room id="14944" area="59" title="On a sea shore" environment="14">
+      <coord x="-6" y="11" z="0" />
+      <exit direction="northeast" target="14942"/>
+      <exit direction="north" target="14945"/>
+      <exit direction="southeast" target="14943"/>
+      <exit direction="south" target="14946"/>
+      <exit direction="east" target="14941"/>
+   </room>
+   <room id="15873" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="2" z="0" />
+      <exit direction="east" target="15874"/>
+      <exit direction="north" target="15871"/>
+      <exit direction="south" target="15875"/>
+      <exit direction="northeast" target="15872"/>
+   </room>
+   <room id="3771" area="59" title="Enedwaith" environment="16">
+      <coord x="2" y="7" z="0" />
+      <exit direction="northeast" target="15864"/>
+      <exit direction="southeast" target="15865"/>
+      <exit direction="west" target="15861"/>
+      <exit direction="northwest" target="15860"/>
+      <exit direction="north" target="15862"/>
+      <exit direction="south" target="15863"/>
+      <exit direction="east" target="15866"/>
+   </room>
+   <room id="14546" area="59" title="At the ford of Ironwell" environment="50">
+      <coord x="10" y="8" z="0" />
+      <exit direction="east" target="14542"/>
+      <exit direction="west" target="14549"/>
+      <exit direction="north" target="14547"/>
+      <exit direction="southwest" target="14548"/>
+      <exit direction="northeast" target="14544"/>
+   </room>
+   <room id="12002" area="59" title="On a road" environment="50">
+      <coord x="29" y="-1" z="0" />
+      <exit direction="east" target="15450"/>
+      <exit direction="west" target="12003"/>
+      <exit direction="north" target="11999"/>
+      <exit direction="south" target="12005"/>
+      <exit direction="southwest" target="12006"/>
+      <exit direction="northwest" target="12000"/>
+      <exit direction="southeast" target="15449"/>
+   </room>
+   <room id="12015" area="59" title="In South-Gondor" environment="2">
+      <coord x="29" y="-6" z="0" />
+      <exit direction="east" target="15476"/>
+      <exit direction="west" target="12017"/>
+      <exit direction="north" target="12018"/>
+      <exit direction="south" target="12020"/>
+      <exit direction="southwest" target="12021"/>
+      <exit direction="northwest" target="12014"/>
+      <exit direction="southeast" target="15478"/>
+      <exit direction="northeast" target="18178"/>
+   </room>
+   <room id="15850" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="8" z="0" />
+      <exit direction="east" target="15852"/>
+      <exit direction="south" target="15853"/>
+      <exit direction="southeast" target="15855"/>
+      <exit direction="northeast" target="15849"/>
+   </room>
+   <room id="14390" area="59" title="Rhun" environment="21">
+      <coord x="55" y="21" z="0" />
+      <exit direction="west" target="14389"/>
+      <exit direction="north" target="14388"/>
+      <exit direction="south" target="14391"/>
+      <exit direction="southwest" target="14286"/>
+      <exit direction="northwest" target="14387"/>
+   </room>
+   <room id="14560" area="59" title="On a road" environment="50">
+      <coord x="6" y="11" z="0" />
+      <exit direction="east" target="14561"/>
+      <exit direction="west" target="14788"/>
+      <exit direction="north" target="14563"/>
+      <exit direction="south" target="14557"/>
+      <exit direction="southwest" target="14787"/>
+      <exit direction="northwest" target="14790"/>
+      <exit direction="southeast" target="14558"/>
+      <exit direction="northeast" target="14564"/>
+   </room>
+   <room id="3669" area="59" title="At the ruins of Minas Tirith" environment="51">
+      <coord x="26" y="2" z="0" />
+      <exit direction="east" target="3671"/>
+      <exit direction="north" target="3670"/>
+      <exit direction="south" target="3675"/>
+      <exit direction="southwest" target="3674"/>
+      <exit direction="northwest" target="3672"/>
+      <exit direction="southeast" target="3676"/>
+      <exit direction="northeast" target="3673"/>
+   </room>
+   <room id="19666" area="59" title="On a sea shore" environment="14">
+      <coord x="-13" y="24" z="0" />
+      <exit direction="east" target="19668"/>
+      <exit direction="west" target="19664"/>
+      <exit direction="north" target="19665"/>
+      <exit direction="northeast" target="19667"/>
+   </room>
+   <room id="15847" area="59" title="At the ruins of Lond Daer" environment="51">
+      <coord x="-2" y="11" z="0" />
+      <exit direction="east" target="15844"/>
+      <exit direction="north" target="14936"/>
+      <exit direction="south" target="14940"/>
+      <exit direction="southeast" target="15846"/>
+      <exit direction="northeast" target="15845"/>
+   </room>
+   <room id="15120" area="59" title="Rhun" environment="21">
+      <coord x="45" y="8" z="0" />
+      <exit direction="east" target="15118"/>
+      <exit direction="west" target="15123"/>
+      <exit direction="north" target="14733"/>
+      <exit direction="south" target="15119"/>
+      <exit direction="southwest" target="15122"/>
+      <exit direction="northwest" target="14731"/>
+      <exit direction="southeast" target="15117"/>
+      <exit direction="northeast" target="14735"/>
+   </room>
+   <room id="14386" area="59" title="Rhun" environment="21">
+      <coord x="55" y="23" z="0" />
+      <exit direction="west" target="14385"/>
+      <exit direction="north" target="14384"/>
+      <exit direction="south" target="14388"/>
+      <exit direction="southwest" target="14387"/>
+      <exit direction="northwest" target="14383"/>
+   </room>
+   <room id="3730" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="7" y="0" z="0" />
+      <exit direction="east" target="3728"/>
+      <exit direction="west" target="3733"/>
+      <exit direction="north" target="3729"/>
+      <exit direction="south" target="3731"/>
+      <exit direction="southwest" target="3734"/>
+      <exit direction="northwest" target="3732"/>
+      <exit direction="northeast" target="3727"/>
+   </room>
+   <room id="15471" area="59" title="In South-Gondor" environment="2">
+      <coord x="33" y="-7" z="0" />
+      <exit direction="east" target="15475"/>
+      <exit direction="west" target="15473"/>
+      <exit direction="south" target="15467"/>
+      <exit direction="southwest" target="15469"/>
+      <exit direction="southeast" target="15474"/>
+   </room>
+   <room id="18448" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="-3" z="0" />
+      <exit direction="west" target="18450"/>
+      <exit direction="north" target="18447"/>
+      <exit direction="northeast" target="18446"/>
+   </room>
+   <room id="14590" area="59" title="On a road" environment="50">
+      <coord x="4" y="16" z="0" />
+      <exit direction="east" target="14585"/>
+      <exit direction="west" target="14593"/>
+      <exit direction="north" target="14597"/>
+      <exit direction="south" target="14589"/>
+      <exit direction="southwest" target="14592"/>
+      <exit direction="southeast" target="14587"/>
+      <exit direction="northeast" target="14586"/>
+   </room>
+   <room id="12516" area="59" title="On a road" environment="50">
+      <coord x="31" y="6" z="0" />
+      <exit direction="east" target="12520"/>
+      <exit direction="west" target="12512"/>
+      <exit direction="north" target="12513"/>
+      <exit direction="south" target="12515"/>
+      <exit direction="northwest" target="12514"/>
+      <exit direction="northeast" target="12521"/>
+   </room>
+   <room id="14949" area="59" title="On a sea shore" environment="14">
+      <coord x="-6" y="13" z="0" />
+      <exit direction="northeast" target="14951"/>
+      <exit direction="northwest" target="14953"/>
+      <exit direction="north" target="14950"/>
+      <exit direction="southeast" target="14942"/>
+      <exit direction="south" target="14945"/>
+      <exit direction="east" target="14948"/>
+   </room>
+   <room id="19778" area="59" title="Khand" environment="40">
+      <coord x="55" y="-11" z="0" />
+      <exit direction="southwest" target="19774"/>
+      <exit direction="west" target="19779"/>
+      <exit direction="north" target="19780"/>
+      <exit direction="northwest" target="19781"/>
+      <exit direction="south" target="19776"/>
+   </room>
+   <room id="15096" area="59" title="Rhun" environment="21">
+      <coord x="55" y="10" z="0" />
+      <exit direction="west" target="15095"/>
+      <exit direction="north" target="15094"/>
+      <exit direction="south" target="15098"/>
+      <exit direction="southwest" target="15097"/>
+      <exit direction="northwest" target="14396"/>
+   </room>
+   <room id="15708" area="59" title="On a sea shore" environment="14">
+      <coord x="20" y="-7" z="0" />
+      <exit direction="south" target="15705"/>
+      <exit direction="northeast" target="15711"/>
+      <exit direction="southeast" target="15706"/>
+      <exit direction="east" target="15709"/>
+   </room>
+   <room id="15716" area="59" title="In South-Gondor" environment="2">
+      <coord x="24" y="-6" z="0" />
+      <exit direction="southwest" target="15712"/>
+      <exit direction="north" target="15714"/>
+      <exit direction="west" target="15713"/>
+      <exit direction="northwest" target="14483"/>
+      <exit direction="southeast" target="15717"/>
+      <exit direction="south" target="15715"/>
+      <exit direction="east" target="15718"/>
+   </room>
+   <room id="3772" area="59" title="In Gondor" environment="45">
+      <coord x="10" y="2" z="0" />
+      <exit direction="east" target="3718"/>
+      <exit direction="west" target="3773"/>
+      <exit direction="north" target="3775"/>
+      <exit direction="south" target="3722"/>
+      <exit direction="southwest" target="3724"/>
+      <exit direction="northwest" target="3774"/>
+      <exit direction="southeast" target="3721"/>
+      <exit direction="northeast" target="18413"/>
+   </room>
+   <room id="14596" area="59" title="Enedwaith" environment="16">
+      <coord x="2" y="14" z="0" />
+      <exit direction="east" target="14594"/>
+      <exit direction="west" target="20821"/>
+      <exit direction="north" target="14595"/>
+      <exit direction="south" target="20470"/>
+      <exit direction="southwest" target="20469"/>
+      <exit direction="southeast" target="18370"/>
+      <exit direction="northeast" target="14592"/>
+   </room>
+   <room id="12022" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="27" y="-8" z="0" />
+      <exit direction="east" target="12024"/>
+      <exit direction="west" target="15455"/>
+      <exit direction="north" target="12019"/>
+      <exit direction="south" target="12025"/>
+      <exit direction="southwest" target="15456"/>
+      <exit direction="northwest" target="15453"/>
+      <exit direction="southeast" target="12027"/>
+      <exit direction="northeast" target="12021"/>
+   </room>
+   <room id="19793" area="59" title="Khand" environment="40">
+      <coord x="54" y="-4" z="0" />
+      <exit direction="northeast" target="19794"/>
+      <exit direction="southeast" target="19790"/>
+      <exit direction="north" target="19795"/>
+      <exit direction="west" target="20830"/>
+      <exit direction="northwest" target="20831"/>
+      <exit direction="southwest" target="20829"/>
+      <exit direction="south" target="19791"/>
+      <exit direction="east" target="19792"/>
+   </room>
+   <room id="9354" area="59" title="On a road" environment="50">
+      <coord x="29" y="6" z="0" />
+      <exit direction="east" target="12512"/>
+      <exit direction="west" target="9352"/>
+      <exit direction="north" target="9357"/>
+      <exit direction="south" target="9349"/>
+      <exit direction="southwest" target="9347"/>
+      <exit direction="northwest" target="9355"/>
+      <exit direction="northeast" target="12514"/>
+   </room>
+   <room id="19783" area="59" title="Khand" environment="40">
+      <coord x="54" y="-9" z="0" />
+      <exit direction="northeast" target="19784"/>
+      <exit direction="southeast" target="19780"/>
+      <exit direction="north" target="19785"/>
+      <exit direction="west" target="20825"/>
+      <exit direction="northwest" target="20826"/>
+      <exit direction="southwest" target="20824"/>
+      <exit direction="south" target="19781"/>
+      <exit direction="east" target="19782"/>
+   </room>
+   <room id="19779" area="59" title="Khand" environment="40">
+      <coord x="54" y="-11" z="0" />
+      <exit direction="northeast" target="19780"/>
+      <exit direction="southeast" target="19776"/>
+      <exit direction="north" target="19781"/>
+      <exit direction="west" target="20823"/>
+      <exit direction="northwest" target="20824"/>
+      <exit direction="southwest" target="19772"/>
+      <exit direction="south" target="19774"/>
+      <exit direction="east" target="19778"/>
+   </room>
+   <room id="14540" area="59" title="Plains of Rohan" environment="45">
+      <coord x="12" y="8" z="0" />
+      <exit direction="northeast" target="14543"/>
+      <exit direction="southeast" target="14536"/>
+      <exit direction="west" target="14542"/>
+      <exit direction="northwest" target="14544"/>
+      <exit direction="north" target="14545"/>
+      <exit direction="south" target="14538"/>
+      <exit direction="east" target="14541"/>
+   </room>
+   <room id="14939" area="59" title="On a sea shore" environment="14">
+      <coord x="-4" y="10" z="0" />
+      <exit direction="northeast" target="14938"/>
+      <exit direction="southwest" target="14947"/>
+      <exit direction="west" target="14943"/>
+      <exit direction="northwest" target="14941"/>
+      <exit direction="north" target="14937"/>
+   </room>
+   <room id="14563" area="59" title="On a road" environment="50">
+      <coord x="6" y="12" z="0" />
+      <exit direction="east" target="14564"/>
+      <exit direction="west" target="14790"/>
+      <exit direction="north" target="14566"/>
+      <exit direction="south" target="14560"/>
+      <exit direction="southwest" target="14788"/>
+      <exit direction="northwest" target="14791"/>
+      <exit direction="southeast" target="14561"/>
+      <exit direction="northeast" target="14567"/>
+   </room>
+   <room id="19785" area="59" title="Khand" environment="40">
+      <coord x="54" y="-8" z="0" />
+      <exit direction="northeast" target="19786"/>
+      <exit direction="southeast" target="19782"/>
+      <exit direction="north" target="19787"/>
+      <exit direction="west" target="20826"/>
+      <exit direction="northwest" target="20827"/>
+      <exit direction="southwest" target="20825"/>
+      <exit direction="south" target="19783"/>
+      <exit direction="east" target="19784"/>
+   </room>
+   <room id="15103" area="59" title="Rhun" environment="21">
+      <coord x="53" y="7" z="0" />
+      <exit direction="east" target="15101"/>
+      <exit direction="west" target="15105"/>
+      <exit direction="north" target="15104"/>
+      <exit direction="northwest" target="15106"/>
+      <exit direction="northeast" target="15099"/>
+   </room>
+   <room id="12006" area="59" title="On a road" environment="50">
+      <coord x="28" y="-2" z="0" />
+      <exit direction="east" target="12005"/>
+      <exit direction="west" target="12004"/>
+      <exit direction="north" target="12003"/>
+      <exit direction="south" target="12009"/>
+      <exit direction="southwest" target="12007"/>
+      <exit direction="northwest" target="12001"/>
+      <exit direction="southeast" target="12008"/>
+      <exit direction="northeast" target="12002"/>
+   </room>
+   <room id="15472" area="59" title="In South-Gondor" environment="2">
+      <coord x="31" y="-7" z="0" />
+      <exit direction="east" target="15473"/>
+      <exit direction="west" target="15478"/>
+      <exit direction="south" target="15468"/>
+      <exit direction="southwest" target="15477"/>
+      <exit direction="northwest" target="15476"/>
+      <exit direction="southeast" target="15469"/>
+   </room>
+   <room id="15286" area="59" title="Brown Lands" environment="40">
+      <coord x="36" y="6" z="0" />
+      <exit direction="east" target="15284"/>
+      <exit direction="west" target="15288"/>
+      <exit direction="north" target="15287"/>
+      <exit direction="northwest" target="15289"/>
+      <exit direction="northeast" target="15285"/>
+   </room>
+   <room id="3769" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="4" z="0" />
+      <exit direction="east" target="3767"/>
+      <exit direction="south" target="15871"/>
+      <exit direction="southeast" target="15872"/>
+      <exit direction="northeast" target="3765"/>
+   </room>
+   <room id="15102" area="59" title="Rhun" environment="21">
+      <coord x="55" y="7" z="0" />
+      <exit direction="west" target="15101"/>
+      <exit direction="north" target="15100"/>
+      <exit direction="northwest" target="15099"/>
+   </room>
+   <room id="12079" area="59" title="Near Harad" environment="28">
+      <coord x="35" y="-13" z="0" />
+      <exit direction="northeast" target="12085"/>
+      <exit direction="west" target="12077"/>
+      <exit direction="northwest" target="12076"/>
+      <exit direction="north" target="12078"/>
+      <exit direction="east" target="12084"/>
+   </room>
+   <room id="14938" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="11" z="0" />
+      <exit direction="north" target="14932"/>
+      <exit direction="northwest" target="14935"/>
+      <exit direction="southwest" target="14939"/>
+      <exit direction="west" target="14937"/>
+      <exit direction="southeast" target="14940"/>
+   </room>
+   <room id="15450" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="30" y="-1" z="0" />
+      <exit direction="west" target="12002"/>
+      <exit direction="south" target="15449"/>
+      <exit direction="southwest" target="12005"/>
+      <exit direction="northwest" target="11999"/>
+   </room>
+   <room id="3742" area="59" title="In Gondor" environment="45">
+      <coord x="3" y="-1" z="0" />
+      <exit direction="east" target="3739"/>
+      <exit direction="north" target="3743"/>
+      <exit direction="south" target="18441"/>
+      <exit direction="northwest" target="3745"/>
+      <exit direction="southeast" target="18440"/>
+      <exit direction="northeast" target="3740"/>
+   </room>
+   <room id="15091" area="59" title="Rhun" environment="21">
+      <coord x="55" y="14" z="0" />
+      <exit direction="west" target="14276"/>
+      <exit direction="north" target="15090"/>
+      <exit direction="south" target="15092"/>
+      <exit direction="southwest" target="14275"/>
+      <exit direction="northwest" target="14274"/>
+   </room>
+   <room id="14517" area="59" title="On a road" environment="50">
+      <coord x="21" y="3" z="0" />
+      <exit direction="east" target="14515"/>
+      <exit direction="west" target="14519"/>
+      <exit direction="north" target="14518"/>
+      <exit direction="northwest" target="14520"/>
+      <exit direction="northeast" target="14516"/>
+   </room>
+   <room id="14527" area="59" title="On a road" environment="50">
+      <coord x="17" y="4" z="0" />
+      <exit direction="east" target="14525"/>
+      <exit direction="west" target="14528"/>
+      <exit direction="north" target="14526"/>
+      <exit direction="northwest" target="14529"/>
+      <exit direction="southeast" target="14524"/>
+      <exit direction="northeast" target="14523"/>
+   </room>
+   <room id="15467" area="59" title="In South-Gondor" environment="2">
+      <coord x="33" y="-8" z="0" />
+      <exit direction="west" target="15469"/>
+      <exit direction="north" target="15471"/>
+      <exit direction="south" target="15465"/>
+      <exit direction="southwest" target="15466"/>
+      <exit direction="northwest" target="15473"/>
+      <exit direction="northeast" target="15475"/>
+   </room>
+   <room id="3759" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="5" z="0" />
+      <exit direction="east" target="3761"/>
+      <exit direction="west" target="3760"/>
+      <exit direction="north" target="3766"/>
+      <exit direction="south" target="3756"/>
+      <exit direction="southwest" target="3763"/>
+      <exit direction="northwest" target="3764"/>
+      <exit direction="southeast" target="3753"/>
+   </room>
+   <room id="15845" area="59" title="Enedwaith" environment="16">
+      <coord x="-1" y="12" z="0" />
+      <exit direction="east" target="15842"/>
+      <exit direction="west" target="14936"/>
+      <exit direction="north" target="14930"/>
+      <exit direction="south" target="15844"/>
+      <exit direction="southwest" target="15847"/>
+      <exit direction="southeast" target="15841"/>
+      <exit direction="northeast" target="20468"/>
+   </room>
+   <room id="3738" area="59" title="In Gondor" environment="45">
+      <coord x="4" y="1" z="0" />
+      <exit direction="east" target="3735"/>
+      <exit direction="west" target="3741"/>
+      <exit direction="north" target="3747"/>
+      <exit direction="south" target="3740"/>
+      <exit direction="southwest" target="3743"/>
+      <exit direction="northwest" target="3746"/>
+      <exit direction="southeast" target="3737"/>
+      <exit direction="northeast" target="3752"/>
+   </room>
+   <room id="14963" area="59" title="In the forest Eryn Vorn" environment="32">
+      <coord x="-9" y="14" z="0" />
+      <exit direction="east" target="14961"/>
+      <exit direction="north" target="14962"/>
+      <exit direction="south" target="18454"/>
+      <exit direction="northwest" target="18455"/>
+      <exit direction="southeast" target="18453"/>
+      <exit direction="northeast" target="14959"/>
+   </room>
+   <room id="15469" area="59" title="In South-Gondor" environment="2">
+      <coord x="32" y="-8" z="0" />
+      <exit direction="east" target="15467"/>
+      <exit direction="west" target="15468"/>
+      <exit direction="north" target="15473"/>
+      <exit direction="south" target="15466"/>
+      <exit direction="southwest" target="15460"/>
+      <exit direction="northwest" target="15472"/>
+      <exit direction="southeast" target="15465"/>
+      <exit direction="northeast" target="15471"/>
+   </room>
+   <room id="12005" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="29" y="-2" z="0" />
+      <exit direction="east" target="15449"/>
+      <exit direction="west" target="12006"/>
+      <exit direction="north" target="12002"/>
+      <exit direction="south" target="12008"/>
+      <exit direction="southwest" target="12009"/>
+      <exit direction="northwest" target="12003"/>
+      <exit direction="southeast" target="15451"/>
+      <exit direction="northeast" target="15450"/>
+   </room>
+   <room id="14945" area="59" title="On a sea shore" environment="14">
+      <coord x="-6" y="12" z="0" />
+      <exit direction="northeast" target="14948"/>
+      <exit direction="north" target="14949"/>
+      <exit direction="southeast" target="14941"/>
+      <exit direction="south" target="14944"/>
+      <exit direction="east" target="14942"/>
+   </room>
+   <room id="15874" area="59" title="In Gondor" environment="45">
+      <coord x="-1" y="2" z="0" />
+      <exit direction="west" target="15873"/>
+      <exit direction="north" target="15872"/>
+      <exit direction="southwest" target="15875"/>
+      <exit direction="northwest" target="15871"/>
+      <exit direction="northeast" target="3762"/>
+   </room>
+   <room id="12065" area="59" title="Near Harad" environment="28">
+      <coord x="28" y="-13" z="0" />
+      <exit direction="northeast" target="12066"/>
+      <exit direction="west" target="12063"/>
+      <exit direction="northwest" target="12062"/>
+      <exit direction="north" target="12064"/>
+      <exit direction="east" target="12067"/>
+   </room>
+   <room id="3720" area="59" title="On a sea shore" environment="14">
+      <coord x="11" y="0" z="0" />
+      <exit direction="east" target="3717"/>
+      <exit direction="west" target="3723"/>
+      <exit direction="north" target="3721"/>
+      <exit direction="northwest" target="3722"/>
+      <exit direction="northeast" target="3716"/>
+   </room>
+   <room id="12105" area="59" title="Near Harad" environment="28">
+      <coord x="43" y="-13" z="0" />
+      <exit direction="northeast" target="12106"/>
+      <exit direction="west" target="12102"/>
+      <exit direction="northwest" target="12103"/>
+      <exit direction="north" target="12104"/>
+      <exit direction="east" target="12107"/>
+   </room>
+   <room id="15133" area="59" title="Brown Lands" environment="40">
+      <coord x="41" y="6" z="0" />
+      <exit direction="east" target="15130"/>
+      <exit direction="west" target="15136"/>
+      <exit direction="north" target="15131"/>
+      <exit direction="northwest" target="15134"/>
+      <exit direction="northeast" target="15128"/>
+   </room>
+   <room id="12029" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="29" y="-10" z="0" />
+      <exit direction="east" target="15459"/>
+      <exit direction="west" target="12030"/>
+      <exit direction="north" target="12026"/>
+      <exit direction="south" target="12032"/>
+      <exit direction="southwest" target="12033"/>
+      <exit direction="northwest" target="12027"/>
+      <exit direction="southeast" target="15458"/>
+      <exit direction="northeast" target="15457"/>
+   </room>
+   <room id="15713" area="59" title="In South-Gondor" environment="2">
+      <coord x="23" y="-6" z="0" />
+      <exit direction="northeast" target="15714"/>
+      <exit direction="southeast" target="15715"/>
+      <exit direction="west" target="15710"/>
+      <exit direction="north" target="14483"/>
+      <exit direction="southwest" target="15707"/>
+      <exit direction="south" target="15712"/>
+      <exit direction="east" target="15716"/>
+   </room>
+   <room id="11996" area="59" title="On a road" environment="50">
+      <coord x="29" y="1" z="0" />
+      <exit direction="west" target="11997"/>
+      <exit direction="north" target="11995"/>
+      <exit direction="south" target="11999"/>
+      <exit direction="southwest" target="12000"/>
+      <exit direction="northwest" target="7385"/>
+      <exit direction="northeast" target="15300"/>
+   </room>
+   <room id="12007" area="59" title="On a road" environment="50">
+      <coord x="27" y="-3" z="0" />
+      <exit direction="northeast" target="12006"/>
+      <exit direction="southwest" target="15551"/>
+      <exit direction="north" target="12004"/>
+      <exit direction="southeast" target="12012"/>
+      <exit direction="south" target="12010"/>
+      <exit direction="east" target="12009"/>
+   </room>
+   <room id="14930" area="59" title="Enedwaith" environment="16">
+      <coord x="-1" y="13" z="0" />
+      <exit direction="east" target="20468"/>
+      <exit direction="south" target="15845"/>
+      <exit direction="southwest" target="14936"/>
+      <exit direction="southeast" target="15842"/>
+   </room>
+   <room id="9351" area="59" title="On a road" environment="50">
+      <coord x="29" y="3" z="0" />
+      <exit direction="west" target="9350"/>
+      <exit direction="north" target="9345"/>
+      <exit direction="south" target="11995"/>
+      <exit direction="southwest" target="7385"/>
+      <exit direction="northwest" target="9344"/>
+      <exit direction="southeast" target="15300"/>
+   </room>
+   <room id="3757" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="2" z="0" />
+      <exit direction="east" target="3755"/>
+      <exit direction="north" target="3758"/>
+      <exit direction="south" target="3778"/>
+      <exit direction="northwest" target="3762"/>
+      <exit direction="southeast" target="3744"/>
+      <exit direction="northeast" target="3754"/>
+   </room>
+   <room id="15870" area="59" title="Enedwaith" environment="16">
+      <coord x="4" y="8" z="0" />
+      <exit direction="northeast" target="14789"/>
+      <exit direction="southeast" target="18372"/>
+      <exit direction="north" target="18282"/>
+      <exit direction="west" target="15864"/>
+      <exit direction="northwest" target="18371"/>
+      <exit direction="southwest" target="15866"/>
+      <exit direction="south" target="15867"/>
+      <exit direction="east" target="15869"/>
+   </room>
+   <room id="15856" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="6" z="0" />
+      <exit direction="east" target="3768"/>
+      <exit direction="north" target="15853"/>
+      <exit direction="northeast" target="15855"/>
+   </room>
+   <room id="19663" area="59" title="On a sea shore" environment="14">
+      <coord x="-15" y="23" z="0" />
+      <exit direction="west" target="19659"/>
+      <exit direction="north" target="19662"/>
+      <exit direction="northwest" target="19661"/>
+      <exit direction="northeast" target="19664"/>
+   </room>
+   <room id="15865" area="59" title="Enedwaith" environment="16">
+      <coord x="3" y="6" z="0" />
+      <exit direction="northeast" target="15867"/>
+      <exit direction="west" target="15863"/>
+      <exit direction="northwest" target="3771"/>
+      <exit direction="north" target="15866"/>
+      <exit direction="east" target="15868"/>
+   </room>
+   <room id="3776" area="59" title="In Gondor" environment="45">
+      <coord x="7" y="2" z="0" />
+      <exit direction="west" target="3777"/>
+      <exit direction="north" target="3782"/>
+      <exit direction="south" target="3729"/>
+      <exit direction="southwest" target="3732"/>
+      <exit direction="northwest" target="3781"/>
+      <exit direction="southeast" target="3727"/>
+   </room>
+   <room id="19702" area="59" title="On a sea shore" environment="14">
+      <coord x="-14" y="16" z="0" />
+      <exit direction="east" target="19704"/>
+      <exit direction="west" target="19698"/>
+      <exit direction="north" target="19701"/>
+      <exit direction="northwest" target="19700"/>
+      <exit direction="northeast" target="19703"/>
+   </room>
+   <room id="18442" area="59" title="On a sea shore" environment="14">
+      <coord x="3" y="-3" z="0" />
+      <exit direction="north" target="18441"/>
+      <exit direction="northeast" target="18440"/>
+   </room>
+   <room id="3725" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="9" y="0" z="0" />
+      <exit direction="east" target="3723"/>
+      <exit direction="west" target="3728"/>
+      <exit direction="north" target="3724"/>
+      <exit direction="south" target="3726"/>
+      <exit direction="northwest" target="3727"/>
+      <exit direction="northeast" target="3722"/>
+   </room>
+   <room id="18443" area="59" title="On a sea shore" environment="14">
+      <coord x="-1" y="-2" z="0" />
+      <exit direction="east" target="18445"/>
+      <exit direction="west" target="18446"/>
+      <exit direction="northeast" target="15556"/>
+   </room>
+   <room id="12044" area="59" title="On a sea shore" environment="14">
+      <coord x="21" y="-11" z="0" />
+      <exit direction="northeast" target="12043"/>
+      <exit direction="northwest" target="12046"/>
+      <exit direction="north" target="12045"/>
+      <exit direction="southwest" target="12047"/>
+      <exit direction="east" target="12042"/>
+   </room>
+   <room id="3673" area="59" title="In Anorien" environment="25">
+      <coord x="27" y="3" z="0" />
+      <exit direction="south" target="3671"/>
+      <exit direction="northeast" target="9344"/>
+      <exit direction="southwest" target="3669"/>
+      <exit direction="west" target="3670"/>
+   </room>
+   <room id="15875" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="1" z="0" />
+      <exit direction="north" target="15873"/>
+      <exit direction="south" target="18452"/>
+      <exit direction="northeast" target="15874"/>
+   </room>
+   <room id="15861" area="59" title="Enedwaith" environment="16">
+      <coord x="1" y="7" z="0" />
+      <exit direction="northeast" target="15862"/>
+      <exit direction="southeast" target="15863"/>
+      <exit direction="west" target="15858"/>
+      <exit direction="northwest" target="15859"/>
+      <exit direction="north" target="15860"/>
+      <exit direction="east" target="3771"/>
+   </room>
+   <room id="12067" area="59" title="Near Harad" environment="28">
+      <coord x="29" y="-13" z="0" />
+      <exit direction="northeast" target="12068"/>
+      <exit direction="west" target="12065"/>
+      <exit direction="northwest" target="12064"/>
+      <exit direction="north" target="12066"/>
+      <exit direction="east" target="12069"/>
+   </room>
+   <room id="14953" area="59" title="On a sea shore" environment="14">
+      <coord x="-7" y="14" z="0" />
+      <exit direction="east" target="14950"/>
+      <exit direction="west" target="14961"/>
+      <exit direction="north" target="14954"/>
+      <exit direction="southwest" target="18453"/>
+      <exit direction="northwest" target="14959"/>
+      <exit direction="southeast" target="14949"/>
+      <exit direction="northeast" target="14955"/>
+   </room>
+   <room id="18924" area="59" title="Enedwaith" environment="16">
+      <coord x="0" y="14" z="0" />
+      <exit direction="east" target="20821"/>
+      <exit direction="south" target="20468"/>
+      <exit direction="southwest" target="14930"/>
+      <exit direction="southeast" target="20469"/>
+   </room>
+   <room id="11997" area="59" title="At the hills of Nurn" environment="32">
+      <coord x="28" y="1" z="0" />
+      <exit direction="northeast" target="11995"/>
+      <exit direction="southwest" target="11998"/>
+      <exit direction="north" target="7385"/>
+      <exit direction="southeast" target="11999"/>
+      <exit direction="south" target="12000"/>
+      <exit direction="east" target="11996"/>
+   </room>
+   <room id="14521" area="59" title="On a road" environment="50">
+      <coord x="19" y="3" z="0" />
+      <exit direction="east" target="14519"/>
+      <exit direction="west" target="14524"/>
+      <exit direction="north" target="14522"/>
+      <exit direction="northwest" target="14525"/>
+      <exit direction="northeast" target="14520"/>
+   </room>
+   <room id="12019" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="27" y="-7" z="0" />
+      <exit direction="east" target="12021"/>
+      <exit direction="west" target="15453"/>
+      <exit direction="north" target="12016"/>
+      <exit direction="south" target="12022"/>
+      <exit direction="southwest" target="15455"/>
+      <exit direction="northwest" target="15454"/>
+      <exit direction="southeast" target="12024"/>
+      <exit direction="northeast" target="12017"/>
+   </room>
+   <room id="19777" area="59" title="Khand" environment="40">
+      <coord x="55" y="-13" z="0" />
+      <exit direction="west" target="19775"/>
+      <exit direction="north" target="19776"/>
+      <exit direction="northwest" target="19774"/>
+   </room>
+   <room id="12053" area="59" title="Near Harad" environment="28">
+      <coord x="22" y="-13" z="0" />
+      <exit direction="northeast" target="12054"/>
+      <exit direction="west" target="12049"/>
+      <exit direction="northwest" target="12051"/>
+      <exit direction="north" target="12052"/>
+      <exit direction="east" target="12055"/>
+   </room>
+   <room id="19776" area="59" title="Khand" environment="40">
+      <coord x="55" y="-12" z="0" />
+      <exit direction="southwest" target="19775"/>
+      <exit direction="west" target="19774"/>
+      <exit direction="north" target="19778"/>
+      <exit direction="northwest" target="19779"/>
+      <exit direction="south" target="19777"/>
+   </room>
+   <room id="15867" area="59" title="Enedwaith" environment="16">
+      <coord x="4" y="7" z="0" />
+      <exit direction="northeast" target="15869"/>
+      <exit direction="southwest" target="15865"/>
+      <exit direction="west" target="15866"/>
+      <exit direction="northwest" target="15864"/>
+      <exit direction="north" target="15870"/>
+      <exit direction="south" target="15868"/>
+   </room>
+   <room id="19771" area="59" title="Khand" environment="40">
+      <coord x="52" y="-13" z="0" />
+      <exit direction="northeast" target="19772"/>
+      <exit direction="west" target="19769"/>
+      <exit direction="northwest" target="19768"/>
+      <exit direction="north" target="19770"/>
+      <exit direction="east" target="19773"/>
+   </room>
+   <room id="19677" area="59" title="Eriador" environment="52">
+      <coord x="-14" y="21" z="0" />
+      <exit direction="west" target="19679"/>
+      <exit direction="south" target="19678"/>
+      <exit direction="southwest" target="19680"/>
+      <exit direction="northeast" target="19676"/>
+   </room>
+   <room id="15092" area="59" title="Rhun" environment="21">
+      <coord x="55" y="13" z="0" />
+      <exit direction="west" target="14275"/>
+      <exit direction="north" target="15091"/>
+      <exit direction="south" target="15093"/>
+      <exit direction="southwest" target="14395"/>
+      <exit direction="northwest" target="14276"/>
+   </room>
+   <room id="20468" area="59" title="Enedwaith" environment="16">
+      <coord x="0" y="13" z="0" />
+      <exit direction="east" target="20469"/>
+      <exit direction="west" target="14930"/>
+      <exit direction="north" target="18924"/>
+      <exit direction="south" target="15842"/>
+      <exit direction="southwest" target="15845"/>
+      <exit direction="southeast" target="15839"/>
+      <exit direction="northeast" target="20821"/>
+   </room>
+   <room id="12099" area="59" title="Near Harad" environment="28">
+      <coord x="41" y="-13" z="0" />
+      <exit direction="northeast" target="12103"/>
+      <exit direction="west" target="12096"/>
+      <exit direction="northwest" target="12097"/>
+      <exit direction="north" target="12100"/>
+      <exit direction="east" target="12102"/>
+   </room>
+   <room id="15475" area="59" title="In South-Gondor" environment="2">
+      <coord x="34" y="-7" z="0" />
+      <exit direction="west" target="15471"/>
+      <exit direction="southwest" target="15467"/>
+   </room>
+   <room id="19679" area="59" title="On a sea shore" environment="14">
+      <coord x="-15" y="21" z="0" />
+      <exit direction="east" target="19677"/>
+      <exit direction="west" target="19682"/>
+      <exit direction="south" target="19680"/>
+      <exit direction="southwest" target="19681"/>
+      <exit direction="southeast" target="19678"/>
+   </room>
+   <room id="14946" area="59" title="On a sea shore" environment="14">
+      <coord x="-6" y="10" z="0" />
+      <exit direction="northeast" target="14941"/>
+      <exit direction="southeast" target="14947"/>
+      <exit direction="north" target="14944"/>
+      <exit direction="east" target="14943"/>
+   </room>
+   <room id="19698" area="59" title="On a sea shore" environment="14">
+      <coord x="-15" y="16" z="0" />
+      <exit direction="east" target="19702"/>
+      <exit direction="west" target="19699"/>
+      <exit direction="north" target="19700"/>
+      <exit direction="northwest" target="19695"/>
+      <exit direction="northeast" target="19701"/>
+   </room>
+   <room id="18449" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="-1" z="0" />
+      <exit direction="south" target="18447"/>
+      <exit direction="southeast" target="18446"/>
+      <exit direction="northeast" target="18452"/>
+   </room>
+   <room id="3732" area="59" title="In Gondor" environment="45">
+      <coord x="6" y="1" z="0" />
+      <exit direction="east" target="3729"/>
+      <exit direction="west" target="3735"/>
+      <exit direction="north" target="3777"/>
+      <exit direction="south" target="3733"/>
+      <exit direction="southwest" target="3737"/>
+      <exit direction="northwest" target="3752"/>
+      <exit direction="southeast" target="3730"/>
+      <exit direction="northeast" target="3776"/>
+   </room>
+   <room id="12077" area="59" title="Near Harad" environment="28">
+      <coord x="34" y="-13" z="0" />
+      <exit direction="northeast" target="12078"/>
+      <exit direction="west" target="12075"/>
+      <exit direction="northwest" target="12074"/>
+      <exit direction="north" target="12076"/>
+      <exit direction="east" target="12079"/>
+   </room>
+   <room id="15853" area="59" title="On a sea shore" environment="14">
+      <coord x="-3" y="7" z="0" />
+      <exit direction="east" target="15855"/>
+      <exit direction="north" target="15850"/>
+      <exit direction="south" target="15856"/>
+      <exit direction="southeast" target="3768"/>
+      <exit direction="northeast" target="15852"/>
+   </room>
+   <room id="15282" area="59" title="Brown Lands" environment="40">
+      <coord x="38" y="6" z="0" />
+      <exit direction="east" target="15280"/>
+      <exit direction="west" target="15284"/>
+      <exit direction="north" target="15283"/>
+      <exit direction="northwest" target="15285"/>
+      <exit direction="northeast" target="15281"/>
+   </room>
+   <room id="15869" area="59" title="Enedwaith" environment="16">
+      <coord x="5" y="8" z="0" />
+      <exit direction="northeast" target="14555"/>
+      <exit direction="southwest" target="15867"/>
+      <exit direction="west" target="15870"/>
+      <exit direction="northwest" target="18282"/>
+      <exit direction="north" target="14789"/>
+      <exit direction="east" target="14554"/>
+   </room>
+   <room id="14511" area="59" title="On a road" environment="50">
+      <coord x="24" y="3" z="0" />
+      <exit direction="east" target="3672"/>
+      <exit direction="west" target="14513"/>
+      <exit direction="north" target="14512"/>
+      <exit direction="northwest" target="14514"/>
+   </room>
+   <room id="15872" area="59" title="In Gondor" environment="45">
+      <coord x="-1" y="3" z="0" />
+      <exit direction="east" target="3762"/>
+      <exit direction="west" target="15871"/>
+      <exit direction="north" target="3767"/>
+      <exit direction="south" target="15874"/>
+      <exit direction="southwest" target="15873"/>
+      <exit direction="northwest" target="3769"/>
+      <exit direction="northeast" target="3763"/>
+   </room>
+   <room id="3731" area="59" title="On a sea shore" environment="14">
+      <coord x="7" y="-1" z="0" />
+      <exit direction="west" target="3734"/>
+      <exit direction="north" target="3730"/>
+      <exit direction="northwest" target="3733"/>
+      <exit direction="northeast" target="3728"/>
+   </room>
+   <room id="18454" area="59" title="In the forest Eryn Vorn" environment="32">
+      <coord x="-9" y="13" z="0" />
+      <exit direction="east" target="18453"/>
+      <exit direction="north" target="14963"/>
+      <exit direction="south" target="18457"/>
+      <exit direction="southeast" target="18456"/>
+      <exit direction="northeast" target="14961"/>
+   </room>
+
+   <room id="18445" area="59" title="On a sea shore" environment="14">
+      <coord x="0" y="-2" z="0" />
+      <exit direction="east" target="18444"/>
+      <exit direction="west" target="18443"/>
+      <exit direction="north" target="15556"/>
+      <exit direction="northeast" target="15555"/>
+   </room>
+   <room id="15107" area="59" title="Rhun" environment="21">
+      <coord x="51" y="7" z="0" />
+      <exit direction="east" target="15105"/>
+      <exit direction="west" target="15109"/>
+      <exit direction="north" target="15108"/>
+      <exit direction="northwest" target="15110"/>
+      <exit direction="northeast" target="15106"/>
+   </room>
+   <room id="12057" area="59" title="Near Harad" environment="28">
+      <coord x="24" y="-13" z="0" />
+      <exit direction="northeast" target="12058"/>
+      <exit direction="west" target="12055"/>
+      <exit direction="northwest" target="12054"/>
+      <exit direction="north" target="12056"/>
+      <exit direction="east" target="12059"/>
+   </room>
+   <room id="3775" area="59" title="In Gondor" environment="45">
+      <coord x="10" y="3" z="0" />
+      <exit direction="east" target="18413"/>
+      <exit direction="west" target="3774"/>
+      <exit direction="south" target="3772"/>
+      <exit direction="southwest" target="3773"/>
+      <exit direction="southeast" target="3718"/>
+   </room>
+   <room id="14961" area="59" title="Minhiriath" environment="66">
+      <coord x="-8" y="14" z="0" />
+      <exit direction="east" target="14953"/>
+      <exit direction="west" target="14963"/>
+      <exit direction="north" target="14959"/>
+      <exit direction="south" target="18453"/>
+      <exit direction="southwest" target="18454"/>
+      <exit direction="northwest" target="14962"/>
+      <exit direction="northeast" target="14954"/>
+   </room>
+   <room id="12046" area="59" title="On a sea shore" environment="14">
+      <coord x="20" y="-10" z="0" />
+      <exit direction="northeast" target="15703"/>
+      <exit direction="southeast" target="12044"/>
+      <exit direction="north" target="15702"/>
+      <exit direction="east" target="12045"/>
+   </room>
+   <room id="12001" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="27" y="-1" z="0" />
+      <exit direction="northeast" target="12000"/>
+      <exit direction="north" target="11998"/>
+      <exit direction="southeast" target="12006"/>
+      <exit direction="south" target="12004"/>
+      <exit direction="east" target="12003"/>
+   </room>
+   <room id="14519" area="59" title="On a road" environment="50">
+      <coord x="20" y="3" z="0" />
+      <exit direction="east" target="14517"/>
+      <exit direction="west" target="14521"/>
+      <exit direction="north" target="14520"/>
+      <exit direction="northwest" target="14522"/>
+      <exit direction="northeast" target="14518"/>
+   </room>
+   <room id="14947" area="59" title="On a sea shore" environment="14">
+      <coord x="-5" y="9" z="0" />
+      <exit direction="northeast" target="14939"/>
+      <exit direction="northwest" target="14946"/>
+      <exit direction="north" target="14943"/>
+   </room>
+   <room id="14552" area="59" title="Enedwaith" environment="16">
+      <coord x="7" y="8" z="0" />
+      <exit direction="east" target="14550"/>
+      <exit direction="west" target="14554"/>
+      <exit direction="north" target="14553"/>
+      <exit direction="northwest" target="14555"/>
+      <exit direction="northeast" target="14551"/>
+   </room>
+   <room id="12059" area="59" title="Near Harad" environment="28">
+      <coord x="25" y="-13" z="0" />
+      <exit direction="northeast" target="12060"/>
+      <exit direction="west" target="12057"/>
+      <exit direction="northwest" target="12056"/>
+      <exit direction="north" target="12058"/>
+      <exit direction="east" target="12061"/>
+   </room>
+   <room id="15718" area="59" title="In South-Gondor" environment="2">
+      <coord x="25" y="-6" z="0" />
+      <exit direction="southwest" target="15715"/>
+      <exit direction="northwest" target="15714"/>
+      <exit direction="southeast" target="15453"/>
+      <exit direction="west" target="15716"/>
+      <exit direction="south" target="15717"/>
+      <exit direction="east" target="15454"/>
+   </room>
+   <room id="3736" area="59" title="On a sea shore" environment="14">
+      <coord x="5" y="-1" z="0" />
+      <exit direction="east" target="3734"/>
+      <exit direction="west" target="3739"/>
+      <exit direction="north" target="3737"/>
+      <exit direction="southwest" target="18440"/>
+      <exit direction="northwest" target="3740"/>
+      <exit direction="northeast" target="3733"/>
+   </room>
+   <room id="15292" area="59" title="On a road" environment="50">
+      <coord x="33" y="6" z="0" />
+      <exit direction="east" target="15290"/>
+      <exit direction="west" target="12520"/>
+      <exit direction="north" target="14204"/>
+      <exit direction="northwest" target="12521"/>
+      <exit direction="northeast" target="15291"/>
+   </room>
+   <room id="3781" area="59" title="In Gondor" environment="45">
+      <coord x="6" y="3" z="0" />
+      <exit direction="east" target="3782"/>
+      <exit direction="west" target="3749"/>
+      <exit direction="south" target="3777"/>
+      <exit direction="southwest" target="3752"/>
+      <exit direction="southeast" target="3776"/>
+   </room>
+   <room id="12030" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="28" y="-10" z="0" />
+      <exit direction="east" target="12029"/>
+      <exit direction="west" target="12028"/>
+      <exit direction="north" target="12027"/>
+      <exit direction="south" target="12033"/>
+      <exit direction="southwest" target="12031"/>
+      <exit direction="northwest" target="12025"/>
+      <exit direction="southeast" target="12032"/>
+      <exit direction="northeast" target="12026"/>
+   </room>
+   <room id="3727" area="59" title="In Gondor" environment="45">
+      <coord x="8" y="1" z="0" />
+      <exit direction="east" target="3724"/>
+      <exit direction="west" target="3729"/>
+      <exit direction="south" target="3728"/>
+      <exit direction="southwest" target="3730"/>
+      <exit direction="northwest" target="3776"/>
+      <exit direction="southeast" target="3725"/>
+      <exit direction="northeast" target="3773"/>
+   </room>
+   <room id="14940" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="10" z="0" />
+      <exit direction="east" target="15846"/>
+      <exit direction="north" target="15847"/>
+      <exit direction="south" target="15849"/>
+      <exit direction="northwest" target="14938"/>
+      <exit direction="southeast" target="15848"/>
+      <exit direction="northeast" target="15844"/>
+   </room>
+   <room id="14553" area="59" title="On a road" environment="50">
+      <coord x="7" y="9" z="0" />
+      <exit direction="east" target="14551"/>
+      <exit direction="west" target="14555"/>
+      <exit direction="north" target="14558"/>
+      <exit direction="south" target="14552"/>
+      <exit direction="southwest" target="14554"/>
+      <exit direction="northwest" target="14557"/>
+      <exit direction="southeast" target="14550"/>
+      <exit direction="northeast" target="14556"/>
+   </room>
+   <room id="15288" area="59" title="On a road" environment="50">
+      <coord x="35" y="6" z="0" />
+      <exit direction="east" target="15286"/>
+      <exit direction="west" target="15290"/>
+      <exit direction="north" target="15289"/>
+      <exit direction="northwest" target="15291"/>
+      <exit direction="northeast" target="15287"/>
+   </room>
+   <room id="14534" area="59" title="On a road" environment="50">
+      <coord x="13" y="6" z="0" />
+      <exit direction="east" target="14532"/>
+      <exit direction="north" target="14536"/>
+      <exit direction="northwest" target="14538"/>
+      <exit direction="southeast" target="14531"/>
+      <exit direction="northeast" target="14537"/>
+   </room>
+   <room id="12021" area="59" title="In South-Gondor" environment="2">
+      <coord x="28" y="-7" z="0" />
+      <exit direction="east" target="12020"/>
+      <exit direction="west" target="12019"/>
+      <exit direction="north" target="12017"/>
+      <exit direction="south" target="12024"/>
+      <exit direction="southwest" target="12022"/>
+      <exit direction="northwest" target="12016"/>
+      <exit direction="southeast" target="12023"/>
+      <exit direction="northeast" target="12015"/>
+   </room>
+   <room id="15476" area="59" title="In South-Gondor" environment="2">
+      <coord x="30" y="-6" z="0" />
+      <exit direction="west" target="12015"/>
+      <exit direction="north" target="18178"/>
+      <exit direction="south" target="15478"/>
+      <exit direction="southwest" target="12020"/>
+      <exit direction="northwest" target="12018"/>
+      <exit direction="southeast" target="15472"/>
+   </room>
+   <room id="15113" area="59" title="Rhun" environment="21">
+      <coord x="48" y="7" z="0" />
+      <exit direction="east" target="15111"/>
+      <exit direction="west" target="15115"/>
+      <exit direction="north" target="15114"/>
+      <exit direction="northwest" target="15116"/>
+      <exit direction="northeast" target="15112"/>
+   </room>
+   <room id="14531" area="59" title="At the ruins of Edoras" environment="51">
+      <coord x="14" y="5" z="0" />
+      <exit direction="east" target="14530"/>
+      <exit direction="north" target="14532"/>
+      <exit direction="northwest" target="14534"/>
+      <exit direction="northeast" target="14533"/>
+   </room>
+   <room id="3758" area="59" title="At the hills of Andrast" environment="32">
+      <coord x="1" y="3" z="0" />
+      <exit direction="east" target="3754"/>
+      <exit direction="west" target="3762"/>
+      <exit direction="north" target="3756"/>
+      <exit direction="south" target="3757"/>
+      <exit direction="northwest" target="3763"/>
+      <exit direction="southeast" target="3755"/>
+      <exit direction="northeast" target="3753"/>
+   </room>
+   <room id="15098" area="59" title="Rhun" environment="21">
+      <coord x="55" y="9" z="0" />
+      <exit direction="west" target="15097"/>
+      <exit direction="north" target="15096"/>
+      <exit direction="south" target="15100"/>
+      <exit direction="southwest" target="15099"/>
+      <exit direction="northwest" target="15095"/>
+   </room>
+   <room id="12017" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="28" y="-6" z="0" />
+      <exit direction="east" target="12015"/>
+      <exit direction="west" target="12016"/>
+      <exit direction="north" target="12014"/>
+      <exit direction="south" target="12021"/>
+      <exit direction="southwest" target="12019"/>
+      <exit direction="southeast" target="12020"/>
+      <exit direction="northeast" target="12018"/>
+   </room>
+   <room id="3762" area="59" title="In Gondor" environment="45">
+      <coord x="0" y="3" z="0" />
+      <exit direction="east" target="3758"/>
+      <exit direction="west" target="15872"/>
+      <exit direction="north" target="3763"/>
+      <exit direction="southwest" target="15874"/>
+      <exit direction="northwest" target="3767"/>
+      <exit direction="southeast" target="3757"/>
+      <exit direction="northeast" target="3756"/>
+   </room>
+   <room id="15119" area="59" title="Rhun" environment="21">
+      <coord x="45" y="7" z="0" />
+      <exit direction="east" target="15117"/>
+      <exit direction="west" target="15122"/>
+      <exit direction="north" target="15120"/>
+      <exit direction="south" target="15121"/>
+      <exit direction="southwest" target="15124"/>
+      <exit direction="northwest" target="15123"/>
+      <exit direction="northeast" target="15118"/>
+   </room>
+   <room id="3756" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="4" z="0" />
+      <exit direction="east" target="3753"/>
+      <exit direction="west" target="3763"/>
+      <exit direction="north" target="3759"/>
+      <exit direction="south" target="3758"/>
+      <exit direction="southwest" target="3762"/>
+      <exit direction="northwest" target="3760"/>
+      <exit direction="southeast" target="3754"/>
+      <exit direction="northeast" target="3761"/>
+   </room>
+   <room id="3728" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="8" y="0" z="0" />
+      <exit direction="east" target="3725"/>
+      <exit direction="west" target="3730"/>
+      <exit direction="north" target="3727"/>
+      <exit direction="southwest" target="3731"/>
+      <exit direction="northwest" target="3729"/>
+      <exit direction="southeast" target="3726"/>
+      <exit direction="northeast" target="3724"/>
+   </room>
+   <room id="15105" area="59" title="Rhun" environment="21">
+      <coord x="52" y="7" z="0" />
+      <exit direction="east" target="15103"/>
+      <exit direction="west" target="15107"/>
+      <exit direction="north" target="15106"/>
+      <exit direction="northwest" target="15108"/>
+      <exit direction="northeast" target="15104"/>
+   </room>
+   <room id="18456" area="59" title="In the forest Eryn Vorn" environment="32">
+      <coord x="-8" y="12" z="0" />
+      <exit direction="west" target="18457"/>
+      <exit direction="north" target="18453"/>
+      <exit direction="northwest" target="18454"/>
+   </room>
+   <room id="12018" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="29" y="-5" z="0" />
+      <exit direction="east" target="18178"/>
+      <exit direction="west" target="12014"/>
+      <exit direction="south" target="12015"/>
+      <exit direction="southwest" target="12017"/>
+      <exit direction="southeast" target="15476"/>
+   </room>
+   <room id="11999" area="59" title="On a road" environment="50">
+      <coord x="29" y="0" z="0" />
+      <exit direction="west" target="12000"/>
+      <exit direction="north" target="11996"/>
+      <exit direction="south" target="12002"/>
+      <exit direction="southwest" target="12003"/>
+      <exit direction="northwest" target="11997"/>
+      <exit direction="southeast" target="15450"/>
+   </room>
+   <room id="19795" area="59" title="Khand" environment="40">
+      <coord x="54" y="-3" z="0" />
+      <exit direction="southwest" target="20830"/>
+      <exit direction="southeast" target="19792"/>
+      <exit direction="west" target="20831"/>
+      <exit direction="south" target="19793"/>
+      <exit direction="east" target="19794"/>
+   </room>
+   <room id="18451" area="59" title="On a sea shore" environment="14">
+      <coord x="-5" y="-3" z="0" />
+      <exit direction="east" target="18450"/>
+   </room>
+   <room id="14394" area="59" title="Rhun" environment="21">
+      <coord x="55" y="17" z="0" />
+      <exit direction="west" target="14279"/>
+      <exit direction="north" target="14393"/>
+      <exit direction="south" target="15089"/>
+      <exit direction="southwest" target="14277"/>
+      <exit direction="northwest" target="14281"/>
+   </room>
+   <room id="15114" area="59" title="Rhun" environment="21">
+      <coord x="48" y="8" z="0" />
+      <exit direction="east" target="15112"/>
+      <exit direction="west" target="15116"/>
+      <exit direction="north" target="14739"/>
+      <exit direction="south" target="15113"/>
+      <exit direction="southwest" target="15115"/>
+      <exit direction="northwest" target="14737"/>
+      <exit direction="southeast" target="15111"/>
+      <exit direction="northeast" target="14741"/>
+   </room>
+   <room id="15705" area="59" title="On a sea shore" environment="14">
+      <coord x="20" y="-8" z="0" />
+      <exit direction="northeast" target="15709"/>
+      <exit direction="north" target="15708"/>
+      <exit direction="southeast" target="15703"/>
+      <exit direction="south" target="15702"/>
+      <exit direction="east" target="15706"/>
+   </room>
+   <room id="3749" area="59" title="In Gondor" environment="45">
+      <coord x="5" y="3" z="0" />
+      <exit direction="east" target="3781"/>
+      <exit direction="west" target="3748"/>
+      <exit direction="south" target="3752"/>
+      <exit direction="southwest" target="3747"/>
+      <exit direction="southeast" target="3777"/>
+   </room>
+   <room id="12012" area="59" title="At the fords of Poros, on north bank of Anduin" environment="50">
+      <coord x="28" y="-4" z="0" />
+      <exit direction="east" target="12011"/>
+      <exit direction="west" target="12010"/>
+      <exit direction="north" target="12009"/>
+      <exit direction="south" target="12014"/>
+      <exit direction="southwest" target="12013"/>
+      <exit direction="northwest" target="12007"/>
+      <exit direction="northeast" target="12008"/>
+   </room>
+   <room id="3774" area="59" title="In Gondor" environment="45">
+      <coord x="9" y="3" z="0" />
+      <exit direction="east" target="3775"/>
+      <exit direction="south" target="3773"/>
+      <exit direction="southeast" target="3772"/>
+   </room>
+   <room id="19781" area="59" title="Khand" environment="40">
+      <coord x="54" y="-10" z="0" />
+      <exit direction="northeast" target="19782"/>
+      <exit direction="southeast" target="19778"/>
+      <exit direction="north" target="19783"/>
+      <exit direction="west" target="20824"/>
+      <exit direction="northwest" target="20825"/>
+      <exit direction="southwest" target="20823"/>
+      <exit direction="south" target="19779"/>
+      <exit direction="east" target="19780"/>
+   </room>
+   <room id="12008" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="29" y="-3" z="0" />
+      <exit direction="east" target="15451"/>
+      <exit direction="west" target="12009"/>
+      <exit direction="north" target="12005"/>
+      <exit direction="south" target="12011"/>
+      <exit direction="southwest" target="12012"/>
+      <exit direction="northwest" target="12006"/>
+      <exit direction="southeast" target="15452"/>
+      <exit direction="northeast" target="15449"/>
+   </room>
+   <room id="15844" area="59" title="Enedwaith" environment="16">
+      <coord x="-1" y="11" z="0" />
+      <exit direction="east" target="15841"/>
+      <exit direction="west" target="15847"/>
+      <exit direction="north" target="15845"/>
+      <exit direction="south" target="15846"/>
+      <exit direction="southwest" target="14940"/>
+      <exit direction="northwest" target="14936"/>
+      <exit direction="southeast" target="15843"/>
+      <exit direction="northeast" target="15842"/>
+   </room>
+   <room id="14513" area="59" title="On a road" environment="50">
+      <coord x="23" y="3" z="0" />
+      <exit direction="east" target="14511"/>
+      <exit direction="west" target="14515"/>
+      <exit direction="north" target="14514"/>
+      <exit direction="northwest" target="14516"/>
+      <exit direction="northeast" target="14512"/>
+   </room>
+   <room id="15136" area="59" title="Brown Lands" environment="40">
+      <coord x="40" y="6" z="0" />
+      <exit direction="east" target="15133"/>
+      <exit direction="west" target="15280"/>
+      <exit direction="north" target="15134"/>
+      <exit direction="northwest" target="15281"/>
+      <exit direction="northeast" target="15131"/>
+   </room>
+   <room id="15111" area="59" title="Rhun" environment="21">
+      <coord x="49" y="7" z="0" />
+      <exit direction="east" target="15109"/>
+      <exit direction="west" target="15113"/>
+      <exit direction="north" target="15112"/>
+      <exit direction="northwest" target="15114"/>
+      <exit direction="northeast" target="15110"/>
+   </room>
+   <room id="15290" area="59" title="On a road" environment="50">
+      <coord x="34" y="6" z="0" />
+      <exit direction="east" target="15288"/>
+      <exit direction="west" target="15292"/>
+      <exit direction="north" target="15291"/>
+      <exit direction="northwest" target="14204"/>
+      <exit direction="northeast" target="15289"/>
+   </room>
+   <room id="15100" area="59" title="Rhun" environment="21">
+      <coord x="55" y="8" z="0" />
+      <exit direction="west" target="15099"/>
+      <exit direction="north" target="15098"/>
+      <exit direction="south" target="15102"/>
+      <exit direction="southwest" target="15101"/>
+      <exit direction="northwest" target="15097"/>
+   </room>
+   <room id="12000" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="28" y="0" z="0" />
+      <exit direction="northeast" target="11996"/>
+      <exit direction="southeast" target="12002"/>
+      <exit direction="west" target="11998"/>
+      <exit direction="north" target="11997"/>
+      <exit direction="southwest" target="12001"/>
+      <exit direction="south" target="12003"/>
+      <exit direction="east" target="11999"/>
+   </room>
+   <room id="15280" area="59" title="Brown Lands" environment="40">
+      <coord x="39" y="6" z="0" />
+      <exit direction="east" target="15136"/>
+      <exit direction="west" target="15282"/>
+      <exit direction="north" target="15281"/>
+      <exit direction="northwest" target="15283"/>
+      <exit direction="northeast" target="15134"/>
+   </room>
+   <room id="14530" area="59" title="On a road" environment="50">
+      <coord x="15" y="5" z="0" />
+      <exit direction="east" target="14529"/>
+      <exit direction="west" target="14531"/>
+      <exit direction="northwest" target="14532"/>
+      <exit direction="southeast" target="14528"/>
+   </room>
+   <room id="19707" area="59" title="On a sea shore" environment="14">
+      <coord x="-11" y="15" z="0" />
+      <exit direction="east" target="18455"/>
+      <exit direction="north" target="19708"/>
+      <exit direction="northwest" target="19705"/>
+      <exit direction="northeast" target="19709"/>
+   </room>
+   <room id="3747" area="59" title="In Gondor" environment="45">
+      <coord x="4" y="2" z="0" />
+      <exit direction="east" target="3752"/>
+      <exit direction="west" target="3746"/>
+      <exit direction="north" target="3748"/>
+      <exit direction="south" target="3738"/>
+      <exit direction="southwest" target="3741"/>
+      <exit direction="northwest" target="3751"/>
+      <exit direction="southeast" target="3735"/>
+      <exit direction="northeast" target="3749"/>
+   </room>
+   <room id="12063" area="59" title="Near Harad" environment="28">
+      <coord x="27" y="-13" z="0" />
+      <exit direction="northeast" target="12064"/>
+      <exit direction="west" target="12061"/>
+      <exit direction="northwest" target="12060"/>
+      <exit direction="north" target="12062"/>
+      <exit direction="east" target="12065"/>
+   </room>
+   <room id="19676" area="59" title="On a sea shore" environment="14">
+      <coord x="-13" y="22" z="0" />
+      <exit direction="east" target="19670"/>
+      <exit direction="southwest" target="19677"/>
+      <exit direction="southeast" target="19673"/>
+   </room>
+   <room id="18441" area="59" title="In Gondor" environment="45">
+      <coord x="3" y="-2" z="0" />
+      <exit direction="east" target="18440"/>
+      <exit direction="north" target="3742"/>
+      <exit direction="south" target="18442"/>
+      <exit direction="northeast" target="3739"/>
+   </room>
+   <room id="12061" area="59" title="Near Harad" environment="28">
+      <coord x="26" y="-13" z="0" />
+      <exit direction="northeast" target="12062"/>
+      <exit direction="west" target="12059"/>
+      <exit direction="northwest" target="12058"/>
+      <exit direction="north" target="12060"/>
+      <exit direction="east" target="12063"/>
+   </room>
+   <room id="14558" area="59" title="On a road" environment="50">
+      <coord x="7" y="10" z="0" />
+      <exit direction="east" target="14556"/>
+      <exit direction="west" target="14557"/>
+      <exit direction="north" target="14561"/>
+      <exit direction="south" target="14553"/>
+      <exit direction="southwest" target="14555"/>
+      <exit direction="northwest" target="14560"/>
+      <exit direction="southeast" target="14551"/>
+      <exit direction="northeast" target="14559"/>
+   </room>
+   <room id="3722" area="59" title="In Gondor" environment="45">
+      <coord x="10" y="1" z="0" />
+      <exit direction="east" target="3721"/>
+      <exit direction="west" target="3724"/>
+      <exit direction="north" target="3772"/>
+      <exit direction="south" target="3723"/>
+      <exit direction="southwest" target="3725"/>
+      <exit direction="northwest" target="3773"/>
+      <exit direction="southeast" target="3720"/>
+      <exit direction="northeast" target="3718"/>
+   </room>
+   <room id="3671" area="59" title="In West-Osgiliath near the bridge" environment="50">
+      <coord x="27" y="2" z="0" />
+      <exit direction="east" target="7385"/>
+      <exit direction="west" target="3669"/>
+      <exit direction="north" target="3673"/>
+      <exit direction="south" target="3676"/>
+      <exit direction="southwest" target="3675"/>
+      <exit direction="northwest" target="3670"/>
+   </room>
+   <room id="12084" area="59" title="Near Harad" environment="28">
+      <coord x="36" y="-13" z="0" />
+      <exit direction="northeast" target="12088"/>
+      <exit direction="west" target="12079"/>
+      <exit direction="northwest" target="12078"/>
+      <exit direction="north" target="12085"/>
+      <exit direction="east" target="12087"/>
+   </room>
+   <room id="15463" area="59" title="In South-Gondor" environment="2">
+      <coord x="32" y="-10" z="0" />
+      <exit direction="west" target="15462"/>
+      <exit direction="north" target="15466"/>
+      <exit direction="south" target="15464"/>
+      <exit direction="southwest" target="15461"/>
+      <exit direction="northwest" target="15460"/>
+      <exit direction="northeast" target="15465"/>
+   </room>
+   <room id="15101" area="59" title="Rhun" environment="21">
+      <coord x="54" y="7" z="0" />
+      <exit direction="east" target="15102"/>
+      <exit direction="west" target="15103"/>
+      <exit direction="north" target="15099"/>
+      <exit direction="northwest" target="15104"/>
+      <exit direction="northeast" target="15100"/>
+   </room>
+   <room id="12010" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="27" y="-4" z="0" />
+      <exit direction="northeast" target="12009"/>
+      <exit direction="southeast" target="12014"/>
+      <exit direction="west" target="15551"/>
+      <exit direction="north" target="12007"/>
+      <exit direction="southwest" target="15552"/>
+      <exit direction="south" target="12013"/>
+      <exit direction="east" target="12012"/>
+   </room>
+   <room id="14550" area="59" title="On a road" environment="50">
+      <coord x="8" y="8" z="0" />
+      <exit direction="east" target="14549"/>
+      <exit direction="west" target="14552"/>
+      <exit direction="north" target="14551"/>
+      <exit direction="northwest" target="14553"/>
+   </room>
+   <room id="14932" area="59" title="Minhiriath" environment="66">
+      <coord x="-3" y="12" z="0" />
+      <exit direction="northeast" target="14931"/>
+      <exit direction="southwest" target="14937"/>
+      <exit direction="west" target="14935"/>
+      <exit direction="northwest" target="14933"/>
+      <exit direction="north" target="14929"/>
+      <exit direction="south" target="14938"/>
+   </room>
+   <room id="3748" area="59" title="In Gondor" environment="45">
+      <coord x="4" y="3" z="0" />
+      <exit direction="east" target="3749"/>
+      <exit direction="west" target="3751"/>
+      <exit direction="south" target="3747"/>
+      <exit direction="southwest" target="3746"/>
+      <exit direction="northwest" target="3750"/>
+      <exit direction="southeast" target="3752"/>
+   </room>
+   <room id="18413" area="59" title="In Gondor" environment="45">
+      <coord x="11" y="3" z="0" />
+      <exit direction="east" target="20819"/>
+      <exit direction="west" target="3775"/>
+      <exit direction="south" target="3718"/>
+      <exit direction="southwest" target="3772"/>
+      <exit direction="southeast" target="3719"/>
+      <exit direction="northeast" target="20820"/>
+   </room>
+   <room id="12075" area="59" title="Near Harad" environment="28">
+      <coord x="33" y="-13" z="0" />
+      <exit direction="northeast" target="12076"/>
+      <exit direction="west" target="12073"/>
+      <exit direction="northwest" target="12072"/>
+      <exit direction="north" target="12074"/>
+      <exit direction="east" target="12077"/>
+   </room>
+   <room id="15857" area="59" title="Enedwaith" environment="16">
+      <coord x="-1" y="6" z="0" />
+      <exit direction="northeast" target="15858"/>
+      <exit direction="west" target="3768"/>
+      <exit direction="northwest" target="15855"/>
+      <exit direction="north" target="15854"/>
+   </room>
+   <room id="14554" area="59" title="Enedwaith" environment="16">
+      <coord x="6" y="8" z="0" />
+      <exit direction="northeast" target="14553"/>
+      <exit direction="west" target="15869"/>
+      <exit direction="northwest" target="14789"/>
+      <exit direction="north" target="14555"/>
+      <exit direction="east" target="14552"/>
+   </room>
+   <room id="3773" area="59" title="In Gondor" environment="45">
+      <coord x="9" y="2" z="0" />
+      <exit direction="east" target="3772"/>
+      <exit direction="north" target="3774"/>
+      <exit direction="south" target="3724"/>
+      <exit direction="southwest" target="3727"/>
+      <exit direction="southeast" target="3722"/>
+      <exit direction="northeast" target="3775"/>
+   </room>
+   <room id="14587" area="59" title="On a road" environment="50">
+      <coord x="5" y="15" z="0" />
+      <exit direction="east" target="14572"/>
+      <exit direction="west" target="14589"/>
+      <exit direction="north" target="14585"/>
+      <exit direction="south" target="14588"/>
+      <exit direction="southwest" target="14591"/>
+      <exit direction="northwest" target="14590"/>
+      <exit direction="southeast" target="14569"/>
+      <exit direction="northeast" target="14575"/>
+   </room>
+   <room id="15284" area="59" title="Brown Lands" environment="40">
+      <coord x="37" y="6" z="0" />
+      <exit direction="east" target="15282"/>
+      <exit direction="west" target="15286"/>
+      <exit direction="north" target="15285"/>
+      <exit direction="northwest" target="15287"/>
+      <exit direction="northeast" target="15283"/>
+   </room>
+   <room id="14538" area="59" title="On a road" environment="50">
+      <coord x="12" y="7" z="0" />
+      <exit direction="east" target="14536"/>
+      <exit direction="north" target="14540"/>
+      <exit direction="northwest" target="14542"/>
+      <exit direction="southeast" target="14534"/>
+      <exit direction="northeast" target="14541"/>
+   </room>
+   <room id="15478" area="59" title="In South-Gondor" environment="2">
+      <coord x="30" y="-7" z="0" />
+      <exit direction="east" target="15472"/>
+      <exit direction="west" target="12020"/>
+      <exit direction="north" target="15476"/>
+      <exit direction="south" target="15477"/>
+      <exit direction="southwest" target="12023"/>
+      <exit direction="northwest" target="12015"/>
+      <exit direction="southeast" target="15468"/>
+   </room>
+   <room id="14950" area="59" title="Minhiriath" environment="66">
+      <coord x="-6" y="14" z="0" />
+      <exit direction="east" target="14951"/>
+      <exit direction="west" target="14953"/>
+      <exit direction="north" target="14955"/>
+      <exit direction="south" target="14949"/>
+      <exit direction="northwest" target="14954"/>
+      <exit direction="southeast" target="14948"/>
+      <exit direction="northeast" target="14952"/>
+   </room>
+
+   <room id="14524" area="59" title="On a road" environment="50">
+      <coord x="18" y="3" z="0" />
+      <exit direction="east" target="14521"/>
+      <exit direction="north" target="14525"/>
+      <exit direction="northwest" target="14527"/>
+      <exit direction="northeast" target="14522"/>
+   </room>
+   <room id="14393" area="59" title="Rhun" environment="21">
+      <coord x="55" y="18" z="0" />
+      <exit direction="west" target="14281"/>
+      <exit direction="north" target="14392"/>
+      <exit direction="south" target="14394"/>
+      <exit direction="southwest" target="14279"/>
+      <exit direction="northwest" target="14283"/>
+   </room>
+   <room id="15118" area="59" title="Rhun" environment="21">
+      <coord x="46" y="8" z="0" />
+      <exit direction="east" target="15116"/>
+      <exit direction="west" target="15120"/>
+      <exit direction="north" target="14735"/>
+      <exit direction="south" target="15117"/>
+      <exit direction="southwest" target="15119"/>
+      <exit direction="northwest" target="14733"/>
+      <exit direction="southeast" target="15115"/>
+      <exit direction="northeast" target="14737"/>
+   </room>
+   <room id="12073" area="59" title="On a road going through the Near-Harad" environment="50">
+      <coord x="32" y="-13" z="0" />
+      <exit direction="northeast" target="12074"/>
+      <exit direction="west" target="12071"/>
+      <exit direction="northwest" target="12070"/>
+      <exit direction="north" target="12072"/>
+      <exit direction="east" target="12075"/>
+   </room>
+   <room id="14549" area="59" title="At the ford of Ironwell" environment="50">
+      <coord x="9" y="8" z="0" />
+      <exit direction="east" target="14546"/>
+      <exit direction="west" target="14550"/>
+      <exit direction="northwest" target="14551"/>
+   </room>
+   <room id="18453" area="59" title="In the forest Eryn Vorn" environment="32">
+      <coord x="-8" y="13" z="0" />
+      <exit direction="west" target="18454"/>
+      <exit direction="north" target="14961"/>
+      <exit direction="south" target="18456"/>
+      <exit direction="southwest" target="18457"/>
+      <exit direction="northwest" target="14963"/>
+      <exit direction="northeast" target="14953"/>
+   </room>
+   <room id="15127" area="59" title="Brown Lands" environment="40">
+      <coord x="43" y="6" z="0" />
+      <exit direction="east" target="15124"/>
+      <exit direction="west" target="15130"/>
+      <exit direction="north" target="15125"/>
+      <exit direction="northwest" target="15128"/>
+      <exit direction="northeast" target="15122"/>
+   </room>
+   <room id="18446" area="59" title="At the hills of Andrast" environment="32">
+      <coord x="-2" y="-2" z="0" />
+      <exit direction="east" target="18443"/>
+      <exit direction="west" target="18447"/>
+      <exit direction="southwest" target="18448"/>
+      <exit direction="northwest" target="18449"/>
+   </room>
+   <room id="14388" area="59" title="Rhun" environment="21">
+      <coord x="55" y="22" z="0" />
+      <exit direction="west" target="14387"/>
+      <exit direction="north" target="14386"/>
+      <exit direction="south" target="14390"/>
+      <exit direction="southwest" target="14389"/>
+      <exit direction="northwest" target="14385"/>
+   </room>
+   <room id="18450" area="59" title="On a sea shore" environment="14">
+      <coord x="-4" y="-3" z="0" />
+      <exit direction="east" target="18448"/>
+      <exit direction="west" target="18451"/>
+      <exit direction="northeast" target="18447"/>
+   </room>
+   <room id="14943" area="59" title="Minhiriath" environment="66">
+      <coord x="-5" y="10" z="0" />
+      <exit direction="northeast" target="14937"/>
+      <exit direction="west" target="14946"/>
+      <exit direction="northwest" target="14944"/>
+      <exit direction="north" target="14941"/>
+      <exit direction="south" target="14947"/>
+      <exit direction="east" target="14939"/>
+   </room>
+   <room id="12047" area="59" title="On a sea shore" environment="14">
+      <coord x="20" y="-12" z="0" />
+      <exit direction="northeast" target="12044"/>
+      <exit direction="southwest" target="12048"/>
+      <exit direction="southeast" target="12049"/>
+      <exit direction="south" target="12050"/>
+      <exit direction="east" target="12051"/>
+   </room>
+   <room id="18189" area="59" title="Near Harad" environment="28">
+      <coord x="46" y="-13" z="0" />
+      <exit direction="northeast" target="18193"/>
+      <exit direction="west" target="18186"/>
+      <exit direction="northwest" target="18187"/>
+      <exit direction="north" target="18190"/>
+      <exit direction="east" target="18192"/>
+   </room>
+   <room id="7385" area="59" title="On a road" environment="50">
+      <coord x="28" y="2" z="0" />
+      <exit direction="east" target="11995"/>
+      <exit direction="north" target="9350"/>
+      <exit direction="south" target="11997"/>
+      <exit direction="southeast" target="11996"/>
+      <exit direction="northeast" target="9351"/>
+   </room>
+   <room id="15124" area="59" title="Brown Lands" environment="40">
+      <coord x="44" y="6" z="0" />
+      <exit direction="east" target="15121"/>
+      <exit direction="west" target="15127"/>
+      <exit direction="north" target="15122"/>
+      <exit direction="northwest" target="15125"/>
+      <exit direction="northeast" target="15119"/>
+   </room>
+   <room id="19774" area="59" title="Khand" environment="40">
+      <coord x="54" y="-12" z="0" />
+      <exit direction="northeast" target="19778"/>
+      <exit direction="southeast" target="19777"/>
+      <exit direction="north" target="19779"/>
+      <exit direction="west" target="19772"/>
+      <exit direction="northwest" target="20823"/>
+      <exit direction="southwest" target="19773"/>
+      <exit direction="south" target="19775"/>
+      <exit direction="east" target="19776"/>
+   </room>
+   <room id="14392" area="59" title="Rhun" environment="21">
+      <coord x="55" y="19" z="0" />
+      <exit direction="west" target="14283"/>
+      <exit direction="north" target="14391"/>
+      <exit direction="south" target="14393"/>
+      <exit direction="southwest" target="14281"/>
+      <exit direction="northwest" target="14286"/>
+   </room>
+   <room id="15702" area="59" title="On a sea shore" environment="14">
+      <coord x="20" y="-9" z="0" />
+      <exit direction="northeast" target="15706"/>
+      <exit direction="north" target="15705"/>
+      <exit direction="southeast" target="12045"/>
+      <exit direction="south" target="12046"/>
+      <exit direction="east" target="15703"/>
+   </room>
+   <room id="12020" area="59" title="In South-Gondor" environment="2">
+      <coord x="29" y="-7" z="0" />
+      <exit direction="east" target="15478"/>
+      <exit direction="west" target="12021"/>
+      <exit direction="north" target="12015"/>
+      <exit direction="south" target="12023"/>
+      <exit direction="southwest" target="12024"/>
+      <exit direction="northwest" target="12017"/>
+      <exit direction="southeast" target="15477"/>
+      <exit direction="northeast" target="15476"/>
+   </room>
+   <room id="3740" area="59" title="In Gondor" environment="45">
+      <coord x="4" y="0" z="0" />
+      <exit direction="east" target="3737"/>
+      <exit direction="west" target="3743"/>
+      <exit direction="north" target="3738"/>
+      <exit direction="south" target="3739"/>
+      <exit direction="southwest" target="3742"/>
+      <exit direction="northwest" target="3741"/>
+      <exit direction="southeast" target="3736"/>
+      <exit direction="northeast" target="3735"/>
+   </room>
+   <room id="15451" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="30" y="-3" z="0" />
+      <exit direction="west" target="12008"/>
+      <exit direction="north" target="15449"/>
+      <exit direction="southwest" target="12011"/>
+      <exit direction="northwest" target="12005"/>
+   </room>
+   <room id="3745" area="59" title="In Gondor" environment="45">
+      <coord x="2" y="0" z="0" />
+      <exit direction="east" target="3743"/>
+      <exit direction="north" target="3744"/>
+      <exit direction="southeast" target="3742"/>
+      <exit direction="northeast" target="3741"/>
+   </room>
+   <room id="15473" area="59" title="In South-Gondor" environment="2">
+      <coord x="32" y="-7" z="0" />
+      <exit direction="east" target="15471"/>
+      <exit direction="west" target="15472"/>
+      <exit direction="south" target="15469"/>
+      <exit direction="southwest" target="15468"/>
+      <exit direction="southeast" target="15467"/>
+   </room>
+   <room id="3726" area="59" title="On a sea shore" environment="14">
+      <coord x="9" y="-1" z="0" />
+      <exit direction="north" target="3725"/>
+      <exit direction="northwest" target="3728"/>
+      <exit direction="northeast" target="3723"/>
+   </room>
+   <room id="3718" area="59" title="In Gondor" environment="45">
+      <coord x="11" y="2" z="0" />
+      <exit direction="east" target="3719"/>
+      <exit direction="west" target="3772"/>
+      <exit direction="north" target="18413"/>
+      <exit direction="south" target="3721"/>
+      <exit direction="southwest" target="3722"/>
+      <exit direction="northwest" target="3775"/>
+      <exit direction="southeast" target="3716"/>
+      <exit direction="northeast" target="20819"/>
+   </room>
+   <room id="12107" area="59" title="Near Harad" environment="28">
+      <coord x="44" y="-13" z="0" />
+      <exit direction="northeast" target="18187"/>
+      <exit direction="west" target="12105"/>
+      <exit direction="northwest" target="12104"/>
+      <exit direction="north" target="12106"/>
+      <exit direction="east" target="18186"/>
+   </room>
+   <room id="3670" area="59" title="On a road" environment="50">
+      <coord x="26" y="3" z="0" />
+      <exit direction="east" target="3673"/>
+      <exit direction="west" target="3672"/>
+      <exit direction="south" target="3669"/>
+      <exit direction="southeast" target="3671"/>
+   </room>
+   <room id="15116" area="59" title="Rhun" environment="21">
+      <coord x="47" y="8" z="0" />
+      <exit direction="east" target="15114"/>
+      <exit direction="west" target="15118"/>
+      <exit direction="north" target="14737"/>
+      <exit direction="south" target="15115"/>
+      <exit direction="southwest" target="15117"/>
+      <exit direction="northwest" target="14735"/>
+      <exit direction="southeast" target="15113"/>
+      <exit direction="northeast" target="14739"/>
+   </room>
+   <room id="15454" area="59" title="In South-Gondor" environment="2">
+      <coord x="26" y="-6" z="0" />
+      <exit direction="southwest" target="15717"/>
+      <exit direction="southeast" target="12019"/>
+      <exit direction="west" target="15718"/>
+      <exit direction="south" target="15453"/>
+      <exit direction="east" target="12016"/>
+   </room>
+   <room id="3714" area="59" title="On a sea shore" environment="14">
+      <coord x="13" y="0" z="0" />
+      <exit direction="west" target="3717"/>
+      <exit direction="northwest" target="3716"/>
+      <exit direction="southeast" target="3711"/>
+   </room>
+   <room id="15710" area="59" title="In South-Gondor" environment="2">
+      <coord x="22" y="-6" z="0" />
+      <exit direction="southwest" target="15709"/>
+      <exit direction="southeast" target="15712"/>
+      <exit direction="west" target="15711"/>
+      <exit direction="south" target="15707"/>
+      <exit direction="east" target="15713"/>
+   </room>
+   <room id="9345" area="59" title="On a road" environment="50">
+      <coord x="29" y="4" z="0" />
+      <exit direction="west" target="9344"/>
+      <exit direction="north" target="9349"/>
+      <exit direction="south" target="9351"/>
+      <exit direction="southwest" target="9350"/>
+      <exit direction="northwest" target="9347"/>
+   </room>
+   <room id="12004" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="27" y="-2" z="0" />
+      <exit direction="northeast" target="12003"/>
+      <exit direction="north" target="12001"/>
+      <exit direction="southeast" target="12009"/>
+      <exit direction="south" target="12007"/>
+      <exit direction="east" target="12006"/>
+   </room>
+   <room id="3724" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="9" y="1" z="0" />
+      <exit direction="east" target="3722"/>
+      <exit direction="west" target="3727"/>
+      <exit direction="north" target="3773"/>
+      <exit direction="south" target="3725"/>
+      <exit direction="southwest" target="3728"/>
+      <exit direction="southeast" target="3723"/>
+      <exit direction="northeast" target="3772"/>
+   </room>
+   <room id="15109" area="59" title="Rhun" environment="21">
+      <coord x="50" y="7" z="0" />
+      <exit direction="east" target="15107"/>
+      <exit direction="west" target="15111"/>
+      <exit direction="north" target="15110"/>
+      <exit direction="northwest" target="15112"/>
+      <exit direction="northeast" target="15108"/>
+   </room>
+   <room id="3768" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="6" z="0" />
+      <exit direction="east" target="15857"/>
+      <exit direction="west" target="15856"/>
+      <exit direction="north" target="15855"/>
+      <exit direction="northwest" target="15853"/>
+      <exit direction="southeast" target="3765"/>
+      <exit direction="northeast" target="15854"/>
+   </room>
+   <room id="3737" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="5" y="0" z="0" />
+      <exit direction="east" target="3733"/>
+      <exit direction="west" target="3740"/>
+      <exit direction="north" target="3735"/>
+      <exit direction="south" target="3736"/>
+      <exit direction="southwest" target="3739"/>
+      <exit direction="northwest" target="3738"/>
+      <exit direction="southeast" target="3734"/>
+      <exit direction="northeast" target="3732"/>
+   </room>
+   <room id="3778" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="1" z="0" />
+      <exit direction="north" target="3757"/>
+      <exit direction="south" target="3780"/>
+      <exit direction="southwest" target="3779"/>
+      <exit direction="northeast" target="3755"/>
+   </room>
+   <room id="15858" area="59" title="Enedwaith" environment="16">
+      <coord x="0" y="7" z="0" />
+      <exit direction="northeast" target="15860"/>
+      <exit direction="southwest" target="15857"/>
+      <exit direction="west" target="15854"/>
+      <exit direction="northwest" target="15851"/>
+      <exit direction="north" target="15859"/>
+      <exit direction="east" target="15861"/>
+   </room>
+   <room id="3735" area="59" title="In Gondor" environment="45">
+      <coord x="5" y="1" z="0" />
+      <exit direction="east" target="3732"/>
+      <exit direction="west" target="3738"/>
+      <exit direction="north" target="3752"/>
+      <exit direction="south" target="3737"/>
+      <exit direction="southwest" target="3740"/>
+      <exit direction="northwest" target="3747"/>
+      <exit direction="southeast" target="3733"/>
+      <exit direction="northeast" target="3777"/>
+   </room>
+   <room id="15466" area="59" title="In South-Gondor" environment="2">
+      <coord x="32" y="-9" z="0" />
+      <exit direction="east" target="15465"/>
+      <exit direction="west" target="15460"/>
+      <exit direction="north" target="15469"/>
+      <exit direction="south" target="15463"/>
+      <exit direction="southwest" target="15462"/>
+      <exit direction="northwest" target="15468"/>
+      <exit direction="southeast" target="15470"/>
+      <exit direction="northeast" target="15467"/>
+   </room>
+   <room id="3766" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="6" z="0" />
+      <exit direction="west" target="3764"/>
+      <exit direction="south" target="3759"/>
+      <exit direction="southwest" target="3760"/>
+      <exit direction="southeast" target="3761"/>
+      <exit direction="northeast" target="3771"/>
+   </room>
+   <room id="14936" area="59" title="Enedwaith" environment="16">
+      <coord x="-2" y="12" z="0" />
+      <exit direction="east" target="15845"/>
+      <exit direction="south" target="15847"/>
+      <exit direction="southeast" target="15844"/>
+   </room>
+   <room id="14595" area="59" title="Enedwaith" environment="16">
+      <coord x="2" y="15" z="0" />
+      <exit direction="east" target="14592"/>
+      <exit direction="south" target="14596"/>
+      <exit direction="southwest" target="20821"/>
+      <exit direction="southeast" target="14594"/>
+   </room>
+   <room id="14588" area="59" title="On a road" environment="50">
+      <coord x="5" y="14" z="0" />
+      <exit direction="east" target="14569"/>
+      <exit direction="west" target="14591"/>
+      <exit direction="north" target="14587"/>
+      <exit direction="south" target="14791"/>
+      <exit direction="southwest" target="14792"/>
+      <exit direction="northwest" target="14589"/>
+      <exit direction="southeast" target="14566"/>
+      <exit direction="northeast" target="14572"/>
+   </room>
+   <room id="12093" area="59" title="Near Harad" environment="28">
+      <coord x="39" y="-13" z="0" />
+      <exit direction="northeast" target="12097"/>
+      <exit direction="west" target="12090"/>
+      <exit direction="northwest" target="12091"/>
+      <exit direction="north" target="12094"/>
+      <exit direction="east" target="12096"/>
+   </room>
+   <room id="3733" area="59" title="Hills of Pinnath Gelin" environment="27">
+      <coord x="6" y="0" z="0" />
+      <exit direction="east" target="3730"/>
+      <exit direction="west" target="3737"/>
+      <exit direction="north" target="3732"/>
+      <exit direction="south" target="3734"/>
+      <exit direction="southwest" target="3736"/>
+      <exit direction="northwest" target="3735"/>
+      <exit direction="southeast" target="3731"/>
+      <exit direction="northeast" target="3729"/>
+   </room>
+   <room id="14593" area="59" title="Enedwaith" environment="16">
+      <coord x="3" y="16" z="0" />
+      <exit direction="east" target="14590"/>
+      <exit direction="south" target="14592"/>
+      <exit direction="southwest" target="14595"/>
+      <exit direction="southeast" target="14589"/>
+   </room>
+   <room id="15871" area="59" title="On a sea shore" environment="14">
+      <coord x="-2" y="3" z="0" />
+      <exit direction="east" target="15872"/>
+      <exit direction="north" target="3769"/>
+      <exit direction="south" target="15873"/>
+      <exit direction="southeast" target="15874"/>
+      <exit direction="northeast" target="3767"/>
+   </room>
+   <room id="3755" area="59" title="In Gondor" environment="45">
+      <coord x="2" y="2" z="0" />
+      <exit direction="west" target="3757"/>
+      <exit direction="north" target="3754"/>
+      <exit direction="southwest" target="3778"/>
+      <exit direction="northwest" target="3758"/>
+      <exit direction="northeast" target="3751"/>
+   </room>
+   <room id="19769" area="59" title="Khand" environment="40">
+      <coord x="51" y="-13" z="0" />
+      <exit direction="northeast" target="19770"/>
+      <exit direction="west" target="19767"/>
+      <exit direction="northwest" target="19766"/>
+      <exit direction="north" target="19768"/>
+      <exit direction="east" target="19771"/>
+   </room>
+   <room id="19767" area="59" title="Khand" environment="40">
+      <coord x="50" y="-13" z="0" />
+      <exit direction="northeast" target="19768"/>
+      <exit direction="west" target="18198"/>
+      <exit direction="northwest" target="18197"/>
+      <exit direction="north" target="19766"/>
+      <exit direction="east" target="19769"/>
+   </room>
+   <room id="12014" area="59" title="At the fords of Poros, on south bank of Anduin" environment="50">
+      <coord x="28" y="-5" z="0" />
+      <exit direction="east" target="12018"/>
+      <exit direction="north" target="12012"/>
+      <exit direction="south" target="12017"/>
+      <exit direction="southwest" target="12016"/>
+      <exit direction="southeast" target="12015"/>
+   </room>
+   <room id="15458" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="30" y="-11" z="0" />
+      <exit direction="east" target="15461"/>
+      <exit direction="west" target="12032"/>
+      <exit direction="north" target="15459"/>
+      <exit direction="northwest" target="12029"/>
+      <exit direction="northeast" target="15462"/>
+   </room>
+   <room id="15711" area="59" title="On a sea shore" environment="14">
+      <coord x="21" y="-6" z="0" />
+      <exit direction="southwest" target="15708"/>
+      <exit direction="southeast" target="15707"/>
+      <exit direction="northwest" target="14488"/>
+      <exit direction="south" target="15709"/>
+      <exit direction="east" target="15710"/>
+   </room>
+   <room id="14391" area="59" title="Rhun" environment="21">
+      <coord x="55" y="20" z="0" />
+      <exit direction="west" target="14286"/>
+      <exit direction="north" target="14390"/>
+      <exit direction="south" target="14392"/>
+      <exit direction="southwest" target="14283"/>
+      <exit direction="northwest" target="14389"/>
+   </room>
+   <room id="18198" area="59" title="Khand" environment="40">
+      <coord x="49" y="-13" z="0" />
+      <exit direction="northeast" target="19766"/>
+      <exit direction="west" target="18195"/>
+      <exit direction="northwest" target="18196"/>
+      <exit direction="north" target="18197"/>
+      <exit direction="east" target="19767"/>
+   </room>
+   <room id="14528" area="59" title="On a road" environment="50">
+      <coord x="16" y="4" z="0" />
+      <exit direction="east" target="14527"/>
+      <exit direction="north" target="14529"/>
+      <exit direction="northwest" target="14530"/>
+      <exit direction="northeast" target="14526"/>
+   </room>
+   <room id="18447" area="59" title="At the hills of Andrast" environment="32">
+      <coord x="-3" y="-2" z="0" />
+      <exit direction="east" target="18446"/>
+      <exit direction="north" target="18449"/>
+      <exit direction="south" target="18448"/>
+      <exit direction="southwest" target="18450"/>
+   </room>
+   <room id="19713" area="59" title="In Gondor" environment="45">
+      <coord x="2" y="-2" z="0" />
+      <exit direction="west" target="18444"/>
+      <exit direction="north" target="19712"/>
+      <exit direction="south" target="20817"/>
+      <exit direction="northwest" target="15555"/>
+   </room>
+   <room id="3780" area="59" title="In Gondor" environment="45">
+      <coord x="1" y="0" z="0" />
+      <exit direction="west" target="3779"/>
+      <exit direction="north" target="3778"/>
+      <exit direction="south" target="15555"/>
+      <exit direction="southwest" target="15556"/>
+      <exit direction="southeast" target="19712"/>
+   </room>
+   <room id="18195" area="59" title="Khand" environment="40">
+      <coord x="48" y="-13" z="0" />
+      <exit direction="northeast" target="18197"/>
+      <exit direction="west" target="18192"/>
+      <exit direction="northwest" target="18193"/>
+      <exit direction="north" target="18196"/>
+      <exit direction="east" target="18198"/>
+   </room>
+   <room id="15464" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="32" y="-11" z="0" />
+      <exit direction="west" target="15461"/>
+      <exit direction="north" target="15463"/>
+      <exit direction="northwest" target="15462"/>
+   </room>
+   <room id="14483" area="59" title="In South-Gondor" environment="2">
+      <coord x="23" y="-5" z="0" />
+      <exit direction="south" target="15713"/>
+      <exit direction="southwest" target="15710"/>
+      <exit direction="southeast" target="15716"/>
+      <exit direction="east" target="15714"/>
+   </room>
+   <room id="3744" area="59" title="In Gondor" environment="45">
+      <coord x="2" y="1" z="0" />
+      <exit direction="east" target="3741"/>
+      <exit direction="south" target="3745"/>
+      <exit direction="southeast" target="3743"/>
+   </room>
+   <room id="15863" area="59" title="Enedwaith" environment="16">
+      <coord x="2" y="6" z="0" />
+      <exit direction="northeast" target="15866"/>
+      <exit direction="northwest" target="15861"/>
+      <exit direction="north" target="3771"/>
+      <exit direction="east" target="15865"/>
+   </room>
+   <room id="12028" area="59" title="On a road going through the South Gondor" environment="50">
+      <coord x="27" y="-10" z="0" />
+      <exit direction="east" target="12030"/>
+      <exit direction="west" target="12035"/>
+      <exit direction="north" target="12025"/>
+      <exit direction="south" target="12031"/>
+      <exit direction="southwest" target="12034"/>
+      <exit direction="northwest" target="15456"/>
+      <exit direction="southeast" target="12033"/>
+      <exit direction="northeast" target="12027"/>
+   </room>
+   <room id="19704" area="59" title="On a sea shore" environment="14">
+      <coord x="-13" y="16" z="0" />
+      <exit direction="east" target="19705"/>
+      <exit direction="west" target="19702"/>
+      <exit direction="north" target="19703"/>
+      <exit direction="northwest" target="19701"/>
+   </room>
+   <room id="15449" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="30" y="-2" z="0" />
+      <exit direction="west" target="12005"/>
+      <exit direction="north" target="15450"/>
+      <exit direction="south" target="15451"/>
+      <exit direction="southwest" target="12008"/>
+      <exit direction="northwest" target="12002"/>
+   </room>
+   <room id="3716" area="59" title="In Gondor" environment="45">
+      <coord x="12" y="1" z="0" />
+      <exit direction="west" target="3721"/>
+      <exit direction="north" target="3719"/>
+      <exit direction="south" target="3717"/>
+      <exit direction="southwest" target="3720"/>
+      <exit direction="northwest" target="3718"/>
+      <exit direction="southeast" target="3714"/>
+   </room>
+   <room id="12050" area="59" title="Near Harad" environment="28">
+      <coord x="20" y="-13" z="0" />
+      <exit direction="northeast" target="12051"/>
+      <exit direction="west" target="12048"/>
+      <exit direction="north" target="12047"/>
+      <exit direction="east" target="12049"/>
+   </room>
+   <room id="18192" area="59" title="Near Harad" environment="28">
+      <coord x="47" y="-13" z="0" />
+      <exit direction="northeast" target="18196"/>
+      <exit direction="west" target="18189"/>
+      <exit direction="northwest" target="18190"/>
+      <exit direction="north" target="18193"/>
+      <exit direction="east" target="18195"/>
+   </room>
+   <room id="19670" area="59" title="On a sea shore" environment="14">
+      <coord x="-12" y="22" z="0" />
+      <exit direction="east" target="19672"/>
+      <exit direction="west" target="19676"/>
+      <exit direction="south" target="19673"/>
+      <exit direction="southeast" target="19675"/>
+      <exit direction="northeast" target="18299"/>
+   </room>
+   <room id="15093" area="59" title="Rhun" environment="21">
+      <coord x="55" y="12" z="0" />
+      <exit direction="west" target="14395"/>
+      <exit direction="north" target="15092"/>
+      <exit direction="south" target="15094"/>
+      <exit direction="southwest" target="14396"/>
+      <exit direction="northwest" target="14275"/>
+   </room>
+   <room id="12090" area="59" title="Near Harad" environment="28">
+      <coord x="38" y="-13" z="0" />
+      <exit direction="northeast" target="12094"/>
+      <exit direction="west" target="12087"/>
+      <exit direction="northwest" target="12088"/>
+      <exit direction="north" target="12091"/>
+      <exit direction="east" target="12093"/>
+   </room>
+   <room id="12009" area="59" title="On a road" environment="50">
+      <coord x="28" y="-3" z="0" />
+      <exit direction="east" target="12008"/>
+      <exit direction="west" target="12007"/>
+      <exit direction="north" target="12006"/>
+      <exit direction="south" target="12012"/>
+      <exit direction="southwest" target="12010"/>
+      <exit direction="northwest" target="12004"/>
+      <exit direction="southeast" target="12011"/>
+      <exit direction="northeast" target="12005"/>
+   </room>
+   <room id="19789" area="59" title="Khand" environment="40">
+      <coord x="54" y="-6" z="0" />
+      <exit direction="northeast" target="19790"/>
+      <exit direction="southeast" target="19786"/>
+      <exit direction="north" target="19791"/>
+      <exit direction="west" target="20828"/>
+      <exit direction="northwest" target="20829"/>
+      <exit direction="southwest" target="20827"/>
+      <exit direction="south" target="19787"/>
+      <exit direction="east" target="19788"/>
+   </room>
+   <room id="18299" area="59" title="On a sea shore" environment="14">
+      <coord x="-11" y="23" z="0" />
+      <exit direction="east" target="18297"/>
+      <exit direction="north" target="18298"/>
+      <exit direction="south" target="19672"/>
+      <exit direction="southwest" target="19670"/>
+      <exit direction="northwest" target="19668"/>
+      <exit direction="southeast" target="19671"/>
+      <exit direction="northeast" target="18295"/>
+   </room>
+   <room id="15089" area="59" title="Rhun" environment="21">
+      <coord x="55" y="16" z="0" />
+      <exit direction="west" target="14277"/>
+      <exit direction="north" target="14394"/>
+      <exit direction="south" target="15090"/>
+      <exit direction="southwest" target="14274"/>
+      <exit direction="northwest" target="14279"/>
+   </room>
+   <room id="12520" area="59" title="On a road" environment="50">
+      <coord x="32" y="6" z="0" />
+      <exit direction="east" target="15292"/>
+      <exit direction="west" target="12516"/>
+      <exit direction="north" target="12521"/>
+      <exit direction="southwest" target="12515"/>
+      <exit direction="northwest" target="12513"/>
+      <exit direction="northeast" target="14204"/>
+   </room>
+   <room id="3754" area="59" title="At the hills of Andrast" environment="32">
+      <coord x="2" y="3" z="0" />
+      <exit direction="east" target="3751"/>
+      <exit direction="west" target="3758"/>
+      <exit direction="north" target="3753"/>
+      <exit direction="south" target="3755"/>
+      <exit direction="southwest" target="3757"/>
+      <exit direction="northwest" target="3756"/>
+      <exit direction="southeast" target="3746"/>
+      <exit direction="northeast" target="3750"/>
+   </room>
+   <room id="19668" area="59" title="On a sea shore" environment="14">
+      <coord x="-12" y="24" z="0" />
+      <exit direction="west" target="19666"/>
+      <exit direction="north" target="19667"/>
+      <exit direction="northwest" target="19665"/>
+      <exit direction="southeast" target="18299"/>
+      <exit direction="northeast" target="19669"/>
+   </room>
+   <room id="12016" area="59" title="In South-Gondor" environment="2">
+      <coord x="27" y="-6" z="0" />
+      <exit direction="east" target="12017"/>
+      <exit direction="west" target="15454"/>
+      <exit direction="south" target="12019"/>
+      <exit direction="southwest" target="15453"/>
+      <exit direction="southeast" target="12021"/>
+   </room>
+   <room id="19773" area="59" title="Khand" environment="40">
+      <coord x="53" y="-13" z="0" />
+      <exit direction="northeast" target="19774"/>
+      <exit direction="west" target="19771"/>
+      <exit direction="northwest" target="19770"/>
+      <exit direction="north" target="19772"/>
+      <exit direction="east" target="19775"/>
+   </room>
+   <room id="14380" area="59" title="Rhun" environment="21">
+      <coord x="55" y="26" z="0" />
+      <exit direction="west" target="14379"/>
+      <exit direction="north" target="14378"/>
+      <exit direction="south" target="14382"/>
+      <exit direction="southwest" target="14381"/>
+      <exit direction="northwest" target="14377"/>
+   </room>
+   <room id="12087" area="59" title="Near Harad" environment="28">
+      <coord x="37" y="-13" z="0" />
+      <exit direction="northeast" target="12091"/>
+      <exit direction="west" target="12084"/>
+      <exit direction="northwest" target="12085"/>
+      <exit direction="north" target="12088"/>
+      <exit direction="east" target="12090"/>
+   </room>
+   <room id="12027" area="59" title="In South-Gondor" environment="2">
+      <coord x="28" y="-9" z="0" />
+      <exit direction="east" target="12026"/>
+      <exit direction="west" target="12025"/>
+      <exit direction="north" target="12024"/>
+      <exit direction="south" target="12030"/>
+      <exit direction="southwest" target="12028"/>
+      <exit direction="northwest" target="12022"/>
+      <exit direction="southeast" target="12029"/>
+      <exit direction="northeast" target="12023"/>
+   </room>
+   <room id="19664" area="59" title="On a sea shore" environment="14">
+      <coord x="-14" y="24" z="0" />
+      <exit direction="east" target="19666"/>
+      <exit direction="west" target="19662"/>
+      <exit direction="southwest" target="19663"/>
+      <exit direction="northeast" target="19665"/>
+   </room>
+   <room id="14566" area="59" title="On a road" environment="50">
+      <coord x="6" y="13" z="0" />
+      <exit direction="east" target="14567"/>
+      <exit direction="west" target="14791"/>
+      <exit direction="north" target="14569"/>
+      <exit direction="south" target="14563"/>
+      <exit direction="southwest" target="14790"/>
+      <exit direction="northwest" target="14588"/>
+      <exit direction="southeast" target="14564"/>
+      <exit direction="northeast" target="14570"/>
+   </room>
+   <room id="12071" area="59" title="Near Harad" environment="28">
+      <coord x="31" y="-13" z="0" />
+      <exit direction="northeast" target="12072"/>
+      <exit direction="west" target="12069"/>
+      <exit direction="northwest" target="12068"/>
+      <exit direction="north" target="12070"/>
+      <exit direction="east" target="12073"/>
+   </room>
+   <room id="3782" area="59" title="In Gondor" environment="45">
+      <coord x="7" y="3" z="0" />
+      <exit direction="west" target="3781"/>
+      <exit direction="south" target="3776"/>
+      <exit direction="southwest" target="3777"/>
+   </room>
+   <room id="20818" area="59" title="In Gondor" environment="45">
+      <coord x="13" y="3" z="0" />
+      <exit direction="west" target="20819"/>
+      <exit direction="southwest" target="3719"/>
+      <exit direction="northwest" target="20820"/>
+   </room>
+   <room id="20819" area="59" title="In Gondor" environment="45">
+      <coord x="12" y="3" z="0" />
+      <exit direction="east" target="20818"/>
+      <exit direction="west" target="18413"/>
+      <exit direction="north" target="20820"/>
+      <exit direction="south" target="3719"/>
+      <exit direction="southwest" target="3718"/>
+      <exit direction="southeast" target="20475"/>
+   </room>
+   <room id="20821" area="59" title="Enedwaith" environment="16">
+      <coord x="1" y="14" z="0" />
+      <exit direction="east" target="14596"/>
+      <exit direction="west" target="18924"/>
+      <exit direction="south" target="20469"/>
+      <exit direction="southwest" target="20468"/>
+      <exit direction="southeast" target="20470"/>
+   </room>
+   <room id="20817" area="59" title="On a sea shore" environment="14">
+      <coord x="2" y="-3" z="0" />
+      <exit direction="north" target="19713"/>
+      <exit direction="northwest" target="18444"/>
+   </room>
+   <room id="20820" area="59" title="In Gondor" environment="45">
+      <coord x="12" y="4" z="0" />
+      <exit direction="south" target="20819"/>
+      <exit direction="southwest" target="18413"/>
+      <exit direction="southeast" target="20818"/>
    </room>
    <room id="3408" area="38" title="A small cosy house" environment="67">
       <coord x="2" y="1" z="0" />

@@ -5762,6 +5762,13 @@
       <exit direction="west" target="12342"/>
       <exit direction="east" target="12352"/>
    </room>
+   <room id="21026" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-17" y="28" z="0" />
+      <exit direction="south" target="21024"/>
+      <exit direction="west" target="19629"/>
+      <exit direction="southeast" target="21023"/>
+      <exit direction="southwest" target="21025"/>
+   </room>
    <room id="14712" area="59" title="Plains of Rhovanion" environment="45">
       <coord x="36" y="23" z="0" />
       <exit direction="southeast" target="14710"/>
@@ -5897,6 +5904,14 @@
       <exit direction="north" target="15128"/>
       <exit direction="west" target="15133"/>
       <exit direction="east" target="15127"/>
+   </room>
+   <room id="19652" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-19" y="25" z="0" />
+      <exit direction="northeast" target="19655"/>
+      <exit direction="north" target="19654"/>
+      <exit direction="southeast" target="19651"/>
+      <exit direction="south" target="19649"/>
+      <exit direction="east" target="19650"/>
    </room>
    <room id="15489" area="59" title="In the valley of Anduin" environment="66">
       <coord x="23" y="10" z="0" />
@@ -6544,6 +6559,14 @@
       <exit direction="northwest" target="20948"/>
       <exit direction="west" target="18197"/>
    </room>
+   <room id="14518" area="59" title="In Anorien" environment="25">
+      <coord x="21" y="4" z="0" />
+      <exit direction="southwest" target="14519"/>
+      <exit direction="southeast" target="14515"/>
+      <exit direction="west" target="14520"/>
+      <exit direction="south" target="14517"/>
+      <exit direction="east" target="14516"/>
+   </room>
    <room id="20854" area="59" title="Near Harad" environment="28">
       <coord x="39" y="-7" z="0" />
       <exit direction="southeast" target="19810"/>
@@ -6670,6 +6693,17 @@
       <exit direction="northwest" target="14626"/>
       <exit direction="west" target="14628"/>
    </room>
+   <room id="12003" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="28" y="-1" z="0" />
+      <exit direction="northeast" target="11999"/>
+      <exit direction="southeast" target="12005"/>
+      <exit direction="north" target="12000"/>
+      <exit direction="west" target="12001"/>
+      <exit direction="northwest" target="11998"/>
+      <exit direction="southwest" target="12004"/>
+      <exit direction="south" target="12006"/>
+      <exit direction="east" target="12002"/>
+   </room>
    <room id="20978" area="59" title="Khand" environment="40">
       <coord x="50" y="-7" z="0" />
       <exit direction="southeast" target="20975"/>
@@ -6687,6 +6721,17 @@
       <exit direction="northwest" target="15519"/>
       <exit direction="north" target="15516"/>
       <exit direction="east" target="19762"/>
+   </room>
+   <room id="19650" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-18" y="25" z="0" />
+      <exit direction="northeast" target="19653"/>
+      <exit direction="southeast" target="19656"/>
+      <exit direction="north" target="19655"/>
+      <exit direction="west" target="19652"/>
+      <exit direction="northwest" target="19654"/>
+      <exit direction="southwest" target="19649"/>
+      <exit direction="south" target="19651"/>
+      <exit direction="east" target="19657"/>
    </room>
    <room id="14515" area="59" title="On a road" environment="50">
       <coord x="22" y="3" z="0" />
@@ -7170,6 +7215,11 @@
       <exit direction="northeast" target="20917"/>
       <exit direction="northwest" target="20927"/>
       <exit direction="west" target="15396"/>
+   </room>
+   <room id="15452" area="59" title="In the wasteland of Ithilien" environment="5">
+      <coord x="30" y="-4" z="0" />
+      <exit direction="south" target="18178"/>
+      <exit direction="southwest" target="12018"/>
    </room>
    <room id="15512" area="59" title="Rhun" environment="21">
       <coord x="42" y="22" z="0" />
@@ -7978,6 +8028,12 @@
       <exit direction="northwest" target="12530"/>
       <exit direction="west" target="12527"/>
    </room>
+   <room id="14709" area="59" title="Plains of Rhovanion" environment="45">
+      <coord x="39" y="22" z="0" />
+      <exit direction="west" target="14708"/>
+      <exit direction="north" target="14706"/>
+      <exit direction="northwest" target="14707"/>
+   </room>
    <room id="15288" area="59" title="On a road" environment="50">
       <coord x="35" y="6" z="0" />
       <exit direction="northeast" target="15287"/>
@@ -8271,6 +8327,14 @@
       <exit direction="northeast" target="14313"/>
       <exit direction="northwest" target="14314"/>
       <exit direction="west" target="14311"/>
+   </room>
+   <room id="14516" area="59" title="In Anorien" environment="25">
+      <coord x="22" y="4" z="0" />
+      <exit direction="southwest" target="14517"/>
+      <exit direction="southeast" target="14513"/>
+      <exit direction="west" target="14518"/>
+      <exit direction="south" target="14515"/>
+      <exit direction="east" target="14514"/>
    </room>
    <room id="9382" area="59" title="Mirkwood" environment="26">
       <coord x="28" y="16" z="0" />
@@ -8901,6 +8965,14 @@
       <exit direction="northwest" target="3735"/>
       <exit direction="west" target="3737"/>
    </room>
+   <room id="15518" area="59" title="Rhun" environment="21">
+      <coord x="40" y="22" z="0" />
+      <exit direction="northeast" target="15521"/>
+      <exit direction="north" target="15522"/>
+      <exit direction="southeast" target="15514"/>
+      <exit direction="south" target="15517"/>
+      <exit direction="east" target="15515"/>
+   </room>
    <room id="9497" area="59" title="The ice plains of Forodwaith" environment="42">
       <coord x="2" y="35" z="0" />
       <exit direction="northeast" target="9496"/>
@@ -9454,6 +9526,16 @@
       <exit direction="west" target="9442"/>
       <exit direction="south" target="9441"/>
       <exit direction="east" target="12628"/>
+   </room>
+   <room id="21025" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-18" y="27" z="0" />
+      <exit direction="northeast" target="21026"/>
+      <exit direction="southeast" target="19653"/>
+      <exit direction="west" target="20822"/>
+      <exit direction="north" target="19629"/>
+      <exit direction="southwest" target="19654"/>
+      <exit direction="south" target="19655"/>
+      <exit direction="east" target="21024"/>
    </room>
    <room id="12119" area="59" title="In the valley of Anduin" environment="66">
       <coord x="22" y="25" z="0" />
@@ -10237,6 +10319,14 @@
       <exit direction="west" target="19683"/>
       <exit direction="south" target="19686"/>
       <exit direction="east" target="19680"/>
+   </room>
+   <room id="14514" area="59" title="In Anorien" environment="66">
+      <coord x="23" y="4" z="0" />
+      <exit direction="southwest" target="14515"/>
+      <exit direction="southeast" target="14511"/>
+      <exit direction="west" target="14516"/>
+      <exit direction="south" target="14513"/>
+      <exit direction="east" target="14512"/>
    </room>
    <room id="15875" area="59" title="On a sea shore" environment="14">
       <coord x="-2" y="1" z="0" />
@@ -11781,6 +11871,12 @@
       <exit direction="northwest" target="15708"/>
       <exit direction="west" target="15705"/>
    </room>
+   <room id="20822" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-19" y="27" z="0" />
+      <exit direction="south" target="19654"/>
+      <exit direction="southeast" target="19655"/>
+      <exit direction="east" target="21025"/>
+   </room>
    <room id="14966" area="59" title="Minhiriath" environment="66">
       <coord x="-5" y="17" z="0" />
       <exit direction="northeast" target="14916"/>
@@ -12169,6 +12265,17 @@
       <exit direction="northeast" target="15009"/>
       <exit direction="northwest" target="12588"/>
       <exit direction="west" target="12586"/>
+   </room>
+   <room id="19657" area="59" title="In the forest of Lhun" environment="32">
+      <coord x="-17" y="25" z="0" />
+      <exit direction="northeast" target="21022"/>
+      <exit direction="southeast" target="19661"/>
+      <exit direction="north" target="19653"/>
+      <exit direction="west" target="19650"/>
+      <exit direction="northwest" target="19655"/>
+      <exit direction="southwest" target="19651"/>
+      <exit direction="south" target="19656"/>
+      <exit direction="east" target="19658"/>
    </room>
    <room id="15402" area="59" title="Mordor" environment="68">
       <coord x="46" y="-2" z="0" />
@@ -12567,6 +12674,13 @@
       <exit direction="northeast" target="14314"/>
       <exit direction="northwest" target="15083"/>
       <exit direction="west" target="15085"/>
+   </room>
+   <room id="14512" area="59" title="In Anorien" environment="66">
+      <coord x="24" y="4" z="0" />
+      <exit direction="south" target="14511"/>
+      <exit direction="west" target="14514"/>
+      <exit direction="southeast" target="3672"/>
+      <exit direction="southwest" target="14513"/>
    </room>
    <room id="3748" area="59" title="In Gondor" environment="45">
       <coord x="4" y="3" z="0" />
@@ -13161,6 +13275,15 @@
       <exit direction="northwest" target="12567"/>
       <exit direction="west" target="12564"/>
    </room>
+   <room id="14525" area="59" title="In Anorien" environment="66">
+      <coord x="18" y="4" z="0" />
+      <exit direction="west" target="14527"/>
+      <exit direction="northwest" target="14526"/>
+      <exit direction="southeast" target="14521"/>
+      <exit direction="north" target="14523"/>
+      <exit direction="south" target="14524"/>
+      <exit direction="east" target="14522"/>
+   </room>
    <room id="14219" area="59" title="Brown Lands" environment="40">
       <coord x="36" y="11" z="0" />
       <exit direction="southeast" target="14718"/>
@@ -13571,6 +13694,13 @@
       <exit direction="west" target="14250"/>
       <exit direction="south" target="14252"/>
       <exit direction="east" target="14256"/>
+   </room>
+   <room id="14529" area="59" title="In Anorien" environment="25">
+      <coord x="16" y="5" z="0" />
+      <exit direction="south" target="14528"/>
+      <exit direction="west" target="14530"/>
+      <exit direction="southeast" target="14527"/>
+      <exit direction="east" target="14526"/>
    </room>
    <room id="11992" area="59" title="Swamp" environment="59">
       <coord x="24" y="5" z="0" />
@@ -14093,6 +14223,15 @@
       <exit direction="northeast" target="12622"/>
       <exit direction="northwest" target="12628"/>
       <exit direction="west" target="12627"/>
+   </room>
+   <room id="14522" area="59" title="In Anorien" environment="66">
+      <coord x="19" y="4" z="0" />
+      <exit direction="southwest" target="14524"/>
+      <exit direction="northwest" target="14523"/>
+      <exit direction="southeast" target="14519"/>
+      <exit direction="west" target="14525"/>
+      <exit direction="south" target="14521"/>
+      <exit direction="east" target="14520"/>
    </room>
    <room id="14325" area="59" title="Rhun" environment="21">
       <coord x="51" y="27" z="0" />
@@ -15362,6 +15501,15 @@
       <exit direction="northwest" target="9520"/>
       <exit direction="west" target="12358"/>
    </room>
+   <room id="19658" area="59" title="In the forest of Lhun" environment="32">
+      <coord x="-16" y="25" z="0" />
+      <exit direction="north" target="21022"/>
+      <exit direction="northwest" target="19653"/>
+      <exit direction="southwest" target="19656"/>
+      <exit direction="west" target="19657"/>
+      <exit direction="southeast" target="19662"/>
+      <exit direction="south" target="19661"/>
+   </room>
    <room id="15411" area="59" title="Mordor" environment="68">
       <coord x="44" y="-5" z="0" />
       <exit direction="northeast" target="15405"/>
@@ -16452,6 +16600,25 @@
       <exit direction="south" target="14870"/>
       <exit direction="east" target="14869"/>
    </room>
+   <room id="12522" area="59" title="Battlefield of Dagorlad" environment="6">
+      <coord x="32" y="9" z="0" />
+      <exit direction="northeast" target="14207"/>
+      <exit direction="southeast" target="14205"/>
+      <exit direction="north" target="12525"/>
+      <exit direction="west" target="12524"/>
+      <exit direction="northwest" target="12527"/>
+      <exit direction="southwest" target="12519"/>
+      <exit direction="south" target="12517"/>
+      <exit direction="east" target="14203"/>
+   </room>
+   <room id="14526" area="59" title="In Anorien" environment="66">
+      <coord x="17" y="5" z="0" />
+      <exit direction="southwest" target="14528"/>
+      <exit direction="southeast" target="14525"/>
+      <exit direction="west" target="14529"/>
+      <exit direction="south" target="14527"/>
+      <exit direction="east" target="14523"/>
+   </room>
    <room id="15907" area="59" title="Eriador" environment="52">
       <coord x="11" y="21" z="0" />
       <exit direction="south" target="15908"/>
@@ -16784,6 +16951,13 @@
       <exit direction="northeast" target="9380"/>
       <exit direction="northwest" target="15208"/>
       <exit direction="west" target="15207"/>
+   </room>
+   <room id="15008" area="59" title="Mirkwood" environment="26">
+      <coord x="30" y="25" z="0" />
+      <exit direction="northeast" target="15004"/>
+      <exit direction="southeast" target="15007"/>
+      <exit direction="north" target="9418"/>
+      <exit direction="east" target="15006"/>
    </room>
    <room id="14286" area="59" title="Rhun" environment="21">
       <coord x="54" y="20" z="0" />
@@ -17422,6 +17596,13 @@
       <exit direction="northeast" target="18453"/>
       <exit direction="north" target="18454"/>
       <exit direction="east" target="18456"/>
+   </room>
+   <room id="14523" area="59" title="In Anorien" environment="25">
+      <coord x="18" y="5" z="0" />
+      <exit direction="south" target="14525"/>
+      <exit direction="west" target="14526"/>
+      <exit direction="southeast" target="14522"/>
+      <exit direction="southwest" target="14527"/>
    </room>
    <room id="9456" area="59" title="The ice plains of Forodwaith" environment="42">
       <coord x="23" y="36" z="0" />
@@ -19732,6 +19913,13 @@
       <exit direction="south" target="12013"/>
       <exit direction="east" target="12012"/>
    </room>
+   <room id="19629" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-18" y="28" z="0" />
+      <exit direction="south" target="21025"/>
+      <exit direction="southwest" target="20822"/>
+      <exit direction="southeast" target="21024"/>
+      <exit direction="east" target="21026"/>
+   </room>
    <room id="3742" area="59" title="In Gondor" environment="45">
       <coord x="3" y="-1" z="0" />
       <exit direction="northeast" target="3740"/>
@@ -20443,6 +20631,13 @@
       <exit direction="west" target="14363"/>
       <exit direction="south" target="14366"/>
    </room>
+   <room id="21023" area="59" title="In the forest of Lhun" environment="32">
+      <coord x="-16" y="27" z="0" />
+      <exit direction="south" target="21022"/>
+      <exit direction="northwest" target="21026"/>
+      <exit direction="southwest" target="19653"/>
+      <exit direction="west" target="21024"/>
+   </room>
    <room id="3694" area="59" title="On a road" environment="50">
       <coord x="19" y="0" z="0" />
       <exit direction="southeast" target="3692"/>
@@ -20904,6 +21099,14 @@
       <exit direction="west" target="12124"/>
       <exit direction="south" target="12123"/>
       <exit direction="east" target="12118"/>
+   </room>
+   <room id="14708" area="59" title="Plains of Rhovanion" environment="45">
+      <coord x="38" y="22" z="0" />
+      <exit direction="northeast" target="14706"/>
+      <exit direction="west" target="14710"/>
+      <exit direction="northwest" target="14705"/>
+      <exit direction="north" target="14707"/>
+      <exit direction="east" target="14709"/>
    </room>
    <room id="20875" area="59" title="Mordor" environment="68">
       <coord x="43" y="-1" z="0" />
@@ -23706,7 +23909,6 @@
       <exit direction="northwest" target="15047"/>
       <exit direction="west" target="15046"/>
    </room>
-
    <room id="20957" area="59" title="Khand" environment="40">
       <coord x="47" y="-10" z="0" />
       <exit direction="southeast" target="18194"/>
@@ -25275,6 +25477,14 @@
       <exit direction="south" target="3730"/>
       <exit direction="east" target="3727"/>
    </room>
+   <room id="14520" area="59" title="In Anorien" environment="25">
+      <coord x="20" y="4" z="0" />
+      <exit direction="southwest" target="14521"/>
+      <exit direction="southeast" target="14517"/>
+      <exit direction="west" target="14522"/>
+      <exit direction="south" target="14519"/>
+      <exit direction="east" target="14518"/>
+   </room>
    <room id="14624" area="59" title="Lost Realm of Arnor" environment="62">
       <coord x="7" y="24" z="0" />
       <exit direction="southeast" target="14621"/>
@@ -26181,6 +26391,16 @@
       <exit direction="west" target="18980"/>
       <exit direction="north" target="18983"/>
       <exit direction="northwest" target="18981"/>
+   </room>
+   <room id="21024" area="59" title="In the forest of Lhun" environment="32">
+      <coord x="-17" y="27" z="0" />
+      <exit direction="southwest" target="19655"/>
+      <exit direction="north" target="21026"/>
+      <exit direction="west" target="21025"/>
+      <exit direction="northwest" target="19629"/>
+      <exit direction="southeast" target="21022"/>
+      <exit direction="south" target="19653"/>
+      <exit direction="east" target="21023"/>
    </room>
    <room id="15209" area="59" title="In the valley of Anduin" environment="66">
       <coord x="21" y="17" z="0" />
@@ -27436,6 +27656,17 @@
       <exit direction="south" target="15304"/>
       <exit direction="east" target="15311"/>
    </room>
+   <room id="19653" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-17" y="26" z="0" />
+      <exit direction="northeast" target="21023"/>
+      <exit direction="southeast" target="19658"/>
+      <exit direction="north" target="21024"/>
+      <exit direction="west" target="19655"/>
+      <exit direction="northwest" target="21025"/>
+      <exit direction="southwest" target="19650"/>
+      <exit direction="south" target="19657"/>
+      <exit direction="east" target="21022"/>
+   </room>
    <room id="14803" area="59" title="Minhiriath" environment="66">
       <coord x="0" y="19" z="0" />
       <exit direction="southeast" target="14798"/>
@@ -27717,6 +27948,14 @@
       <exit direction="west" target="3736"/>
       <exit direction="east" target="3731"/>
    </room>
+   <room id="21022" area="59" title="In the forest of Lhun" environment="32">
+      <coord x="-16" y="26" z="0" />
+      <exit direction="southwest" target="19657"/>
+      <exit direction="west" target="19653"/>
+      <exit direction="north" target="21023"/>
+      <exit direction="northwest" target="21024"/>
+      <exit direction="south" target="19658"/>
+   </room>
    <room id="14702" area="59" title="Plains of Rhovanion" environment="45">
       <coord x="39" y="24" z="0" />
       <exit direction="northwest" target="14699"/>
@@ -27762,6 +28001,14 @@
       <exit direction="northeast" target="15351"/>
       <exit direction="northwest" target="15345"/>
       <exit direction="west" target="15346"/>
+   </room>
+   <room id="19654" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-19" y="26" z="0" />
+      <exit direction="northeast" target="21025"/>
+      <exit direction="north" target="20822"/>
+      <exit direction="southeast" target="19650"/>
+      <exit direction="south" target="19652"/>
+      <exit direction="east" target="19655"/>
    </room>
    <room id="11982" area="59" title="Brown Lands" environment="40">
       <coord x="26" y="11" z="0" />
@@ -28018,6 +28265,17 @@
       <exit direction="west" target="9486"/>
       <exit direction="south" target="9483"/>
       <exit direction="east" target="9482"/>
+   </room>
+   <room id="19655" area="59" title="Lost Realm of Arnor" environment="62">
+      <coord x="-18" y="26" z="0" />
+      <exit direction="northeast" target="21024"/>
+      <exit direction="southeast" target="19657"/>
+      <exit direction="north" target="21025"/>
+      <exit direction="west" target="19654"/>
+      <exit direction="northwest" target="20822"/>
+      <exit direction="southwest" target="19652"/>
+      <exit direction="south" target="19650"/>
+      <exit direction="east" target="19653"/>
    </room>
    <room id="20933" area="59" title="Mordor" environment="68">
       <coord x="46" y="2" z="0" />
@@ -29786,6 +30044,16 @@
       <exit direction="north" target="14962"/>
       <exit direction="south" target="18454"/>
       <exit direction="east" target="14961"/>
+   </room>
+   <room id="14996" area="59" title="Plains of Rhovanion" environment="45">
+      <coord x="32" y="29" z="0" />
+      <exit direction="northeast" target="14999"/>
+      <exit direction="southeast" target="15000"/>
+      <exit direction="northwest" target="9425"/>
+      <exit direction="north" target="14995"/>
+      <exit direction="southwest" target="9426"/>
+      <exit direction="south" target="15001"/>
+      <exit direction="east" target="14998"/>
    </room>
    <room id="14576" area="59" title="Swamp" environment="59">
       <coord x="7" y="16" z="0" />

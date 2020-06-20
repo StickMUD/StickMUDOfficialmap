@@ -60,6 +60,7 @@
    <area id="57" name="Coven of the Vampires" x="0" y="0" />
    <area id="58" name="Colony of Crag Pool" x="0" y="0" />
    <area id="59" name="Realm of Middle Earth" x="0" y="0" />
+   <area id="60" name="Valley of the Ogres" x="0" y="0" />
 </areas>
 <rooms>
    <room id="359" area="2" title="A path leading behind the church" environment="39">
@@ -8103,8 +8104,8 @@
    </room>
    <room id="52" area="13" title="Deeper into the hills" environment="27">
       <coord x="-1" y="0" z="0" />
-      <exit direction="south" target="55"/>
       <exit direction="east" target="53"/>
+      <exit direction="south" target="55"/>
    </room>
    <room id="62" area="13" title="The village square" environment="67">
       <coord x="2" y="0" z="0" />
@@ -10970,6 +10971,92 @@
       <exit direction="west" target="1452"/>
       <exit direction="south" target="1456"/>
    </room>
+   <room id="9290" area="60" title="A dark tunnel" environment="63">
+      <coord x="-4" y="4" z="-1" />
+      <exit direction="east" target="9288"/>
+      <exit direction="north" target="9291"/>
+   </room>
+   <room id="9292" area="60" title="A dark tunnel" environment="63">
+      <coord x="-2" y="3" z="-1" />
+      <exit direction="west" target="9293"/>
+      <exit direction="north" target="9289"/>
+   </room>
+   <room id="9288" area="60" title="A dark tunnel" environment="63">
+      <coord x="-3" y="4" z="-1" />
+      <exit direction="west" target="9290"/>
+      <exit direction="north" target="9287"/>
+      <exit direction="east" target="9289"/>
+   </room>
+   <room id="9286" area="60" title="A dark tunnel" environment="63">
+      <coord x="-2" y="5" z="-1" />
+      <exit direction="east" target="9285"/>
+      <exit direction="west" target="9287"/>
+   </room>
+   <room id="9289" area="60" title="A dark tunnel" environment="63">
+      <coord x="-2" y="4" z="-1" />
+      <exit direction="south" target="9292"/>
+      <exit direction="west" target="9288"/>
+   </room>
+   <room id="9285" area="60" title="A dark tunnel" environment="63">
+      <coord x="-1" y="5" z="-1" />
+      <exit direction="north" target="9282"/>
+      <exit direction="west" target="9286"/>
+   </room>
+   <room id="9287" area="60" title="A dark tunnel" environment="63">
+      <coord x="-3" y="5" z="-1" />
+      <exit direction="south" target="9288"/>
+      <exit direction="east" target="9286"/>
+   </room>
+   <room id="9293" area="60" title="A dark tunnel" environment="63">
+      <coord x="-3" y="3" z="-1" />
+      <exit direction="east" target="9292"/>
+      <exit direction="west" target="9294"/>
+   </room>
+   <room id="9291" area="60" title="A dark tunnel" environment="63">
+      <coord x="-4" y="5" z="-1" />
+      <exit direction="south" target="9290"/>
+   </room>
+   <room id="9301" area="60" title="A dark tunnel" environment="63">
+      <coord x="-7" y="2" z="-1" />
+      <exit direction="east" target="9298"/>
+   </room>
+   <room id="9295" area="60" title="A dark tunnel" environment="63">
+      <coord x="-4" y="2" z="-1" />
+      <exit direction="west" target="9297"/>
+      <exit direction="north" target="9294"/>
+      <exit direction="east" target="9296"/>
+   </room>
+   <room id="9298" area="60" title="A dark tunnel" environment="63">
+      <coord x="-6" y="2" z="-1" />
+      <exit direction="south" target="9300"/>
+      <exit direction="north" target="9299"/>
+      <exit direction="west" target="9301"/>
+      <exit direction="east" target="9297"/>
+   </room>
+   <room id="9294" area="60" title="A dark tunnel" environment="63">
+      <coord x="-4" y="3" z="-1" />
+      <exit direction="south" target="9295"/>
+      <exit direction="east" target="9293"/>
+   </room>
+   <room id="9299" area="60" title="A dark tunnel" environment="63">
+      <coord x="-6" y="3" z="-1" />
+      <exit direction="south" target="9298"/>
+      <exit direction="east" target="9302"/>
+   </room>
+   <room id="9297" area="60" title="A dark tunnel" environment="63">
+      <coord x="-5" y="2" z="-1" />
+      <exit direction="east" target="9295"/>
+      <exit direction="west" target="9298"/>
+   </room>
+   <room id="9300" area="60" title="A dark tunnel" environment="63">
+      <coord x="-6" y="1" z="-1" />
+      <exit direction="north" target="9298"/>
+   </room>
+   <room id="9302" area="60" title="A dark tunnel" environment="63">
+      <coord x="-5" y="3" z="-1" />
+      <exit direction="west" target="9299"/>
+   </room>
+
    <room id="1793" area="44" title="Sulphur tunnels" environment="68">
       <coord x="-2" y="-5" z="0" />
       <exit direction="west" target="1792"/>
@@ -11242,6 +11329,1809 @@
       <exit direction="west" target="202"/>
    </room>
 
+   <room id="11167" area="60" title="A dark tunnel" environment="63">
+      <coord x="11" y="0" z="1" />
+      <exit direction="east" target="9206"/>
+   </room>
+   <room id="9203" area="60" title="A dark tunnel" environment="63">
+      <coord x="12" y="-1" z="1" />
+      <exit direction="west" target="9202"/>
+      <exit direction="east" target="9205"/>
+      <exit direction="north" target="9206"/>
+   </room>
+   <room id="9204" area="60" title="A dark tunnel" environment="63">
+      <coord x="11" y="-2" z="1" />
+      <exit direction="south" target="9209"/>
+      <exit direction="north" target="9202"/>
+      <exit direction="east" target="9208"/>
+   </room>
+   <room id="9202" area="60" title="A dark tunnel" environment="63">
+      <coord x="11" y="-1" z="1" />
+      <exit direction="south" target="9204"/>
+      <exit direction="west" target="9201"/>
+      <exit direction="east" target="9203"/>
+   </room>
+   <room id="9201" area="60" title="A dark tunnel" environment="63">
+      <coord x="10" y="-1" z="1" />
+      <exit direction="northwest" target="9198"/>
+      <exit direction="east" target="9202"/>
+   </room>
+   <room id="9206" area="60" title="A dark tunnel" environment="63">
+      <coord x="12" y="0" z="1" />
+      <exit direction="south" target="9203"/>
+      <exit direction="west" target="11167"/>
+      <exit direction="north" target="11166"/>
+      <exit direction="east" target="11165"/>
+   </room>
+   <room id="9208" area="60" title="A dark tunnel" environment="63">
+      <coord x="12" y="-2" z="1" />
+      <exit direction="west" target="9204"/>
+      <exit direction="east" target="9207"/>
+   </room>
+   <room id="9205" area="60" title="A dark tunnel" environment="63">
+      <coord x="13" y="-1" z="1" />
+      <exit direction="south" target="9207"/>
+      <exit direction="west" target="9203"/>
+   </room>
+   <room id="9209" area="60" title="A dark tunnel" environment="63">
+      <coord x="11" y="-3" z="1" />
+      <exit direction="north" target="9204"/>
+   </room>
+   <room id="9178" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="0" z="0" />
+      <exit direction="northeast" target="9225"/>
+      <exit direction="southeast" target="9175"/>
+      <exit direction="north" target="9226"/>
+      <exit direction="west" target="9179"/>
+      <exit direction="northwest" target="9227"/>
+      <exit direction="southwest" target="9177"/>
+      <exit direction="south" target="9176"/>
+      <exit direction="east" target="9180"/>
+   </room>
+   <room id="9227" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="1" z="0" />
+      <exit direction="northeast" target="9230"/>
+      <exit direction="north" target="9228"/>
+      <exit direction="southeast" target="9178"/>
+      <exit direction="west" target="9229"/>
+      <exit direction="south" target="9179"/>
+      <exit direction="east" target="9226"/>
+   </room>
+   <room id="9169" area="60" title="Green valley" environment="0">
+      <coord x="-2" y="-1" z="0" />
+      <exit direction="northeast" target="9187"/>
+      <exit direction="southeast" target="9150"/>
+      <exit direction="north" target="9186"/>
+      <exit direction="west" target="9170"/>
+      <exit direction="northwest" target="9185"/>
+      <exit direction="southwest" target="9148"/>
+      <exit direction="south" target="9149"/>
+      <exit direction="east" target="9168"/>
+   </room>
+   <room id="9277" area="60" title="Rocky valley" environment="66">
+      <coord x="-1" y="3" z="0" />
+      <exit direction="northeast" target="9274"/>
+      <exit direction="southeast" target="9247"/>
+      <exit direction="north" target="9276"/>
+      <exit direction="west" target="10735"/>
+      <exit direction="northwest" target="10734"/>
+      <exit direction="southwest" target="9251"/>
+      <exit direction="south" target="9248"/>
+      <exit direction="east" target="9273"/>
+   </room>
+   <room id="9127" area="60" title="Rocky valley" environment="66">
+      <coord x="-1" y="-3" z="0" />
+      <exit direction="northeast" target="9151"/>
+      <exit direction="southeast" target="9126"/>
+      <exit direction="north" target="9150"/>
+      <exit direction="west" target="9129"/>
+      <exit direction="northwest" target="9149"/>
+      <exit direction="southwest" target="9130"/>
+      <exit direction="south" target="9128"/>
+      <exit direction="east" target="9125"/>
+   </room>
+   <room id="9182" area="60" title="Rocky valley" environment="66">
+      <coord x="-6" y="0" z="0" />
+      <exit direction="northeast" target="9222"/>
+      <exit direction="southeast" target="9172"/>
+      <exit direction="north" target="9223"/>
+      <exit direction="west" target="9181"/>
+      <exit direction="northwest" target="9224"/>
+      <exit direction="southwest" target="9174"/>
+      <exit direction="south" target="9173"/>
+      <exit direction="east" target="9183"/>
+   </room>
+   <room id="9135" area="60" title="Rocky valley" environment="66">
+      <coord x="-5" y="-3" z="0" />
+      <exit direction="northeast" target="9147"/>
+      <exit direction="southeast" target="9134"/>
+      <exit direction="north" target="9142"/>
+      <exit direction="west" target="9137"/>
+      <exit direction="northwest" target="9140"/>
+      <exit direction="southwest" target="9138"/>
+      <exit direction="south" target="9136"/>
+      <exit direction="east" target="9133"/>
+   </room>
+   <room id="11166" area="60" title="A dark tunnel" environment="63">
+      <coord x="12" y="1" z="1" />
+      <exit direction="south" target="9206"/>
+   </room>
+   <room id="11183" area="60" title="Rocky valley" environment="66">
+      <coord x="-5" y="3" z="0" />
+      <exit direction="northeast" target="11198"/>
+      <exit direction="southeast" target="11180"/>
+      <exit direction="north" target="11197"/>
+      <exit direction="west" target="11185"/>
+      <exit direction="northwest" target="11196"/>
+      <exit direction="southwest" target="11184"/>
+      <exit direction="south" target="11182"/>
+      <exit direction="east" target="11181"/>
+   </room>
+   <room id="9147" area="60" title="Rocky valley" environment="66">
+      <coord x="-4" y="-2" z="0" />
+      <exit direction="northeast" target="9170"/>
+      <exit direction="southeast" target="9131"/>
+      <exit direction="north" target="9171"/>
+      <exit direction="west" target="9142"/>
+      <exit direction="northwest" target="9172"/>
+      <exit direction="southwest" target="9135"/>
+      <exit direction="south" target="9133"/>
+      <exit direction="east" target="9148"/>
+   </room>
+   <room id="11191" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="3" z="0" />
+      <exit direction="northeast" target="11192"/>
+      <exit direction="north" target="11193"/>
+      <exit direction="southeast" target="9230"/>
+      <exit direction="south" target="9228"/>
+      <exit direction="east" target="11190"/>
+   </room>
+   <room id="9145" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="-2" z="0" />
+      <exit direction="northeast" target="9175"/>
+      <exit direction="northwest" target="9177"/>
+      <exit direction="north" target="9176"/>
+      <exit direction="southeast" target="9144"/>
+      <exit direction="east" target="9143"/>
+   </room>
+   <room id="9220" area="60" title="Green valley" environment="0">
+      <coord x="-3" y="1" z="0" />
+      <exit direction="northeast" target="9251"/>
+      <exit direction="southeast" target="9186"/>
+      <exit direction="north" target="11178"/>
+      <exit direction="west" target="9221"/>
+      <exit direction="northwest" target="11180"/>
+      <exit direction="southwest" target="9184"/>
+      <exit direction="south" target="9185"/>
+      <exit direction="east" target="9219"/>
+   </room>
+   <room id="11182" area="60" title="Rocky valley" environment="66">
+      <coord x="-5" y="2" z="0" />
+      <exit direction="northeast" target="11181"/>
+      <exit direction="southeast" target="9221"/>
+      <exit direction="north" target="11183"/>
+      <exit direction="west" target="11184"/>
+      <exit direction="northwest" target="11185"/>
+      <exit direction="southwest" target="9223"/>
+      <exit direction="south" target="9222"/>
+      <exit direction="east" target="11180"/>
+   </room>
+   <room id="11192" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="4" z="0" />
+      <exit direction="southwest" target="11191"/>
+      <exit direction="west" target="11193"/>
+      <exit direction="southeast" target="11189"/>
+      <exit direction="south" target="11190"/>
+      <exit direction="east" target="11194"/>
+   </room>
+   <room id="9222" area="60" title="Rocky valley" environment="66">
+      <coord x="-5" y="1" z="0" />
+      <exit direction="northeast" target="11180"/>
+      <exit direction="southeast" target="9184"/>
+      <exit direction="north" target="11182"/>
+      <exit direction="west" target="9223"/>
+      <exit direction="northwest" target="11184"/>
+      <exit direction="southwest" target="9182"/>
+      <exit direction="south" target="9183"/>
+      <exit direction="east" target="9221"/>
+   </room>
+   <room id="9148" area="60" title="Green valley" environment="0">
+      <coord x="-3" y="-2" z="0" />
+      <exit direction="northeast" target="9169"/>
+      <exit direction="southeast" target="9129"/>
+      <exit direction="north" target="9170"/>
+      <exit direction="west" target="9147"/>
+      <exit direction="northwest" target="9171"/>
+      <exit direction="southwest" target="9133"/>
+      <exit direction="south" target="9131"/>
+      <exit direction="east" target="9149"/>
+   </room>
+   <room id="9223" area="60" title="Rocky valley" environment="66">
+      <coord x="-6" y="1" z="0" />
+      <exit direction="northeast" target="11182"/>
+      <exit direction="southeast" target="9183"/>
+      <exit direction="north" target="11184"/>
+      <exit direction="west" target="9224"/>
+      <exit direction="northwest" target="11186"/>
+      <exit direction="southwest" target="9181"/>
+      <exit direction="south" target="9182"/>
+      <exit direction="east" target="9222"/>
+   </room>
+   <room id="9137" area="60" title="A mountain" environment="35">
+      <coord x="-6" y="-3" z="0" />
+      <exit direction="northeast" target="9142"/>
+      <exit direction="west" target="9139"/>
+      <exit direction="southeast" target="9136"/>
+      <exit direction="northwest" target="9141"/>
+      <exit direction="north" target="9140"/>
+      <exit direction="south" target="9138"/>
+      <exit direction="east" target="9135"/>
+   </room>
+   <room id="9251" area="60" title="Green valley" environment="0">
+      <coord x="-2" y="2" z="0" />
+      <exit direction="northeast" target="9277"/>
+      <exit direction="southeast" target="9218"/>
+      <exit direction="north" target="10735"/>
+      <exit direction="west" target="11178"/>
+      <exit direction="northwest" target="11179"/>
+      <exit direction="southwest" target="9220"/>
+      <exit direction="south" target="9219"/>
+      <exit direction="east" target="9248"/>
+   </room>
+   <room id="11190" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="3" z="0" />
+      <exit direction="northeast" target="11194"/>
+      <exit direction="southeast" target="11188"/>
+      <exit direction="north" target="11192"/>
+      <exit direction="west" target="11191"/>
+      <exit direction="northwest" target="11193"/>
+      <exit direction="southwest" target="9228"/>
+      <exit direction="south" target="9230"/>
+      <exit direction="east" target="11189"/>
+   </room>
+   <room id="9184" area="60" title="Green valley" environment="0">
+      <coord x="-4" y="0" z="0" />
+      <exit direction="northeast" target="9220"/>
+      <exit direction="southeast" target="9170"/>
+      <exit direction="north" target="9221"/>
+      <exit direction="west" target="9183"/>
+      <exit direction="northwest" target="9222"/>
+      <exit direction="southwest" target="9172"/>
+      <exit direction="south" target="9171"/>
+      <exit direction="east" target="9185"/>
+   </room>
+   <room id="10735" area="60" title="Rocky valley" environment="66">
+      <coord x="-2" y="3" z="0" />
+      <exit direction="northeast" target="9276"/>
+      <exit direction="southeast" target="9248"/>
+      <exit direction="north" target="10734"/>
+      <exit direction="west" target="11179"/>
+      <exit direction="northwest" target="11199"/>
+      <exit direction="southwest" target="11178"/>
+      <exit direction="south" target="9251"/>
+      <exit direction="east" target="9277"/>
+   </room>
+   <room id="9185" area="60" title="Green valley" environment="0">
+      <coord x="-3" y="0" z="0" />
+      <exit direction="northeast" target="9219"/>
+      <exit direction="southeast" target="9169"/>
+      <exit direction="north" target="9220"/>
+      <exit direction="west" target="9184"/>
+      <exit direction="northwest" target="9221"/>
+      <exit direction="southwest" target="9171"/>
+      <exit direction="south" target="9170"/>
+      <exit direction="east" target="9186"/>
+   </room>
+   <room id="11187" area="60" title="A mountain" environment="35">
+      <coord x="-7" y="3" z="0" />
+      <exit direction="northeast" target="11196"/>
+      <exit direction="southeast" target="11184"/>
+      <exit direction="north" target="11195"/>
+      <exit direction="west" target="11189"/>
+      <exit direction="northwest" target="11194"/>
+      <exit direction="southwest" target="11188"/>
+      <exit direction="south" target="11186"/>
+      <exit direction="east" target="11185"/>
+   </room>
+   <room id="11168" area="60" title="A dark tunnel" environment="63">
+      <coord x="14" y="0" z="1" />
+      <exit direction="south" target="11169"/>
+      <exit direction="west" target="11165"/>
+   </room>
+   <room id="11186" area="60" title="A mountain" environment="35">
+      <coord x="-7" y="2" z="0" />
+      <exit direction="northeast" target="11185"/>
+      <exit direction="southeast" target="9223"/>
+      <exit direction="north" target="11187"/>
+      <exit direction="west" target="11188"/>
+      <exit direction="northwest" target="11189"/>
+      <exit direction="southwest" target="9225"/>
+      <exit direction="south" target="9224"/>
+      <exit direction="east" target="11184"/>
+   </room>
+   <room id="9139" area="60" title="A mountain" environment="35">
+      <coord x="-7" y="-3" z="0" />
+      <exit direction="northeast" target="9140"/>
+      <exit direction="west" target="9144"/>
+      <exit direction="southeast" target="9138"/>
+      <exit direction="northwest" target="9143"/>
+      <exit direction="north" target="9141"/>
+      <exit direction="east" target="9137"/>
+   </room>
+   <room id="11188" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="2" z="0" />
+      <exit direction="northeast" target="11187"/>
+      <exit direction="southeast" target="9224"/>
+      <exit direction="north" target="11189"/>
+      <exit direction="west" target="9230"/>
+      <exit direction="northwest" target="11190"/>
+      <exit direction="southwest" target="9226"/>
+      <exit direction="south" target="9225"/>
+      <exit direction="east" target="11186"/>
+   </room>
+   <room id="11184" area="60" title="Rocky valley" environment="66">
+      <coord x="-6" y="2" z="0" />
+      <exit direction="northeast" target="11183"/>
+      <exit direction="southeast" target="9222"/>
+      <exit direction="north" target="11185"/>
+      <exit direction="west" target="11186"/>
+      <exit direction="northwest" target="11187"/>
+      <exit direction="southwest" target="9224"/>
+      <exit direction="south" target="9223"/>
+      <exit direction="east" target="11182"/>
+   </room>
+   <room id="10734" area="60" title="A mountain" environment="35">
+      <coord x="-2" y="4" z="0" />
+      <exit direction="southwest" target="11179"/>
+      <exit direction="west" target="11199"/>
+      <exit direction="southeast" target="9277"/>
+      <exit direction="south" target="10735"/>
+      <exit direction="east" target="9276"/>
+   </room>
+   <room id="9133" area="60" title="Rocky valley" environment="66">
+      <coord x="-4" y="-3" z="0" />
+      <exit direction="northeast" target="9148"/>
+      <exit direction="southeast" target="9132"/>
+      <exit direction="north" target="9147"/>
+      <exit direction="west" target="9135"/>
+      <exit direction="northwest" target="9142"/>
+      <exit direction="southwest" target="9136"/>
+      <exit direction="south" target="9134"/>
+      <exit direction="east" target="9131"/>
+   </room>
+   <room id="11179" area="60" title="Rocky valley" environment="66">
+      <coord x="-3" y="3" z="0" />
+      <exit direction="northeast" target="10734"/>
+      <exit direction="southeast" target="9251"/>
+      <exit direction="north" target="11199"/>
+      <exit direction="west" target="11181"/>
+      <exit direction="northwest" target="11198"/>
+      <exit direction="southwest" target="11180"/>
+      <exit direction="south" target="11178"/>
+      <exit direction="east" target="10735"/>
+   </room>
+   <room id="11194" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="4" z="0" />
+      <exit direction="southwest" target="11190"/>
+      <exit direction="west" target="11192"/>
+      <exit direction="southeast" target="11187"/>
+      <exit direction="north" target="11200"/>
+      <exit direction="south" target="11189"/>
+      <exit direction="east" target="11195"/>
+   </room>
+   <room id="11181" area="60" title="Rocky valley" environment="66">
+      <coord x="-4" y="3" z="0" />
+      <exit direction="northeast" target="11199"/>
+      <exit direction="southeast" target="11178"/>
+      <exit direction="north" target="11198"/>
+      <exit direction="west" target="11183"/>
+      <exit direction="northwest" target="11197"/>
+      <exit direction="southwest" target="11182"/>
+      <exit direction="south" target="11180"/>
+      <exit direction="east" target="11179"/>
+   </room>
+   <room id="9128" area="60" title="A mountain" environment="35">
+      <coord x="-1" y="-4" z="0" />
+      <exit direction="northeast" target="9125"/>
+      <exit direction="northwest" target="9129"/>
+      <exit direction="north" target="9127"/>
+      <exit direction="west" target="9130"/>
+      <exit direction="east" target="9126"/>
+   </room>
+   <room id="11199" area="60" title="A mountain" environment="35">
+      <coord x="-3" y="4" z="0" />
+      <exit direction="southwest" target="11181"/>
+      <exit direction="west" target="11198"/>
+      <exit direction="southeast" target="10735"/>
+      <exit direction="south" target="11179"/>
+      <exit direction="east" target="10734"/>
+   </room>
+   <room id="11180" area="60" title="Rocky valley" environment="66">
+      <coord x="-4" y="2" z="0" />
+      <exit direction="northeast" target="11179"/>
+      <exit direction="southeast" target="9220"/>
+      <exit direction="north" target="11181"/>
+      <exit direction="west" target="11182"/>
+      <exit direction="northwest" target="11183"/>
+      <exit direction="southwest" target="9222"/>
+      <exit direction="south" target="9221"/>
+      <exit direction="east" target="11178"/>
+   </room>
+   <room id="9175" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="-1" z="0" />
+      <exit direction="northeast" target="9181"/>
+      <exit direction="southeast" target="9141"/>
+      <exit direction="north" target="9180"/>
+      <exit direction="west" target="9176"/>
+      <exit direction="northwest" target="9178"/>
+      <exit direction="southwest" target="9145"/>
+      <exit direction="south" target="9143"/>
+      <exit direction="east" target="9174"/>
+   </room>
+   <room id="9132" area="60" title="A mountain" environment="35">
+      <coord x="-3" y="-4" z="0" />
+      <exit direction="northeast" target="9129"/>
+      <exit direction="northwest" target="9133"/>
+      <exit direction="north" target="9131"/>
+      <exit direction="west" target="9134"/>
+      <exit direction="east" target="9130"/>
+   </room>
+   <room id="9134" area="60" title="A mountain" environment="35">
+      <coord x="-4" y="-4" z="0" />
+      <exit direction="northeast" target="9131"/>
+      <exit direction="northwest" target="9135"/>
+      <exit direction="north" target="9133"/>
+      <exit direction="west" target="9136"/>
+      <exit direction="east" target="9132"/>
+   </room>
+   <room id="9168" area="60" title="Green valley" environment="0">
+      <coord x="-1" y="-1" z="0" />
+      <exit direction="northeast" target="9188"/>
+      <exit direction="southeast" target="9151"/>
+      <exit direction="north" target="9187"/>
+      <exit direction="west" target="9169"/>
+      <exit direction="northwest" target="9186"/>
+      <exit direction="southwest" target="9149"/>
+      <exit direction="south" target="9150"/>
+      <exit direction="east" target="9167"/>
+   </room>
+   <room id="9150" area="60" title="Green valley" environment="0">
+      <coord x="-1" y="-2" z="0" />
+      <exit direction="northeast" target="9167"/>
+      <exit direction="southeast" target="9125"/>
+      <exit direction="north" target="9168"/>
+      <exit direction="west" target="9149"/>
+      <exit direction="northwest" target="9169"/>
+      <exit direction="southwest" target="9129"/>
+      <exit direction="south" target="9127"/>
+      <exit direction="east" target="9151"/>
+   </room>
+   <room id="9218" area="60" title="Green valley" environment="0">
+      <coord x="-1" y="1" z="0" />
+      <exit direction="northeast" target="9247"/>
+      <exit direction="southeast" target="9188"/>
+      <exit direction="north" target="9248"/>
+      <exit direction="west" target="9219"/>
+      <exit direction="northwest" target="9251"/>
+      <exit direction="southwest" target="9186"/>
+      <exit direction="south" target="9187"/>
+      <exit direction="east" target="9217"/>
+   </room>
+   <room id="9179" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="0" z="0" />
+      <exit direction="northeast" target="9226"/>
+      <exit direction="north" target="9227"/>
+      <exit direction="southeast" target="9176"/>
+      <exit direction="south" target="9177"/>
+      <exit direction="east" target="9178"/>
+   </room>
+   <room id="9144" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="-3" z="0" />
+      <exit direction="northeast" target="9141"/>
+      <exit direction="northwest" target="9145"/>
+      <exit direction="north" target="9143"/>
+      <exit direction="southwest" target="9146"/>
+      <exit direction="east" target="9139"/>
+   </room>
+   <room id="9143" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="-2" z="0" />
+      <exit direction="northeast" target="9174"/>
+      <exit direction="west" target="9145"/>
+      <exit direction="southeast" target="9139"/>
+      <exit direction="northwest" target="9176"/>
+      <exit direction="north" target="9175"/>
+      <exit direction="south" target="9144"/>
+      <exit direction="east" target="9141"/>
+   </room>
+   <room id="9130" area="60" title="A mountain" environment="35">
+      <coord x="-2" y="-4" z="0" />
+      <exit direction="northeast" target="9127"/>
+      <exit direction="northwest" target="9131"/>
+      <exit direction="north" target="9129"/>
+      <exit direction="west" target="9132"/>
+      <exit direction="east" target="9128"/>
+   </room>
+   <room id="9136" area="60" title="A mountain" environment="35">
+      <coord x="-5" y="-4" z="0" />
+      <exit direction="northeast" target="9133"/>
+      <exit direction="northwest" target="9137"/>
+      <exit direction="north" target="9135"/>
+      <exit direction="west" target="9138"/>
+      <exit direction="east" target="9134"/>
+   </room>
+   <room id="9174" area="60" title="Rocky valley" environment="66">
+      <coord x="-7" y="-1" z="0" />
+      <exit direction="northeast" target="9182"/>
+      <exit direction="southeast" target="9140"/>
+      <exit direction="north" target="9181"/>
+      <exit direction="west" target="9175"/>
+      <exit direction="northwest" target="9180"/>
+      <exit direction="southwest" target="9143"/>
+      <exit direction="south" target="9141"/>
+      <exit direction="east" target="9173"/>
+   </room>
+   <room id="9230" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="2" z="0" />
+      <exit direction="northeast" target="11189"/>
+      <exit direction="southeast" target="9225"/>
+      <exit direction="north" target="11190"/>
+      <exit direction="west" target="9228"/>
+      <exit direction="northwest" target="11191"/>
+      <exit direction="southwest" target="9227"/>
+      <exit direction="south" target="9226"/>
+      <exit direction="east" target="11188"/>
+   </room>
+   <room id="9224" area="60" title="Rocky valley" environment="66">
+      <coord x="-7" y="1" z="0" />
+      <exit direction="northeast" target="11184"/>
+      <exit direction="southeast" target="9182"/>
+      <exit direction="north" target="11186"/>
+      <exit direction="west" target="9225"/>
+      <exit direction="northwest" target="11188"/>
+      <exit direction="southwest" target="9180"/>
+      <exit direction="south" target="9181"/>
+      <exit direction="east" target="9223"/>
+   </room>
+   <room id="9228" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="2" z="0" />
+      <exit direction="northeast" target="11190"/>
+      <exit direction="north" target="11191"/>
+      <exit direction="southeast" target="9226"/>
+      <exit direction="south" target="9227"/>
+      <exit direction="east" target="9230"/>
+   </room>
+   <room id="9219" area="60" title="Green valley" environment="0">
+      <coord x="-2" y="1" z="0" />
+      <exit direction="northeast" target="9248"/>
+      <exit direction="southeast" target="9187"/>
+      <exit direction="north" target="9251"/>
+      <exit direction="west" target="9220"/>
+      <exit direction="northwest" target="11178"/>
+      <exit direction="southwest" target="9185"/>
+      <exit direction="south" target="9186"/>
+      <exit direction="east" target="9218"/>
+   </room>
+   <room id="9180" area="60" title="Rocky valley" environment="66">
+      <coord x="-8" y="0" z="0" />
+      <exit direction="northeast" target="9224"/>
+      <exit direction="southeast" target="9174"/>
+      <exit direction="north" target="9225"/>
+      <exit direction="west" target="9178"/>
+      <exit direction="northwest" target="9226"/>
+      <exit direction="southwest" target="9176"/>
+      <exit direction="south" target="9175"/>
+      <exit direction="east" target="9181"/>
+   </room>
+   <room id="9149" area="60" title="Green valley" environment="0">
+      <coord x="-2" y="-2" z="0" />
+      <exit direction="northeast" target="9168"/>
+      <exit direction="southeast" target="9127"/>
+      <exit direction="north" target="9169"/>
+      <exit direction="west" target="9148"/>
+      <exit direction="northwest" target="9170"/>
+      <exit direction="southwest" target="9131"/>
+      <exit direction="south" target="9129"/>
+      <exit direction="east" target="9150"/>
+   </room>
+   <room id="11197" area="60" title="A mountain" environment="35">
+      <coord x="-5" y="4" z="0" />
+      <exit direction="southwest" target="11185"/>
+      <exit direction="west" target="11196"/>
+      <exit direction="southeast" target="11181"/>
+      <exit direction="south" target="11183"/>
+      <exit direction="east" target="11198"/>
+   </room>
+   <room id="9186" area="60" title="Green valley" environment="0">
+      <coord x="-2" y="0" z="0" />
+      <exit direction="northeast" target="9218"/>
+      <exit direction="southeast" target="9168"/>
+      <exit direction="north" target="9219"/>
+      <exit direction="west" target="9185"/>
+      <exit direction="northwest" target="9220"/>
+      <exit direction="southwest" target="9170"/>
+      <exit direction="south" target="9169"/>
+      <exit direction="east" target="9187"/>
+   </room>
+   <room id="9141" area="60" title="Rocky valley" environment="66">
+      <coord x="-7" y="-2" z="0" />
+      <exit direction="northeast" target="9173"/>
+      <exit direction="southeast" target="9137"/>
+      <exit direction="north" target="9174"/>
+      <exit direction="west" target="9143"/>
+      <exit direction="northwest" target="9175"/>
+      <exit direction="southwest" target="9144"/>
+      <exit direction="south" target="9139"/>
+      <exit direction="east" target="9140"/>
+   </room>
+   <room id="11165" area="60" title="A dark tunnel" environment="63">
+      <coord x="13" y="0" z="1" />
+      <exit direction="west" target="9206"/>
+      <exit direction="east" target="11168"/>
+   </room>
+   <room id="9225" area="60" title="Rocky valley" environment="66">
+      <coord x="-8" y="1" z="0" />
+      <exit direction="northeast" target="11186"/>
+      <exit direction="southeast" target="9181"/>
+      <exit direction="north" target="11188"/>
+      <exit direction="west" target="9226"/>
+      <exit direction="northwest" target="9230"/>
+      <exit direction="southwest" target="9178"/>
+      <exit direction="south" target="9180"/>
+      <exit direction="east" target="9224"/>
+   </room>
+   <room id="11196" area="60" title="A mountain" environment="35">
+      <coord x="-6" y="4" z="0" />
+      <exit direction="southwest" target="11187"/>
+      <exit direction="west" target="11195"/>
+      <exit direction="southeast" target="11183"/>
+      <exit direction="south" target="11185"/>
+      <exit direction="east" target="11197"/>
+   </room>
+   <room id="9171" area="60" title="Green valley" environment="0">
+      <coord x="-4" y="-1" z="0" />
+      <exit direction="northeast" target="9185"/>
+      <exit direction="southeast" target="9148"/>
+      <exit direction="north" target="9184"/>
+      <exit direction="west" target="9172"/>
+      <exit direction="northwest" target="9183"/>
+      <exit direction="southwest" target="9142"/>
+      <exit direction="south" target="9147"/>
+      <exit direction="east" target="9170"/>
+   </room>
+   <room id="9140" area="60" title="Rocky valley" environment="66">
+      <coord x="-6" y="-2" z="0" />
+      <exit direction="northeast" target="9172"/>
+      <exit direction="southeast" target="9135"/>
+      <exit direction="north" target="9173"/>
+      <exit direction="west" target="9141"/>
+      <exit direction="northwest" target="9174"/>
+      <exit direction="southwest" target="9139"/>
+      <exit direction="south" target="9137"/>
+      <exit direction="east" target="9142"/>
+   </room>
+   <room id="9207" area="60" title="A dark tunnel" environment="63">
+      <coord x="13" y="-2" z="1" />
+      <exit direction="north" target="9205"/>
+      <exit direction="west" target="9208"/>
+   </room>
+   <room id="9172" area="60" title="Green valley" environment="0">
+      <coord x="-5" y="-1" z="0" />
+      <exit direction="northeast" target="9184"/>
+      <exit direction="southeast" target="9147"/>
+      <exit direction="north" target="9183"/>
+      <exit direction="west" target="9173"/>
+      <exit direction="northwest" target="9182"/>
+      <exit direction="southwest" target="9140"/>
+      <exit direction="south" target="9142"/>
+      <exit direction="east" target="9171"/>
+   </room>
+   <room id="11185" area="60" title="A mountain" environment="35">
+      <coord x="-6" y="3" z="0" />
+      <exit direction="northeast" target="11197"/>
+      <exit direction="southeast" target="11182"/>
+      <exit direction="north" target="11196"/>
+      <exit direction="west" target="11187"/>
+      <exit direction="northwest" target="11195"/>
+      <exit direction="southwest" target="11186"/>
+      <exit direction="south" target="11184"/>
+      <exit direction="east" target="11183"/>
+   </room>
+   <room id="9177" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="-1" z="0" />
+      <exit direction="northeast" target="9178"/>
+      <exit direction="north" target="9179"/>
+      <exit direction="southeast" target="9145"/>
+      <exit direction="east" target="9176"/>
+   </room>
+   <room id="9248" area="60" title="Green valley" environment="0">
+      <coord x="-1" y="2" z="0" />
+      <exit direction="northeast" target="9273"/>
+      <exit direction="southeast" target="9217"/>
+      <exit direction="north" target="9277"/>
+      <exit direction="west" target="9251"/>
+      <exit direction="northwest" target="10735"/>
+      <exit direction="southwest" target="9219"/>
+      <exit direction="south" target="9218"/>
+      <exit direction="east" target="9247"/>
+   </room>
+   <room id="11178" area="60" title="Rocky valley" environment="66">
+      <coord x="-3" y="2" z="0" />
+      <exit direction="northeast" target="10735"/>
+      <exit direction="southeast" target="9219"/>
+      <exit direction="north" target="11179"/>
+      <exit direction="west" target="11180"/>
+      <exit direction="northwest" target="11181"/>
+      <exit direction="southwest" target="9221"/>
+      <exit direction="south" target="9220"/>
+      <exit direction="east" target="9251"/>
+   </room>
+   <room id="11195" area="60" title="A mountain" environment="35">
+      <coord x="-7" y="4" z="0" />
+      <exit direction="southwest" target="11189"/>
+      <exit direction="west" target="11194"/>
+      <exit direction="southeast" target="11185"/>
+      <exit direction="south" target="11187"/>
+      <exit direction="east" target="11196"/>
+   </room>
+   <room id="11198" area="60" title="A mountain" environment="35">
+      <coord x="-4" y="4" z="0" />
+      <exit direction="southwest" target="11183"/>
+      <exit direction="west" target="11197"/>
+      <exit direction="southeast" target="11179"/>
+      <exit direction="south" target="11181"/>
+      <exit direction="east" target="11199"/>
+   </room>
+   <room id="9276" area="60" title="A mountain" environment="35">
+      <coord x="-1" y="4" z="0" />
+      <exit direction="southwest" target="10735"/>
+      <exit direction="west" target="10734"/>
+      <exit direction="southeast" target="9273"/>
+      <exit direction="south" target="9277"/>
+      <exit direction="east" target="9274"/>
+   </room>
+   <room id="9173" area="60" title="Rocky valley" environment="66">
+      <coord x="-6" y="-1" z="0" />
+      <exit direction="northeast" target="9183"/>
+      <exit direction="southeast" target="9142"/>
+      <exit direction="north" target="9182"/>
+      <exit direction="west" target="9174"/>
+      <exit direction="northwest" target="9181"/>
+      <exit direction="southwest" target="9141"/>
+      <exit direction="south" target="9140"/>
+      <exit direction="east" target="9172"/>
+   </room>
+   <room id="9138" area="60" title="A mountain" environment="35">
+      <coord x="-6" y="-4" z="0" />
+      <exit direction="northeast" target="9135"/>
+      <exit direction="north" target="9137"/>
+      <exit direction="northwest" target="9139"/>
+      <exit direction="east" target="9136"/>
+   </room>
+   <room id="9170" area="60" title="Green valley" environment="0">
+      <coord x="-3" y="-1" z="0" />
+      <exit direction="northeast" target="9186"/>
+      <exit direction="southeast" target="9149"/>
+      <exit direction="north" target="9185"/>
+      <exit direction="west" target="9171"/>
+      <exit direction="northwest" target="9184"/>
+      <exit direction="southwest" target="9147"/>
+      <exit direction="south" target="9148"/>
+      <exit direction="east" target="9169"/>
+   </room>
+   <room id="9131" area="60" title="Rocky valley" environment="66">
+      <coord x="-3" y="-3" z="0" />
+      <exit direction="northeast" target="9149"/>
+      <exit direction="southeast" target="9130"/>
+      <exit direction="north" target="9148"/>
+      <exit direction="west" target="9133"/>
+      <exit direction="northwest" target="9147"/>
+      <exit direction="southwest" target="9134"/>
+      <exit direction="south" target="9132"/>
+      <exit direction="east" target="9129"/>
+   </room>
+   <room id="9183" area="60" title="Green valley" environment="0">
+      <coord x="-5" y="0" z="0" />
+      <exit direction="northeast" target="9221"/>
+      <exit direction="southeast" target="9171"/>
+      <exit direction="north" target="9222"/>
+      <exit direction="west" target="9182"/>
+      <exit direction="northwest" target="9223"/>
+      <exit direction="southwest" target="9173"/>
+      <exit direction="south" target="9172"/>
+      <exit direction="east" target="9184"/>
+   </room>
+   <room id="9221" area="60" title="Green valley" environment="0">
+      <coord x="-4" y="1" z="0" />
+      <exit direction="northeast" target="11178"/>
+      <exit direction="southeast" target="9185"/>
+      <exit direction="north" target="11180"/>
+      <exit direction="west" target="9222"/>
+      <exit direction="northwest" target="11182"/>
+      <exit direction="southwest" target="9183"/>
+      <exit direction="south" target="9184"/>
+      <exit direction="east" target="9220"/>
+   </room>
+   <room id="9176" area="60" title="A mountain" environment="35">
+      <coord x="-9" y="-1" z="0" />
+      <exit direction="northeast" target="9180"/>
+      <exit direction="west" target="9177"/>
+      <exit direction="southeast" target="9143"/>
+      <exit direction="northwest" target="9179"/>
+      <exit direction="north" target="9178"/>
+      <exit direction="south" target="9145"/>
+      <exit direction="east" target="9175"/>
+   </room>
+   <room id="9226" area="60" title="Rocky valley" environment="66">
+      <coord x="-9" y="1" z="0" />
+      <exit direction="northeast" target="11188"/>
+      <exit direction="southeast" target="9180"/>
+      <exit direction="north" target="9230"/>
+      <exit direction="west" target="9227"/>
+      <exit direction="northwest" target="9228"/>
+      <exit direction="southwest" target="9179"/>
+      <exit direction="south" target="9178"/>
+      <exit direction="east" target="9225"/>
+   </room>
+   <room id="9129" area="60" title="Rocky valley" environment="66">
+      <coord x="-2" y="-3" z="0" />
+      <exit direction="northeast" target="9150"/>
+      <exit direction="southeast" target="9128"/>
+      <exit direction="north" target="9149"/>
+      <exit direction="west" target="9131"/>
+      <exit direction="northwest" target="9148"/>
+      <exit direction="southwest" target="9132"/>
+      <exit direction="south" target="9130"/>
+      <exit direction="east" target="9127"/>
+   </room>
+   <room id="9187" area="60" title="Green valley" environment="0">
+      <coord x="-1" y="0" z="0" />
+      <exit direction="northeast" target="9217"/>
+      <exit direction="southeast" target="9167"/>
+      <exit direction="north" target="9218"/>
+      <exit direction="west" target="9186"/>
+      <exit direction="northwest" target="9219"/>
+      <exit direction="southwest" target="9169"/>
+      <exit direction="south" target="9168"/>
+      <exit direction="east" target="9188"/>
+   </room>
+   <room id="11189" area="60" title="A mountain" environment="35">
+      <coord x="-8" y="3" z="0" />
+      <exit direction="northeast" target="11195"/>
+      <exit direction="southeast" target="11186"/>
+      <exit direction="north" target="11194"/>
+      <exit direction="west" target="11190"/>
+      <exit direction="northwest" target="11192"/>
+      <exit direction="southwest" target="9230"/>
+      <exit direction="south" target="11188"/>
+      <exit direction="east" target="11187"/>
+   </room>
+   <room id="11193" area="60" title="A mountain" environment="35">
+      <coord x="-10" y="4" z="0" />
+      <exit direction="south" target="11191"/>
+      <exit direction="east" target="11192"/>
+      <exit direction="southeast" target="11190"/>
+   </room>
+   <room id="9142" area="60" title="Rocky valley" environment="66">
+      <coord x="-5" y="-2" z="0" />
+      <exit direction="northeast" target="9171"/>
+      <exit direction="southeast" target="9133"/>
+      <exit direction="north" target="9172"/>
+      <exit direction="west" target="9140"/>
+      <exit direction="northwest" target="9173"/>
+      <exit direction="southwest" target="9137"/>
+      <exit direction="south" target="9135"/>
+      <exit direction="east" target="9147"/>
+   </room>
+   <room id="9181" area="60" title="Rocky valley" environment="66">
+      <coord x="-7" y="0" z="0" />
+      <exit direction="northeast" target="9223"/>
+      <exit direction="southeast" target="9173"/>
+      <exit direction="north" target="9224"/>
+      <exit direction="west" target="9180"/>
+      <exit direction="northwest" target="9225"/>
+      <exit direction="southwest" target="9175"/>
+      <exit direction="south" target="9174"/>
+      <exit direction="east" target="9182"/>
+   </room>
+   <room id="9159" area="60" title="Green valley" environment="0">
+      <coord x="3" y="-1" z="0" />
+      <exit direction="northeast" target="9192"/>
+      <exit direction="southeast" target="9155"/>
+      <exit direction="north" target="9191"/>
+      <exit direction="west" target="9165"/>
+      <exit direction="northwest" target="9190"/>
+      <exit direction="southwest" target="9153"/>
+      <exit direction="south" target="9154"/>
+      <exit direction="east" target="9158"/>
+   </room>
+   <room id="9195" area="60" title="Rocky valley" environment="66">
+      <coord x="7" y="0" z="0" />
+      <exit direction="northeast" target="9200"/>
+      <exit direction="southeast" target="9163"/>
+      <exit direction="north" target="9210"/>
+      <exit direction="west" target="9194"/>
+      <exit direction="northwest" target="9211"/>
+      <exit direction="southwest" target="9161"/>
+      <exit direction="south" target="9162"/>
+      <exit direction="east" target="9197"/>
+   </room>
+   <room id="9115" area="60" title="A mountain path" environment="0">
+      <coord x="5" y="-3" z="0" />
+      <exit direction="northeast" target="9111"/>
+      <exit direction="southeast" target="9113"/>
+      <exit direction="north" target="9156"/>
+      <exit direction="west" target="9117"/>
+      <exit direction="northwest" target="9155"/>
+      <exit direction="southwest" target="9118"/>
+      <exit direction="south" target="9116"/>
+      <exit direction="east" target="9114"/>
+   </room>
+   <room id="9212" area="60" title="Green valley" environment="0">
+      <coord x="5" y="1" z="0" />
+      <exit direction="northeast" target="11177"/>
+      <exit direction="southeast" target="9194"/>
+      <exit direction="north" target="11176"/>
+      <exit direction="west" target="9213"/>
+      <exit direction="northwest" target="11175"/>
+      <exit direction="southwest" target="9192"/>
+      <exit direction="south" target="9193"/>
+      <exit direction="east" target="9211"/>
+   </room>
+   <room id="9161" area="60" title="Rocky valley" environment="66">
+      <coord x="6" y="-1" z="0" />
+      <exit direction="northeast" target="9195"/>
+      <exit direction="southeast" target="9110"/>
+      <exit direction="north" target="9194"/>
+      <exit direction="west" target="9160"/>
+      <exit direction="northwest" target="9193"/>
+      <exit direction="southwest" target="9156"/>
+      <exit direction="south" target="9111"/>
+      <exit direction="east" target="9162"/>
+   </room>
+   <room id="9154" area="60" title="Green valley" environment="0">
+      <coord x="3" y="-2" z="0" />
+      <exit direction="northeast" target="9158"/>
+      <exit direction="southeast" target="9117"/>
+      <exit direction="north" target="9159"/>
+      <exit direction="west" target="9153"/>
+      <exit direction="northwest" target="9165"/>
+      <exit direction="southwest" target="9121"/>
+      <exit direction="south" target="9119"/>
+      <exit direction="east" target="9155"/>
+   </room>
+   <room id="9268" area="60" title="A mountain" environment="35">
+      <coord x="3" y="4" z="0" />
+      <exit direction="southwest" target="9269"/>
+      <exit direction="west" target="9270"/>
+      <exit direction="southeast" target="9265"/>
+      <exit direction="south" target="9267"/>
+      <exit direction="east" target="9266"/>
+   </room>
+   <room id="9214" area="60" title="Green valley" environment="0">
+      <coord x="3" y="1" z="0" />
+      <exit direction="northeast" target="11175"/>
+      <exit direction="southeast" target="9192"/>
+      <exit direction="north" target="11174"/>
+      <exit direction="west" target="9215"/>
+      <exit direction="northwest" target="11173"/>
+      <exit direction="southwest" target="9190"/>
+      <exit direction="south" target="9191"/>
+      <exit direction="east" target="9213"/>
+   </room>
+   <room id="9110" area="60" title="Rocky valley" environment="66">
+      <coord x="7" y="-2" z="0" />
+      <exit direction="northeast" target="9163"/>
+      <exit direction="southeast" target="9108"/>
+      <exit direction="north" target="9162"/>
+      <exit direction="west" target="9111"/>
+      <exit direction="northwest" target="9161"/>
+      <exit direction="southwest" target="9114"/>
+      <exit direction="south" target="9107"/>
+      <exit direction="east" target="9112"/>
+   </room>
+   <room id="9259" area="60" title="A mountain" environment="35">
+      <coord x="7" y="4" z="0" />
+      <exit direction="southwest" target="9261"/>
+      <exit direction="west" target="9262"/>
+      <exit direction="southeast" target="9255"/>
+      <exit direction="south" target="9256"/>
+      <exit direction="east" target="9258"/>
+   </room>
+   <room id="9262" area="60" title="A mountain" environment="35">
+      <coord x="6" y="4" z="0" />
+      <exit direction="southwest" target="9263"/>
+      <exit direction="west" target="9264"/>
+      <exit direction="southeast" target="9256"/>
+      <exit direction="south" target="9261"/>
+      <exit direction="east" target="9259"/>
+   </room>
+   <room id="9271" area="60" title="Rocky valley" environment="66">
+      <coord x="1" y="3" z="0" />
+      <exit direction="northeast" target="9270"/>
+      <exit direction="southeast" target="11173"/>
+      <exit direction="north" target="9272"/>
+      <exit direction="west" target="9273"/>
+      <exit direction="northwest" target="9274"/>
+      <exit direction="southwest" target="9247"/>
+      <exit direction="south" target="9249"/>
+      <exit direction="east" target="9269"/>
+   </room>
+   <room id="9167" area="60" title="Green valley" environment="0">
+      <coord x="0" y="-1" z="0" />
+      <exit direction="northeast" target="9189"/>
+      <exit direction="southeast" target="9152"/>
+      <exit direction="north" target="9188"/>
+      <exit direction="west" target="9168"/>
+      <exit direction="northwest" target="9187"/>
+      <exit direction="southwest" target="9150"/>
+      <exit direction="south" target="9151"/>
+      <exit direction="east" target="9166"/>
+   </room>
+   <room id="9210" area="60" title="Green valley" environment="0">
+      <coord x="7" y="1" z="0" />
+      <exit direction="northeast" target="9252"/>
+      <exit direction="southeast" target="9197"/>
+      <exit direction="north" target="9253"/>
+      <exit direction="west" target="9211"/>
+      <exit direction="northwest" target="11177"/>
+      <exit direction="southwest" target="9194"/>
+      <exit direction="south" target="9195"/>
+      <exit direction="east" target="9200"/>
+   </room>
+   <room id="9108" area="60" title="A mountain" environment="35">
+      <coord x="8" y="-3" z="0" />
+      <exit direction="northeast" target="9157"/>
+      <exit direction="north" target="9112"/>
+      <exit direction="southwest" target="9109"/>
+      <exit direction="west" target="9107"/>
+      <exit direction="northwest" target="9110"/>
+      <exit direction="south" target="9106"/>
+   </room>
+   <room id="9156" area="60" title="Rocky valley" environment="66">
+      <coord x="5" y="-2" z="0" />
+      <exit direction="northeast" target="9161"/>
+      <exit direction="southeast" target="9114"/>
+      <exit direction="north" target="9160"/>
+      <exit direction="west" target="9155"/>
+      <exit direction="northwest" target="9158"/>
+      <exit direction="southwest" target="9117"/>
+      <exit direction="south" target="9115"/>
+      <exit direction="east" target="9111"/>
+   </room>
+   <room id="9122" area="60" title="A mountain" environment="35">
+      <coord x="2" y="-4" z="0" />
+      <exit direction="northeast" target="9119"/>
+      <exit direction="northwest" target="9123"/>
+      <exit direction="north" target="9121"/>
+      <exit direction="west" target="9124"/>
+      <exit direction="east" target="9120"/>
+   </room>
+   <room id="9200" area="60" title="Rocky valley" environment="66">
+      <coord x="8" y="1" z="0" />
+      <exit direction="northeast" target="9254"/>
+      <exit direction="southeast" target="9198"/>
+      <exit direction="north" target="9252"/>
+      <exit direction="west" target="9210"/>
+      <exit direction="northwest" target="9253"/>
+      <exit direction="southwest" target="9195"/>
+      <exit direction="south" target="9197"/>
+      <exit direction="east" target="9199"/>
+   </room>
+   <room id="9260" area="60" title="A mountain" environment="35">
+      <coord x="9" y="4" z="0" />
+      <exit direction="south" target="9257"/>
+      <exit direction="southwest" target="9255"/>
+      <exit direction="west" target="9258"/>
+   </room>
+   <room id="9112" area="60" title="A mountain" environment="35">
+      <coord x="8" y="-2" z="0" />
+      <exit direction="northeast" target="9164"/>
+      <exit direction="west" target="9110"/>
+      <exit direction="southwest" target="9107"/>
+      <exit direction="northwest" target="9162"/>
+      <exit direction="north" target="9163"/>
+      <exit direction="south" target="9108"/>
+      <exit direction="east" target="9157"/>
+   </room>
+   <room id="9153" area="60" title="Green valley" environment="0">
+      <coord x="2" y="-2" z="0" />
+      <exit direction="northeast" target="9159"/>
+      <exit direction="southeast" target="9119"/>
+      <exit direction="north" target="9165"/>
+      <exit direction="west" target="9152"/>
+      <exit direction="northwest" target="9166"/>
+      <exit direction="southwest" target="9123"/>
+      <exit direction="south" target="9121"/>
+      <exit direction="east" target="9154"/>
+   </room>
+   <room id="9118" area="60" title="A mountain" environment="35">
+      <coord x="4" y="-4" z="0" />
+      <exit direction="northeast" target="9115"/>
+      <exit direction="northwest" target="9119"/>
+      <exit direction="north" target="9117"/>
+      <exit direction="west" target="9120"/>
+      <exit direction="east" target="9116"/>
+   </room>
+   <room id="9269" area="60" title="Rocky valley" environment="66">
+      <coord x="2" y="3" z="0" />
+      <exit direction="northeast" target="9268"/>
+      <exit direction="southeast" target="11174"/>
+      <exit direction="north" target="9270"/>
+      <exit direction="west" target="9271"/>
+      <exit direction="northwest" target="9272"/>
+      <exit direction="southwest" target="9249"/>
+      <exit direction="south" target="11173"/>
+      <exit direction="east" target="9267"/>
+   </room>
+   <room id="9157" area="60" title="A mountain" environment="35">
+      <coord x="9" y="-2" z="0" />
+      <exit direction="north" target="9164"/>
+      <exit direction="northwest" target="9163"/>
+      <exit direction="southwest" target="9108"/>
+      <exit direction="west" target="9112"/>
+   </room>
+   <room id="9216" area="60" title="Green valley" environment="0">
+      <coord x="1" y="1" z="0" />
+      <exit direction="northeast" target="11173"/>
+      <exit direction="southeast" target="9190"/>
+      <exit direction="north" target="9249"/>
+      <exit direction="west" target="9217"/>
+      <exit direction="northwest" target="9247"/>
+      <exit direction="southwest" target="9188"/>
+      <exit direction="south" target="9189"/>
+      <exit direction="east" target="9215"/>
+   </room>
+   <room id="9193" area="60" title="Green valley" environment="0">
+      <coord x="5" y="0" z="0" />
+      <exit direction="northeast" target="9211"/>
+      <exit direction="southeast" target="9161"/>
+      <exit direction="north" target="9212"/>
+      <exit direction="west" target="9192"/>
+      <exit direction="northwest" target="9213"/>
+      <exit direction="southwest" target="9158"/>
+      <exit direction="south" target="9160"/>
+      <exit direction="east" target="9194"/>
+   </room>
+   <room id="9266" area="60" title="A mountain" environment="35">
+      <coord x="4" y="4" z="0" />
+      <exit direction="southwest" target="9267"/>
+      <exit direction="west" target="9268"/>
+      <exit direction="southeast" target="9263"/>
+      <exit direction="south" target="9265"/>
+      <exit direction="east" target="9264"/>
+   </room>
+   <room id="9261" area="60" title="Rocky valley" environment="66">
+      <coord x="6" y="3" z="0" />
+      <exit direction="northeast" target="9259"/>
+      <exit direction="southeast" target="9253"/>
+      <exit direction="north" target="9262"/>
+      <exit direction="west" target="9263"/>
+      <exit direction="northwest" target="9264"/>
+      <exit direction="southwest" target="11176"/>
+      <exit direction="south" target="11177"/>
+      <exit direction="east" target="9256"/>
+   </room>
+   <room id="9166" area="60" title="Green valley" environment="0">
+      <coord x="1" y="-1" z="0" />
+      <exit direction="northeast" target="9190"/>
+      <exit direction="southeast" target="9153"/>
+      <exit direction="north" target="9189"/>
+      <exit direction="west" target="9167"/>
+      <exit direction="northwest" target="9188"/>
+      <exit direction="southwest" target="9151"/>
+      <exit direction="south" target="9152"/>
+      <exit direction="east" target="9165"/>
+   </room>
+   <room id="9155" area="60" title="Rocky valley" environment="66">
+      <coord x="4" y="-2" z="0" />
+      <exit direction="northeast" target="9160"/>
+      <exit direction="southeast" target="9115"/>
+      <exit direction="north" target="9158"/>
+      <exit direction="west" target="9154"/>
+      <exit direction="northwest" target="9159"/>
+      <exit direction="southwest" target="9119"/>
+      <exit direction="south" target="9117"/>
+      <exit direction="east" target="9156"/>
+   </room>
+   <room id="9273" area="60" title="Rocky valley" environment="66">
+      <coord x="0" y="3" z="0" />
+      <exit direction="northeast" target="9272"/>
+      <exit direction="southeast" target="9249"/>
+      <exit direction="north" target="9274"/>
+      <exit direction="west" target="9277"/>
+      <exit direction="northwest" target="9276"/>
+      <exit direction="southwest" target="9248"/>
+      <exit direction="south" target="9247"/>
+      <exit direction="east" target="9271"/>
+   </room>
+   <room id="9114" area="60" title="A mountain" environment="35">
+      <coord x="6" y="-3" z="0" />
+      <exit direction="northeast" target="9110"/>
+      <exit direction="southeast" target="9109"/>
+      <exit direction="north" target="9111"/>
+      <exit direction="west" target="9115"/>
+      <exit direction="northwest" target="9156"/>
+      <exit direction="southwest" target="9116"/>
+      <exit direction="south" target="9113"/>
+      <exit direction="east" target="9107"/>
+   </room>
+   <room id="9105" area="60" title="A mountain path" environment="38">
+      <coord x="9" y="-5" z="0" />
+      <exit direction="northwest" target="9106"/>
+      <exit direction="southeast" target="9104"/>
+   </room>
+   <room id="9120" area="60" title="A mountain" environment="35">
+      <coord x="3" y="-4" z="0" />
+      <exit direction="northeast" target="9117"/>
+      <exit direction="northwest" target="9121"/>
+      <exit direction="north" target="9119"/>
+      <exit direction="west" target="9122"/>
+      <exit direction="east" target="9118"/>
+   </room>
+   <room id="9113" area="60" title="A mountain path" environment="0">
+      <coord x="6" y="-4" z="0" />
+      <exit direction="northeast" target="9107"/>
+      <exit direction="northwest" target="9115"/>
+      <exit direction="north" target="9114"/>
+      <exit direction="west" target="9116"/>
+      <exit direction="east" target="9109"/>
+   </room>
+   <room id="9109" area="60" title="A mountain path" environment="0">
+      <coord x="7" y="-4" z="0" />
+      <exit direction="northeast" target="9108"/>
+      <exit direction="northwest" target="9114"/>
+      <exit direction="north" target="9107"/>
+      <exit direction="west" target="9113"/>
+      <exit direction="east" target="9106"/>
+   </room>
+   <room id="9272" area="60" title="Rocky valley" environment="66">
+      <coord x="1" y="4" z="0" />
+      <exit direction="southwest" target="9273"/>
+      <exit direction="west" target="9274"/>
+      <exit direction="southeast" target="9269"/>
+      <exit direction="south" target="9271"/>
+      <exit direction="east" target="9270"/>
+   </room>
+   <room id="9152" area="60" title="Green valley" environment="0">
+      <coord x="1" y="-2" z="0" />
+      <exit direction="northeast" target="9165"/>
+      <exit direction="southeast" target="9121"/>
+      <exit direction="north" target="9166"/>
+      <exit direction="west" target="9151"/>
+      <exit direction="northwest" target="9167"/>
+      <exit direction="southwest" target="9125"/>
+      <exit direction="south" target="9123"/>
+      <exit direction="east" target="9153"/>
+   </room>
+   <room id="9247" area="60" title="Green valley" environment="0">
+      <coord x="0" y="2" z="0" />
+      <exit direction="northeast" target="9271"/>
+      <exit direction="southeast" target="9216"/>
+      <exit direction="north" target="9273"/>
+      <exit direction="west" target="9248"/>
+      <exit direction="northwest" target="9277"/>
+      <exit direction="southwest" target="9218"/>
+      <exit direction="south" target="9217"/>
+      <exit direction="east" target="9249"/>
+   </room>
+   <room id="9270" area="60" title="A mountain" environment="35">
+      <coord x="2" y="4" z="0" />
+      <exit direction="southwest" target="9271"/>
+      <exit direction="west" target="9272"/>
+      <exit direction="southeast" target="9267"/>
+      <exit direction="south" target="9269"/>
+      <exit direction="east" target="9268"/>
+   </room>
+   <room id="9163" area="60" title="Rocky valley" environment="66">
+      <coord x="8" y="-1" z="0" />
+      <exit direction="northeast" target="9198"/>
+      <exit direction="southeast" target="9157"/>
+      <exit direction="north" target="9197"/>
+      <exit direction="west" target="9162"/>
+      <exit direction="northwest" target="9195"/>
+      <exit direction="southwest" target="9110"/>
+      <exit direction="south" target="9112"/>
+      <exit direction="east" target="9164"/>
+   </room>
+   <room id="9117" area="60" title="Rocky valley" environment="66">
+      <coord x="4" y="-3" z="0" />
+      <exit direction="northeast" target="9156"/>
+      <exit direction="southeast" target="9116"/>
+      <exit direction="north" target="9155"/>
+      <exit direction="west" target="9119"/>
+      <exit direction="northwest" target="9154"/>
+      <exit direction="southwest" target="9120"/>
+      <exit direction="south" target="9118"/>
+      <exit direction="east" target="9115"/>
+   </room>
+   <room id="9194" area="60" title="Green valley" environment="0">
+      <coord x="6" y="0" z="0" />
+      <exit direction="northeast" target="9210"/>
+      <exit direction="southeast" target="9162"/>
+      <exit direction="north" target="9211"/>
+      <exit direction="west" target="9193"/>
+      <exit direction="northwest" target="9212"/>
+      <exit direction="southwest" target="9160"/>
+      <exit direction="south" target="9161"/>
+      <exit direction="east" target="9195"/>
+   </room>
+   <room id="9111" area="60" title="Rocky valley" environment="66">
+      <coord x="6" y="-2" z="0" />
+      <exit direction="northeast" target="9162"/>
+      <exit direction="southeast" target="9107"/>
+      <exit direction="north" target="9161"/>
+      <exit direction="west" target="9156"/>
+      <exit direction="northwest" target="9160"/>
+      <exit direction="southwest" target="9115"/>
+      <exit direction="south" target="9114"/>
+      <exit direction="east" target="9110"/>
+   </room>
+   <room id="9119" area="60" title="Rocky valley" environment="66">
+      <coord x="3" y="-3" z="0" />
+      <exit direction="northeast" target="9155"/>
+      <exit direction="southeast" target="9118"/>
+      <exit direction="north" target="9154"/>
+      <exit direction="west" target="9121"/>
+      <exit direction="northwest" target="9153"/>
+      <exit direction="southwest" target="9122"/>
+      <exit direction="south" target="9120"/>
+      <exit direction="east" target="9117"/>
+   </room>
+   <room id="9116" area="60" title="A mountain" environment="35">
+      <coord x="5" y="-4" z="0" />
+      <exit direction="northeast" target="9114"/>
+      <exit direction="northwest" target="9117"/>
+      <exit direction="north" target="9115"/>
+      <exit direction="west" target="9118"/>
+      <exit direction="east" target="9113"/>
+   </room>
+   <room id="11175" area="60" title="Green valley" environment="0">
+      <coord x="4" y="2" z="0" />
+      <exit direction="northeast" target="9263"/>
+      <exit direction="southeast" target="9212"/>
+      <exit direction="north" target="9265"/>
+      <exit direction="west" target="11174"/>
+      <exit direction="northwest" target="9267"/>
+      <exit direction="southwest" target="9214"/>
+      <exit direction="south" target="9213"/>
+      <exit direction="east" target="11176"/>
+   </room>
+   <room id="9126" area="60" title="A mountain" environment="35">
+      <coord x="0" y="-4" z="0" />
+      <exit direction="northeast" target="9123"/>
+      <exit direction="northwest" target="9127"/>
+      <exit direction="north" target="9125"/>
+      <exit direction="west" target="9128"/>
+      <exit direction="east" target="9124"/>
+   </room>
+   <room id="9192" area="60" title="Green valley" environment="0">
+      <coord x="4" y="0" z="0" />
+      <exit direction="northeast" target="9212"/>
+      <exit direction="southeast" target="9160"/>
+      <exit direction="north" target="9213"/>
+      <exit direction="west" target="9191"/>
+      <exit direction="northwest" target="9214"/>
+      <exit direction="southwest" target="9159"/>
+      <exit direction="south" target="9158"/>
+      <exit direction="east" target="9193"/>
+   </room>
+   <room id="9124" area="60" title="A mountain" environment="35">
+      <coord x="1" y="-4" z="0" />
+      <exit direction="northeast" target="9121"/>
+      <exit direction="northwest" target="9125"/>
+      <exit direction="north" target="9123"/>
+      <exit direction="west" target="9126"/>
+      <exit direction="east" target="9122"/>
+   </room>
+   <room id="9211" area="60" title="Green valley" environment="0">
+      <coord x="6" y="1" z="0" />
+      <exit direction="northeast" target="9253"/>
+      <exit direction="southeast" target="9195"/>
+      <exit direction="north" target="11177"/>
+      <exit direction="west" target="9212"/>
+      <exit direction="northwest" target="11176"/>
+      <exit direction="southwest" target="9193"/>
+      <exit direction="south" target="9194"/>
+      <exit direction="east" target="9210"/>
+   </room>
+   <room id="9258" area="60" title="A mountain" environment="35">
+      <coord x="8" y="4" z="0" />
+      <exit direction="southwest" target="9256"/>
+      <exit direction="west" target="9259"/>
+      <exit direction="southeast" target="9257"/>
+      <exit direction="south" target="9255"/>
+      <exit direction="east" target="9260"/>
+   </room>
+   <room id="9162" area="60" title="Rocky valley" environment="66">
+      <coord x="7" y="-1" z="0" />
+      <exit direction="northeast" target="9197"/>
+      <exit direction="southeast" target="9112"/>
+      <exit direction="north" target="9195"/>
+      <exit direction="west" target="9161"/>
+      <exit direction="northwest" target="9194"/>
+      <exit direction="southwest" target="9111"/>
+      <exit direction="south" target="9110"/>
+      <exit direction="east" target="9163"/>
+   </room>
+   <room id="11177" area="60" title="Rocky valley" environment="66">
+      <coord x="6" y="2" z="0" />
+      <exit direction="northeast" target="9256"/>
+      <exit direction="southeast" target="9210"/>
+      <exit direction="north" target="9261"/>
+      <exit direction="west" target="11176"/>
+      <exit direction="northwest" target="9263"/>
+      <exit direction="southwest" target="9212"/>
+      <exit direction="south" target="9211"/>
+      <exit direction="east" target="9253"/>
+   </room>
+   <room id="9197" area="60" title="Rocky valley" environment="66">
+      <coord x="8" y="0" z="0" />
+      <exit direction="northeast" target="9199"/>
+      <exit direction="southeast" target="9164"/>
+      <exit direction="north" target="9200"/>
+      <exit direction="west" target="9195"/>
+      <exit direction="northwest" target="9210"/>
+      <exit direction="southwest" target="9162"/>
+      <exit direction="south" target="9163"/>
+      <exit direction="east" target="9198"/>
+   </room>
+   <room id="9253" area="60" title="Rocky valley" environment="66">
+      <coord x="7" y="2" z="0" />
+      <exit direction="northeast" target="9255"/>
+      <exit direction="southeast" target="9200"/>
+      <exit direction="north" target="9256"/>
+      <exit direction="west" target="11177"/>
+      <exit direction="northwest" target="9261"/>
+      <exit direction="southwest" target="9211"/>
+      <exit direction="south" target="9210"/>
+      <exit direction="east" target="9252"/>
+   </room>
+   <room id="9249" area="60" title="Green valley" environment="0">
+      <coord x="1" y="2" z="0" />
+      <exit direction="northeast" target="9269"/>
+      <exit direction="southeast" target="9215"/>
+      <exit direction="north" target="9271"/>
+      <exit direction="west" target="9247"/>
+      <exit direction="northwest" target="9273"/>
+      <exit direction="southwest" target="9217"/>
+      <exit direction="south" target="9216"/>
+      <exit direction="east" target="11173"/>
+   </room>
+   <room id="9215" area="60" title="Green valley" environment="0">
+      <coord x="2" y="1" z="0" />
+      <exit direction="northeast" target="11174"/>
+      <exit direction="southeast" target="9191"/>
+      <exit direction="north" target="11173"/>
+      <exit direction="west" target="9216"/>
+      <exit direction="northwest" target="9249"/>
+      <exit direction="southwest" target="9189"/>
+      <exit direction="south" target="9190"/>
+      <exit direction="east" target="9214"/>
+   </room>
+   <room id="9151" area="60" title="Green valley" environment="0">
+      <coord x="0" y="-2" z="0" />
+      <exit direction="northeast" target="9166"/>
+      <exit direction="southeast" target="9123"/>
+      <exit direction="north" target="9167"/>
+      <exit direction="west" target="9150"/>
+      <exit direction="northwest" target="9168"/>
+      <exit direction="southwest" target="9127"/>
+      <exit direction="south" target="9125"/>
+      <exit direction="east" target="9152"/>
+   </room>
+   <room id="9263" area="60" title="Rocky valley" environment="66">
+      <coord x="5" y="3" z="0" />
+      <exit direction="northeast" target="9262"/>
+      <exit direction="southeast" target="11177"/>
+      <exit direction="north" target="9264"/>
+      <exit direction="west" target="9265"/>
+      <exit direction="northwest" target="9266"/>
+      <exit direction="southwest" target="11175"/>
+      <exit direction="south" target="11176"/>
+      <exit direction="east" target="9261"/>
+   </room>
+   <room id="9265" area="60" title="Rocky valley" environment="66">
+      <coord x="4" y="3" z="0" />
+      <exit direction="northeast" target="9264"/>
+      <exit direction="southeast" target="11176"/>
+      <exit direction="north" target="9266"/>
+      <exit direction="west" target="9267"/>
+      <exit direction="northwest" target="9268"/>
+      <exit direction="southwest" target="11174"/>
+      <exit direction="south" target="11175"/>
+      <exit direction="east" target="9263"/>
+   </room>
+   <room id="9191" area="60" title="Green valley" environment="0">
+      <coord x="3" y="0" z="0" />
+      <exit direction="northeast" target="9213"/>
+      <exit direction="southeast" target="9158"/>
+      <exit direction="north" target="9214"/>
+      <exit direction="west" target="9190"/>
+      <exit direction="northwest" target="9215"/>
+      <exit direction="southwest" target="9165"/>
+      <exit direction="south" target="9159"/>
+      <exit direction="east" target="9192"/>
+   </room>
+   <room id="9160" area="60" title="Green valley" environment="0">
+      <coord x="5" y="-1" z="0" />
+      <exit direction="northeast" target="9194"/>
+      <exit direction="southeast" target="9111"/>
+      <exit direction="north" target="9193"/>
+      <exit direction="west" target="9158"/>
+      <exit direction="northwest" target="9192"/>
+      <exit direction="southwest" target="9155"/>
+      <exit direction="south" target="9156"/>
+      <exit direction="east" target="9161"/>
+   </room>
+   <room id="9188" area="60" title="Green valley" environment="66">
+      <coord x="0" y="0" z="0" />
+      <exit direction="northeast" target="9216"/>
+      <exit direction="southeast" target="9166"/>
+      <exit direction="north" target="9217"/>
+      <exit direction="west" target="9187"/>
+      <exit direction="northwest" target="9218"/>
+      <exit direction="southwest" target="9168"/>
+      <exit direction="south" target="9167"/>
+      <exit direction="east" target="9189"/>
+   </room>
+   <room id="9264" area="60" title="A mountain" environment="35">
+      <coord x="5" y="4" z="0" />
+      <exit direction="southwest" target="9265"/>
+      <exit direction="west" target="9266"/>
+      <exit direction="southeast" target="9261"/>
+      <exit direction="south" target="9263"/>
+      <exit direction="east" target="9262"/>
+   </room>
+   <room id="11173" area="60" title="Green valley" environment="0">
+      <coord x="2" y="2" z="0" />
+      <exit direction="northeast" target="9267"/>
+      <exit direction="southeast" target="9214"/>
+      <exit direction="north" target="9269"/>
+      <exit direction="west" target="9249"/>
+      <exit direction="northwest" target="9271"/>
+      <exit direction="southwest" target="9216"/>
+      <exit direction="south" target="9215"/>
+      <exit direction="east" target="11174"/>
+   </room>
+   <room id="9123" area="60" title="Rocky valley" environment="66">
+      <coord x="1" y="-3" z="0" />
+      <exit direction="northeast" target="9153"/>
+      <exit direction="southeast" target="9122"/>
+      <exit direction="north" target="9152"/>
+      <exit direction="west" target="9125"/>
+      <exit direction="northwest" target="9151"/>
+      <exit direction="southwest" target="9126"/>
+      <exit direction="south" target="9124"/>
+      <exit direction="east" target="9121"/>
+   </room>
+   <room id="9256" area="60" title="Rocky valley" environment="66">
+      <coord x="7" y="3" z="0" />
+      <exit direction="northeast" target="9258"/>
+      <exit direction="southeast" target="9252"/>
+      <exit direction="north" target="9259"/>
+      <exit direction="west" target="9261"/>
+      <exit direction="northwest" target="9262"/>
+      <exit direction="southwest" target="11177"/>
+      <exit direction="south" target="9253"/>
+      <exit direction="east" target="9255"/>
+   </room>
+   <room id="9213" area="60" title="Green valley" environment="0">
+      <coord x="4" y="1" z="0" />
+      <exit direction="northeast" target="11176"/>
+      <exit direction="southeast" target="9193"/>
+      <exit direction="north" target="11175"/>
+      <exit direction="west" target="9214"/>
+      <exit direction="northwest" target="11174"/>
+      <exit direction="southwest" target="9191"/>
+      <exit direction="south" target="9192"/>
+      <exit direction="east" target="9212"/>
+   </room>
+   <room id="9255" area="60" title="A mountain" environment="35">
+      <coord x="8" y="3" z="0" />
+      <exit direction="northeast" target="9260"/>
+      <exit direction="southeast" target="9254"/>
+      <exit direction="north" target="9258"/>
+      <exit direction="west" target="9256"/>
+      <exit direction="northwest" target="9259"/>
+      <exit direction="southwest" target="9253"/>
+      <exit direction="south" target="9252"/>
+      <exit direction="east" target="9257"/>
+   </room>
+   <room id="9198" area="60" title="Rocky valley" environment="66">
+      <coord x="9" y="0" z="0" />
+      <exit direction="northwest" target="9200"/>
+      <exit direction="west" target="9197"/>
+      <exit direction="southeast" target="9201"/>
+      <exit direction="southwest" target="9163"/>
+      <exit direction="north" target="9199"/>
+      <exit direction="south" target="9164"/>
+   </room>
+   <room id="9189" area="60" title="Green valley" environment="0">
+      <coord x="1" y="0" z="0" />
+      <exit direction="northeast" target="9215"/>
+      <exit direction="southeast" target="9165"/>
+      <exit direction="north" target="9216"/>
+      <exit direction="west" target="9188"/>
+      <exit direction="northwest" target="9217"/>
+      <exit direction="southwest" target="9167"/>
+      <exit direction="south" target="9166"/>
+      <exit direction="east" target="9190"/>
+   </room>
+   <room id="9158" area="60" title="Green valley" environment="0">
+      <coord x="4" y="-1" z="0" />
+      <exit direction="northeast" target="9193"/>
+      <exit direction="southeast" target="9156"/>
+      <exit direction="north" target="9192"/>
+      <exit direction="west" target="9159"/>
+      <exit direction="northwest" target="9191"/>
+      <exit direction="southwest" target="9154"/>
+      <exit direction="south" target="9155"/>
+      <exit direction="east" target="9160"/>
+   </room>
+   <room id="9107" area="60" title="A mountain" environment="35">
+      <coord x="7" y="-3" z="0" />
+      <exit direction="northeast" target="9112"/>
+      <exit direction="southeast" target="9106"/>
+      <exit direction="north" target="9110"/>
+      <exit direction="west" target="9114"/>
+      <exit direction="northwest" target="9111"/>
+      <exit direction="southwest" target="9113"/>
+      <exit direction="south" target="9109"/>
+      <exit direction="east" target="9108"/>
+   </room>
+   <room id="9121" area="60" title="Rocky valley" environment="66">
+      <coord x="2" y="-3" z="0" />
+      <exit direction="northeast" target="9154"/>
+      <exit direction="southeast" target="9120"/>
+      <exit direction="north" target="9153"/>
+      <exit direction="west" target="9123"/>
+      <exit direction="northwest" target="9152"/>
+      <exit direction="southwest" target="9124"/>
+      <exit direction="south" target="9122"/>
+      <exit direction="east" target="9119"/>
+   </room>
+   <room id="9125" area="60" title="Rocky valley" environment="66">
+      <coord x="0" y="-3" z="0" />
+      <exit direction="northeast" target="9152"/>
+      <exit direction="southeast" target="9124"/>
+      <exit direction="north" target="9151"/>
+      <exit direction="west" target="9127"/>
+      <exit direction="northwest" target="9150"/>
+      <exit direction="southwest" target="9128"/>
+      <exit direction="south" target="9126"/>
+      <exit direction="east" target="9123"/>
+   </room>
+   <room id="9274" area="60" title="Rocky valley" environment="66">
+      <coord x="0" y="4" z="0" />
+      <exit direction="southwest" target="9277"/>
+      <exit direction="west" target="9276"/>
+      <exit direction="southeast" target="9271"/>
+      <exit direction="north" target="9275"/>
+      <exit direction="south" target="9273"/>
+      <exit direction="east" target="9272"/>
+   </room>
+   <room id="9252" area="60" title="Rocky valley" environment="66">
+      <coord x="8" y="2" z="0" />
+      <exit direction="northeast" target="9257"/>
+      <exit direction="southeast" target="9199"/>
+      <exit direction="north" target="9255"/>
+      <exit direction="west" target="9253"/>
+      <exit direction="northwest" target="9256"/>
+      <exit direction="southwest" target="9210"/>
+      <exit direction="south" target="9200"/>
+      <exit direction="east" target="9254"/>
+   </room>
+   <room id="9190" area="60" title="Green valley" environment="0">
+      <coord x="2" y="0" z="0" />
+      <exit direction="northeast" target="9214"/>
+      <exit direction="southeast" target="9159"/>
+      <exit direction="north" target="9215"/>
+      <exit direction="west" target="9189"/>
+      <exit direction="northwest" target="9216"/>
+      <exit direction="southwest" target="9166"/>
+      <exit direction="south" target="9165"/>
+      <exit direction="east" target="9191"/>
+   </room>
+   <room id="9217" area="60" title="Green valley" environment="0">
+      <coord x="0" y="1" z="0" />
+      <exit direction="northeast" target="9249"/>
+      <exit direction="southeast" target="9189"/>
+      <exit direction="north" target="9247"/>
+      <exit direction="west" target="9218"/>
+      <exit direction="northwest" target="9248"/>
+      <exit direction="southwest" target="9187"/>
+      <exit direction="south" target="9188"/>
+      <exit direction="east" target="9216"/>
+   </room>
+   <room id="9165" area="60" title="Green valley" environment="0">
+      <coord x="2" y="-1" z="0" />
+      <exit direction="northeast" target="9191"/>
+      <exit direction="southeast" target="9154"/>
+      <exit direction="north" target="9190"/>
+      <exit direction="west" target="9166"/>
+      <exit direction="northwest" target="9189"/>
+      <exit direction="southwest" target="9152"/>
+      <exit direction="south" target="9153"/>
+      <exit direction="east" target="9159"/>
+   </room>
+   <room id="9267" area="60" title="Rocky valley" environment="66">
+      <coord x="3" y="3" z="0" />
+      <exit direction="northeast" target="9266"/>
+      <exit direction="southeast" target="11175"/>
+      <exit direction="north" target="9268"/>
+      <exit direction="west" target="9269"/>
+      <exit direction="northwest" target="9270"/>
+      <exit direction="southwest" target="11173"/>
+      <exit direction="south" target="11174"/>
+      <exit direction="east" target="9265"/>
+   </room>
+   <room id="9106" area="60" title="A mountain path" environment="0">
+      <coord x="8" y="-4" z="0" />
+      <exit direction="north" target="9108"/>
+      <exit direction="northwest" target="9107"/>
+      <exit direction="southeast" target="9105"/>
+      <exit direction="west" target="9109"/>
+   </room>
+   <room id="11176" area="60" title="Green valley" environment="0">
+      <coord x="5" y="2" z="0" />
+      <exit direction="northeast" target="9261"/>
+      <exit direction="southeast" target="9211"/>
+      <exit direction="north" target="9263"/>
+      <exit direction="west" target="11175"/>
+      <exit direction="northwest" target="9265"/>
+      <exit direction="southwest" target="9213"/>
+      <exit direction="south" target="9212"/>
+      <exit direction="east" target="11177"/>
+   </room>
+   <room id="11174" area="60" title="Green valley" environment="0">
+      <coord x="3" y="2" z="0" />
+      <exit direction="northeast" target="9265"/>
+      <exit direction="southeast" target="9213"/>
+      <exit direction="north" target="9267"/>
+      <exit direction="west" target="11173"/>
+      <exit direction="northwest" target="9269"/>
+      <exit direction="southwest" target="9215"/>
+      <exit direction="south" target="9214"/>
+      <exit direction="east" target="11175"/>
+   </room>
+   <room id="9279" area="60" title="A tunnel in ice" environment="63">
+      <coord x="0" y="7" z="-1" />
+      <exit direction="south" target="9278"/>
+      <exit direction="west" target="9280"/>
+   </room>
+   <room id="9275" area="60" title="A tunnel in ice" environment="63">
+      <coord x="0" y="5" z="-1" />
+      <exit direction="south" target="9274"/>
+      <exit direction="north" target="9278"/>
+   </room>
+   <room id="9280" area="60" title="A tunnel in ice" environment="63">
+      <coord x="-1" y="7" z="-1" />
+      <exit direction="south" target="9282"/>
+      <exit direction="north" target="9281"/>
+      <exit direction="east" target="9279"/>
+   </room>
+   <room id="9282" area="60" title="A tunnel in ice" environment="63">
+      <coord x="-1" y="6" z="-1" />
+      <exit direction="south" target="9285"/>
+      <exit direction="north" target="9280"/>
+   </room>
+   <room id="9278" area="60" title="A tunnel in ice" environment="63">
+      <coord x="0" y="6" z="-1" />
+      <exit direction="south" target="9275"/>
+      <exit direction="north" target="9279"/>
+   </room>
+   <room id="11200" area="60" title="A dark cave" environment="10">
+      <coord x="-8" y="5" z="0" />
+      <exit direction="south" target="11194"/>
+   </room>
+   <room id="9146" area="60" title="A dark cave" environment="10">
+      <coord x="-9" y="-4" z="0" />
+      <exit direction="out" target="9144"/>
+   </room>
+   <room id="9229" area="60" title="A dark cave" environment="10">
+      <coord x="-11" y="1" z="0" />
+      <exit direction="east" target="9227"/>
+   </room>
    <room id="3803" area="46" title="A passage in the cave" environment="10">
       <coord x="0" y="1" z="0" />
       <exit direction="east" target="3801"/>
@@ -19983,6 +21873,12 @@
       <exit direction="southeast" target="14600"/>
       <exit direction="northeast" target="14605"/>
    </room>
+   <room id="18437" area="59" title="Plains of Rohan" environment="45">
+      <coord x="9" y="5" z="0" />
+      <exit direction="east" target="18439"/>
+      <exit direction="north" target="18432"/>
+      <exit direction="northwest" target="18433"/>
+   </room>
    <room id="14706" area="59" title="Plains of Rhovanion" environment="45">
       <coord x="39" y="23" z="0" />
       <exit direction="west" target="14707"/>
@@ -22080,6 +23976,17 @@
       <exit direction="southeast" target="19815"/>
       <exit direction="northeast" target="19808"/>
    </room>
+   <room id="18419" area="59" title="In the forest of Fangorn" environment="26">
+      <coord x="14" y="12" z="0" />
+      <exit direction="east" target="18417"/>
+      <exit direction="west" target="18418"/>
+      <exit direction="north" target="18422"/>
+      <exit direction="south" target="18416"/>
+      <exit direction="southwest" target="18415"/>
+      <exit direction="northwest" target="18421"/>
+      <exit direction="southeast" target="18414"/>
+      <exit direction="northeast" target="18420"/>
+   </room>
    <room id="15855" area="59" title="Enedwaith" environment="16">
       <coord x="-2" y="7" z="0" />
       <exit direction="east" target="15854"/>
@@ -23571,6 +25478,11 @@
       <exit direction="southeast" target="14295"/>
       <exit direction="northeast" target="14308"/>
    </room>
+   <room id="18439" area="59" title="Plains of Rohan" environment="45">
+      <coord x="10" y="5" z="0" />
+      <exit direction="west" target="18437"/>
+      <exit direction="northwest" target="18432"/>
+   </room>
    <room id="14737" area="59" title="Rhun" environment="21">
       <coord x="47" y="9" z="0" />
       <exit direction="east" target="14739"/>
@@ -23661,6 +25573,13 @@
       <exit direction="south" target="14585"/>
       <exit direction="southwest" target="14590"/>
       <exit direction="southeast" target="14575"/>
+   </room>
+   <room id="3676" area="59" title="In Gondor" environment="45">
+      <coord x="27" y="1" z="0" />
+      <exit direction="west" target="3675"/>
+      <exit direction="north" target="3671"/>
+      <exit direction="southwest" target="3677"/>
+      <exit direction="northwest" target="3669"/>
    </room>
    <room id="12541" area="59" title="Plains of Rhovanion" environment="45">
       <coord x="30" y="15" z="0" />
@@ -26899,6 +28818,12 @@
       <exit direction="southeast" target="15204"/>
       <exit direction="northeast" target="15209"/>
    </room>
+   <room id="21059" area="59" title="In Gondor" environment="45">
+      <coord x="7" y="5" z="0" />
+      <exit direction="east" target="21060"/>
+      <exit direction="west" target="21057"/>
+      <exit direction="northwest" target="21056"/>
+   </room>
    <room id="12120" area="59" title="In the valley of Anduin" environment="66">
       <coord x="22" y="23" z="0" />
       <exit direction="east" target="12117"/>
@@ -27251,6 +29176,17 @@
       <exit direction="northwest" target="14884"/>
       <exit direction="southeast" target="14897"/>
       <exit direction="northeast" target="14883"/>
+   </room>
+   <room id="9394" area="59" title="Mirkwood" environment="26">
+      <coord x="28" y="20" z="0" />
+      <exit direction="east" target="9396"/>
+      <exit direction="west" target="9395"/>
+      <exit direction="north" target="9397"/>
+      <exit direction="south" target="9391"/>
+      <exit direction="southwest" target="9392"/>
+      <exit direction="northwest" target="9398"/>
+      <exit direction="southeast" target="9393"/>
+      <exit direction="northeast" target="9399"/>
    </room>
    <room id="14953" area="59" title="On a sea shore" environment="14">
       <coord x="-7" y="14" z="0" />
@@ -27615,6 +29551,12 @@
       <exit direction="southwest" target="15158"/>
       <exit direction="southeast" target="14306"/>
    </room>
+   <room id="14548" area="59" title="Plains of Rohan" environment="45">
+      <coord x="9" y="7" z="0" />
+      <exit direction="west" target="18434"/>
+      <exit direction="south" target="18432"/>
+      <exit direction="southwest" target="18433"/>
+   </room>
    <room id="14651" area="59" title="Lost Realm of Arnor" environment="62">
       <coord x="1" y="25" z="0" />
       <exit direction="east" target="14648"/>
@@ -27911,6 +29853,13 @@
       <exit direction="northwest" target="18970"/>
       <exit direction="southeast" target="18945"/>
    </room>
+   <room id="18435" area="59" title="Plains of Rohan" environment="45">
+      <coord x="7" y="6" z="0" />
+      <exit direction="east" target="18433"/>
+      <exit direction="north" target="18436"/>
+      <exit direction="northwest" target="18438"/>
+      <exit direction="northeast" target="18434"/>
+   </room>
    <room id="15219" area="59" title="In the valley of Anduin" environment="66">
       <coord x="22" y="21" z="0" />
       <exit direction="east" target="15220"/>
@@ -28170,6 +30119,12 @@
       <exit direction="northwest" target="15166"/>
       <exit direction="southeast" target="15151"/>
       <exit direction="northeast" target="15157"/>
+   </room>
+   <room id="3715" area="59" title="At the ruins of Dol Amroth" environment="51">
+      <coord x="13" y="-2" z="0" />
+      <exit direction="east" target="3713"/>
+      <exit direction="southeast" target="14510"/>
+      <exit direction="northeast" target="3711"/>
    </room>
    <room id="3707" area="59" title="In Gondor" environment="45">
       <coord x="15" y="0" z="0" />
@@ -28468,6 +30423,10 @@
       <exit direction="southwest" target="15873"/>
       <exit direction="northwest" target="3769"/>
       <exit direction="northeast" target="3763"/>
+   </room>
+   <room id="18372" area="59" title="Plains of Rohan" environment="45">
+      <coord x="5" y="7" z="0" />
+      <exit direction="east" target="18438"/>
    </room>
    <room id="14726" area="59" title="Brown Lands" environment="40">
       <coord x="41" y="10" z="0" />
@@ -29499,6 +31458,11 @@
       <exit direction="southeast" target="12583"/>
       <exit direction="northeast" target="15005"/>
    </room>
+   <room id="21060" area="59" title="In Gondor" environment="45">
+      <coord x="8" y="5" z="0" />
+      <exit direction="west" target="21059"/>
+      <exit direction="northeast" target="18432"/>
+   </room>
    <room id="20820" area="59" title="In Gondor" environment="45">
       <coord x="12" y="4" z="0" />
       <exit direction="south" target="20819"/>
@@ -29515,6 +31479,14 @@
       <exit direction="northwest" target="19670"/>
       <exit direction="southeast" target="19937"/>
       <exit direction="northeast" target="19671"/>
+   </room>
+   <room id="18434" area="59" title="Plains of Rohan" environment="45">
+      <coord x="8" y="7" z="0" />
+      <exit direction="east" target="14548"/>
+      <exit direction="west" target="18436"/>
+      <exit direction="south" target="18433"/>
+      <exit direction="southwest" target="18435"/>
+      <exit direction="southeast" target="18432"/>
    </room>
    <room id="15718" area="59" title="In South-Gondor" environment="2">
       <coord x="25" y="-6" z="0" />
@@ -31823,6 +33795,12 @@
       <exit direction="northwest" target="12587"/>
       <exit direction="northeast" target="14714"/>
    </room>
+   <room id="18438" area="59" title="Plains of Rohan" environment="45">
+      <coord x="6" y="7" z="0" />
+      <exit direction="east" target="18436"/>
+      <exit direction="west" target="18372"/>
+      <exit direction="southeast" target="18435"/>
+   </room>
    <room id="12121" area="59" title="On a road" environment="50">
       <coord x="21" y="24" z="0" />
       <exit direction="east" target="12118"/>
@@ -31849,6 +33827,13 @@
       <exit direction="west" target="15402"/>
       <exit direction="south" target="15400"/>
       <exit direction="southwest" target="15401"/>
+   </room>
+   <room id="18436" area="59" title="Plains of Rohan" environment="45">
+      <coord x="7" y="7" z="0" />
+      <exit direction="east" target="18434"/>
+      <exit direction="west" target="18438"/>
+      <exit direction="south" target="18435"/>
+      <exit direction="southeast" target="18433"/>
    </room>
    <room id="14926" area="59" title="Minhiriath" environment="66">
       <coord x="-3" y="14" z="0" />
@@ -33707,6 +35692,14 @@
       <exit direction="southeast" target="20873"/>
       <exit direction="northeast" target="15339"/>
    </room>
+   <room id="18432" area="59" title="Plains of Rohan" environment="45">
+      <coord x="9" y="6" z="0" />
+      <exit direction="west" target="18433"/>
+      <exit direction="north" target="14548"/>
+      <exit direction="south" target="18437"/>
+      <exit direction="northwest" target="18434"/>
+      <exit direction="southeast" target="18439"/>
+   </room>
    <room id="18416" area="59" title="In the forest of Fangorn" environment="26">
       <coord x="14" y="11" z="0" />
       <exit direction="east" target="18414"/>
@@ -33991,6 +35984,13 @@
       <exit direction="southwest" target="3767"/>
       <exit direction="southeast" target="3756"/>
       <exit direction="northeast" target="3766"/>
+   </room>
+   <room id="21057" area="59" title="In Gondor" environment="45">
+      <coord x="6" y="5" z="0" />
+      <exit direction="east" target="21059"/>
+      <exit direction="west" target="21005"/>
+      <exit direction="north" target="21056"/>
+      <exit direction="northwest" target="21058"/>
    </room>
    <room id="15886" area="59" title="Eriador" environment="52">
       <coord x="13" y="24" z="0" />
@@ -37060,6 +39060,15 @@
       <exit direction="southeast" target="14817"/>
       <exit direction="northeast" target="14822"/>
    </room>
+   <room id="18433" area="59" title="Plains of Rohan" environment="45">
+      <coord x="8" y="6" z="0" />
+      <exit direction="east" target="18432"/>
+      <exit direction="west" target="18435"/>
+      <exit direction="north" target="18434"/>
+      <exit direction="northwest" target="18436"/>
+      <exit direction="southeast" target="18437"/>
+      <exit direction="northeast" target="14548"/>
+   </room>
    <room id="18970" area="59" title="Plains of Rohan" environment="45">
       <coord x="21" y="9" z="0" />
       <exit direction="east" target="18971"/>
@@ -38095,6 +40104,13 @@
       <exit direction="northwest" target="20907"/>
       <exit direction="southeast" target="15165"/>
       <exit direction="northeast" target="20908"/>
+   </room>
+   <room id="21005" area="59" title="In Gondor" environment="45">
+      <coord x="5" y="5" z="0" />
+      <exit direction="east" target="21057"/>
+      <exit direction="west" target="21004"/>
+      <exit direction="north" target="21058"/>
+      <exit direction="northeast" target="21056"/>
    </room>
    <room id="9362" area="59" title="Brown Lands" environment="40">
       <coord x="27" y="9" z="0" />
@@ -67278,20 +69294,40 @@
       <exit direction="northwest" target="47"/>
       <exit direction="southeast" target="49"/>
    </room>
+   <room id="21049" area="12" title="Kilrathian Tower" environment="10">
+      <coord x="1" y="-5" z="0" />
+      <exit direction="southwest" target="21048"/>
+      <exit direction="northeast" target="21050"/>
+   </room>
    <room id="33" area="12" title="Kilrathian Tower" environment="10">
       <coord x="-1" y="-3" z="0" />
       <exit direction="northwest" target="34"/>
       <exit direction="southeast" target="32"/>
+   </room>
+   <room id="21053" area="12" title="Kilrathian Tower" environment="10">
+      <coord x="5" y="-1" z="0" />
+      <exit direction="southwest" target="21052"/>
+      <exit direction="northeast" target="21054"/>
    </room>
    <room id="30" area="12" title="Kilrathian Tower" environment="10">
       <coord x="2" y="-2" z="0" />
       <exit direction="southwest" target="31"/>
       <exit direction="northeast" target="29"/>
    </room>
+   <room id="21050" area="12" title="Kilrathian Tower" environment="10">
+      <coord x="2" y="-4" z="0" />
+      <exit direction="southwest" target="21049"/>
+      <exit direction="northeast" target="21051"/>
+   </room>
    <room id="27" area="12" title="Kilrathian Tower" environment="10">
       <coord x="5" y="1" z="0" />
       <exit direction="southwest" target="28"/>
       <exit direction="northwest" target="26"/>
+   </room>
+   <room id="21048" area="12" title="Kilrathian Tower" environment="10">
+      <coord x="0" y="-6" z="0" />
+      <exit direction="out" target="52"/>
+      <exit direction="northeast" target="21049"/>
    </room>
    <room id="14" area="12" title="Kilrathian Tower" environment="10">
       <coord x="0" y="-2" z="0" />
@@ -67313,6 +69349,11 @@
       <exit direction="northwest" target="25"/>
       <exit direction="southeast" target="27"/>
    </room>
+   <room id="21051" area="12" title="Kilrathian Tower" environment="10">
+      <coord x="3" y="-3" z="0" />
+      <exit direction="southwest" target="21050"/>
+      <exit direction="northeast" target="21052"/>
+   </room>
    <room id="49" area="12" title="Kilrathian Tower" environment="10">
       <coord x="5" y="3" z="0" />
       <exit direction="northwest" target="48"/>
@@ -67330,38 +69371,13 @@
    </room>
    <room id="21054" area="12" title="Kilrathian Tower" environment="10">
       <coord x="6" y="0" z="0" />
-      <exit direction="northeast" target="51"/>
       <exit direction="southwest" target="21053"/>
+      <exit direction="northeast" target="51"/>
    </room>
    <room id="21052" area="12" title="Kilrathian Tower" environment="10">
       <coord x="4" y="-2" z="0" />
-      <exit direction="northeast" target="21053"/>
       <exit direction="southwest" target="21051"/>
-   </room>
-   <room id="21051" area="12" title="Kilrathian Tower" environment="10">
-      <coord x="3" y="-3" z="0" />
-      <exit direction="northeast" target="21052"/>
-      <exit direction="southwest" target="21050"/>
-   </room>
-   <room id="21048" area="12" title="Kilrathian Tower" environment="10">
-      <coord x="0" y="-6" z="0" />
-      <exit direction="northeast" target="21049"/>
-      <exit direction="out" target="52"/>
-   </room>
-   <room id="21049" area="12" title="Kilrathian Tower" environment="10">
-      <coord x="1" y="-5" z="0" />
-      <exit direction="northeast" target="21050"/>
-      <exit direction="southwest" target="21048"/>
-   </room>
-   <room id="21053" area="12" title="Kilrathian Tower" environment="10">
-      <coord x="5" y="-1" z="0" />
-      <exit direction="northeast" target="21054"/>
-      <exit direction="southwest" target="21052"/>
-   </room>
-   <room id="21050" area="12" title="Kilrathian Tower" environment="10">
-      <coord x="2" y="-4" z="0" />
-      <exit direction="northeast" target="21051"/>
-      <exit direction="southwest" target="21049"/>
+      <exit direction="northeast" target="21053"/>
    </room>
    <room id="6202" area="57" title="Blood soaked hallway" environment="11">
       <coord x="-12" y="-1" z="0" />

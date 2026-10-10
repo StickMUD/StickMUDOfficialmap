@@ -20871,201 +20871,276 @@
       <coord x="-6" y="6" z="-1" />
       <exit direction="out" target="5583"/>
    </room>
-   <room id="58874" area="181" title="In the small tunnel" environment="63">
-      <coord x="0" y="3" z="0" />
-      <exit direction="south" target="58873"/>
+   <room id="58945" area="181" title="In the Ice Valley" environment="1">
+      <coord x="0" y="9" z="1" />
+      <exit direction="east" target="58980"/>
+      <exit direction="west" target="58981"/>
+      <exit direction="north" target="58987"/>
+      <exit direction="south" target="58967"/>
    </room>
-   <room id="58873" area="181" title="In a small tunnel" environment="63">
-      <coord x="0" y="2" z="0" />
-      <exit direction="north" target="58874"/>
-      <exit direction="south" target="58872"/>
+   <room id="58996" area="181" title="Near a huge castle" environment="1">
+      <coord x="0" y="16" z="1" />
+      <exit direction="west" target="58994"/>
+      <exit direction="south" target="58992"/>
    </room>
-   <room id="58872" area="181" title="In a small tunnel" environment="63">
-      <coord x="0" y="1" z="0" />
-      <exit direction="north" target="58873"/>
-      <exit direction="south" target="58870"/>
+   <room id="58993" area="181" title="On the shore of the deep-blue sea" environment="1">
+      <coord x="-2" y="15" z="1" />
+      <exit direction="east" target="58991"/>
+      <exit direction="north" target="58995"/>
    </room>
-   <room id="58870" area="181" title="In a small tunnel" environment="63">
-      <coord x="0" y="0" z="0" />
-      <exit direction="north" target="58872"/>
-      <exit direction="south" target="3902"/>
+   <room id="58968" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-2" y="8" z="1" />
+      <exit direction="east" target="58964"/>
+      <exit direction="west" target="58982"/>
+      <exit direction="north" target="58983"/>
+      <exit direction="south" target="58963"/>
    </room>
-   <room id="58925" area="181" title="In the Ice Valley" environment="1">
-      <coord x="-2" y="7" z="1" />
-      <exit direction="east" target="58923"/>
-      <exit direction="north" target="58927"/>
+   <room id="58990" area="181" title="On the northern shore of the sea" environment="14">
+      <coord x="-1" y="14" z="1" />
+      <exit direction="north" target="58991"/>
    </room>
-   <room id="58916" area="181" title="In a frozen grotto" environment="10">
+   <room id="59001" area="181" title="In a frozen grotto" environment="10">
       <coord x="2" y="5" z="0" />
-      <exit direction="west" target="58915"/>
+      <exit direction="west" target="59000"/>
    </room>
-   <room id="58932" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="58963" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-2" y="7" z="1" />
+      <exit direction="east" target="58961"/>
+      <exit direction="north" target="58968"/>
+   </room>
+   <room id="58973" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="4" y="7" z="1" />
-      <exit direction="west" target="58930"/>
-      <exit direction="north" target="58935"/>
-      <exit direction="in" target="58934"/>
+      <exit direction="in" target="58975"/>
+      <exit direction="west" target="58971"/>
+      <exit direction="north" target="58976"/>
    </room>
-   <room id="58942" area="181" title="In the Ice Valley" environment="1">
-      <coord x="-1" y="9" z="1" />
-      <exit direction="east" target="58923"/>
-      <exit direction="south" target="58927"/>
+   <room id="58984" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-3" y="9" z="1" />
+      <exit direction="east" target="58983"/>
+      <exit direction="south" target="58982"/>
    </room>
-   <room id="58913" area="181" title="In a frozen grotto" environment="10">
+   <room id="59004" area="181" title="In a frozen grotto" environment="10">
       <coord x="-1" y="4" z="0" />
-      <exit direction="east" target="58912"/>
+      <exit direction="east" target="59003"/>
    </room>
-   <room id="58930" area="181" title="In the Ice Valley" environment="1">
+   <room id="58971" area="181" title="In the Ice Valley" environment="1">
       <coord x="3" y="7" z="1" />
-      <exit direction="east" target="58932"/>
-      <exit direction="west" target="58928"/>
-      <exit direction="north" target="58933"/>
+      <exit direction="east" target="58973"/>
+      <exit direction="west" target="58969"/>
+      <exit direction="north" target="58974"/>
    </room>
-   <room id="58936" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="58977" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="4" y="9" z="1" />
-      <exit direction="west" target="58937"/>
-      <exit direction="south" target="58935"/>
+      <exit direction="west" target="58978"/>
+      <exit direction="south" target="58976"/>
    </room>
-   <room id="58946" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="59005" area="181" title="In the small tunnel" environment="63">
+      <coord x="0" y="3" z="0" />
+      <exit direction="south" target="59006"/>
+   </room>
+   <room id="58988" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="1" y="10" z="1" />
-      <exit direction="west" target="58947"/>
-      <exit direction="south" target="58939"/>
+      <exit direction="west" target="58987"/>
+      <exit direction="south" target="58980"/>
    </room>
-   <room id="58919" area="181" title="In a frozen grotto" environment="10">
+   <room id="58998" area="181" title="In a frozen grotto" environment="10">
       <coord x="-1" y="6" z="0" />
-      <exit direction="east" target="58918"/>
+      <exit direction="east" target="58997"/>
    </room>
-   <room id="58912" area="181" title="In the Caves of the Whistling Wind" environment="10">
+   <room id="58992" area="181" title="On the shore of the deep-blue sea" environment="1">
+      <coord x="0" y="15" z="1" />
+      <exit direction="west" target="58991"/>
+      <exit direction="north" target="58996"/>
+   </room>
+   <room id="59003" area="181" title="In the Caves of the Whistling Wind" environment="10">
       <coord x="0" y="4" z="0" />
-      <exit direction="west" target="58913"/>
-      <exit direction="north" target="58914"/>
-      <exit direction="south" target="58874"/>
+      <exit direction="west" target="59004"/>
+      <exit direction="north" target="59002"/>
+      <exit direction="south" target="59005"/>
    </room>
-   <room id="58918" area="181" title="In the Caves of the Whistling Wind" environment="10">
+   <room id="58995" area="181" title="Near a huge castle" environment="1">
+      <coord x="-2" y="16" z="1" />
+      <exit direction="east" target="58994"/>
+      <exit direction="south" target="58993"/>
+   </room>
+   <room id="58997" area="181" title="In the Caves of the Whistling Wind" environment="10">
       <coord x="0" y="6" z="0" />
-      <exit direction="west" target="58919"/>
-      <exit direction="east" target="58917"/>
-      <exit direction="north" target="58920"/>
+      <exit direction="west" target="58998"/>
+      <exit direction="east" target="58999"/>
+      <exit direction="north" target="58965"/>
    </room>
-   <room id="58928" area="181" title="In the Ice Valley" environment="1">
+   <room id="58969" area="181" title="In the Ice Valley" environment="1">
       <coord x="2" y="7" z="1" />
-      <exit direction="east" target="58930"/>
-      <exit direction="west" target="58922"/>
-      <exit direction="north" target="58931"/>
+      <exit direction="east" target="58971"/>
+      <exit direction="west" target="58966"/>
+      <exit direction="north" target="58972"/>
    </room>
-   <room id="58939" area="181" title="In the Ice Valley" environment="1">
+   <room id="58989" area="181" title="On the ice floe" environment="37">
+      <coord x="-1" y="12" z="1" />
+   </room>
+   <room id="58980" area="181" title="In the Ice Valley" environment="1">
       <coord x="1" y="9" z="1" />
-      <exit direction="east" target="58938"/>
+      <exit direction="east" target="58979"/>
       <exit direction="west" target="58945"/>
-      <exit direction="north" target="58946"/>
-      <exit direction="south" target="58929"/>
+      <exit direction="north" target="58988"/>
+      <exit direction="south" target="58970"/>
    </room>
-   <room id="58947" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="58978" area="181" title="In the Ice Valley, near the sea" environment="1">
+      <coord x="3" y="9" z="1" />
+      <exit direction="east" target="58977"/>
+      <exit direction="west" target="58979"/>
+      <exit direction="south" target="58974"/>
+   </room>
+   <room id="58987" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="0" y="10" z="1" />
-      <exit direction="east" target="58946"/>
-      <exit direction="west" target="58948"/>
+      <exit direction="east" target="58988"/>
+      <exit direction="west" target="58986"/>
       <exit direction="south" target="58945"/>
    </room>
-   <room id="58937" area="181" title="In the Ice Valley, near the sea" environment="1">
-      <coord x="3" y="9" z="1" />
-      <exit direction="east" target="58936"/>
-      <exit direction="west" target="58938"/>
-      <exit direction="south" target="58933"/>
-   </room>
-   <room id="58920" area="181" title="In the end of the small tunnel" environment="63">
-      <coord x="0" y="7" z="0" />
-      <exit direction="up" target="58921"/>
-      <exit direction="south" target="58918"/>
-   </room>
-   <room id="58929" area="181" title="In the Ice Valley" environment="1">
+   <room id="58970" area="181" title="In the Ice Valley" environment="1">
       <coord x="1" y="8" z="1" />
-      <exit direction="east" target="58931"/>
-      <exit direction="west" target="58924"/>
-      <exit direction="north" target="58939"/>
-      <exit direction="south" target="58922"/>
+      <exit direction="east" target="58972"/>
+      <exit direction="west" target="58967"/>
+      <exit direction="north" target="58980"/>
+      <exit direction="south" target="58966"/>
    </room>
-   <room id="58917" area="181" title="In the Caves of the Whistling Wind" environment="10">
+   <room id="58965" area="181" title="In the end of the small tunnel" environment="63">
+      <coord x="0" y="7" z="0" />
+      <exit direction="up" target="58962"/>
+      <exit direction="south" target="58997"/>
+   </room>
+   <room id="58999" area="181" title="In the Caves of the Whistling Wind" environment="10">
       <coord x="1" y="6" z="0" />
-      <exit direction="west" target="58918"/>
-      <exit direction="south" target="58915"/>
+      <exit direction="west" target="58997"/>
+      <exit direction="south" target="59000"/>
    </room>
-   <room id="58924" area="181" title="In the Ice Valley" environment="1">
-      <coord x="0" y="8" z="1" />
-      <exit direction="east" target="58926"/>
-      <exit direction="west" target="58940"/>
-      <exit direction="north" target="58941"/>
-      <exit direction="south" target="58925"/>
+   <room id="59007" area="181" title="In a small tunnel" environment="63">
+      <coord x="0" y="1" z="0" />
+      <exit direction="south" target="59008"/>
+      <exit direction="north" target="59006"/>
    </room>
-   <room id="58931" area="181" title="In the Ice Valley" environment="1">
-      <coord x="2" y="8" z="1" />
-      <exit direction="east" target="58933"/>
-      <exit direction="west" target="58929"/>
-      <exit direction="north" target="58938"/>
-      <exit direction="south" target="58928"/>
+   <room id="58983" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-2" y="9" z="1" />
+      <exit direction="east" target="58981"/>
+      <exit direction="west" target="58984"/>
+      <exit direction="north" target="58985"/>
+      <exit direction="south" target="58968"/>
    </room>
-   <room id="58935" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="58976" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="4" y="8" z="1" />
-      <exit direction="west" target="58933"/>
-      <exit direction="north" target="58936"/>
-      <exit direction="south" target="58932"/>
+      <exit direction="west" target="58974"/>
+      <exit direction="north" target="58977"/>
+      <exit direction="south" target="58973"/>
    </room>
-   <room id="58949" area="181" title="In the Ice Valley, near the sea" environment="1">
-      <coord x="-2" y="10" z="1" />
-      <exit direction="east" target="58948"/>
-      <exit direction="south" target="58941"/>
+   <room id="58972" area="181" title="In the Ice Valley" environment="1">
+      <coord x="2" y="8" z="1" />
+      <exit direction="east" target="58974"/>
+      <exit direction="west" target="58970"/>
+      <exit direction="north" target="58979"/>
+      <exit direction="south" target="58969"/>
    </room>
-   <room id="58915" area="181" title="In the Caves of the Whistling Wind" environment="10">
+   <room id="58967" area="181" title="In the Ice Valley" environment="1">
+      <coord x="0" y="8" z="1" />
+      <exit direction="east" target="58970"/>
+      <exit direction="west" target="58964"/>
+      <exit direction="north" target="58945"/>
+      <exit direction="south" target="58962"/>
+   </room>
+   <room id="59000" area="181" title="In the Caves of the Whistling Wind" environment="10">
       <coord x="1" y="5" z="0" />
-      <exit direction="east" target="58916"/>
-      <exit direction="west" target="58914"/>
-      <exit direction="north" target="58917"/>
+      <exit direction="east" target="59001"/>
+      <exit direction="west" target="59002"/>
+      <exit direction="north" target="58999"/>
    </room>
-   <room id="58921" area="181" title="In the Ice Valley" environment="1">
-      <coord x="0" y="7" z="1" />
-      <exit direction="west" target="58923"/>
-      <exit direction="down" target="58920"/>
-      <exit direction="east" target="58922"/>
-      <exit direction="north" target="58924"/>
+   <room id="58985" area="181" title="In the Ice Valley, near the sea" environment="1">
+      <coord x="-2" y="10" z="1" />
+      <exit direction="east" target="58986"/>
+      <exit direction="south" target="58983"/>
    </room>
-   <room id="58933" area="181" title="In the Ice Valley" environment="1">
+   <room id="58974" area="181" title="In the Ice Valley" environment="1">
       <coord x="3" y="8" z="1" />
-      <exit direction="east" target="58935"/>
-      <exit direction="west" target="58931"/>
-      <exit direction="north" target="58937"/>
-      <exit direction="south" target="58930"/>
+      <exit direction="east" target="58976"/>
+      <exit direction="west" target="58972"/>
+      <exit direction="north" target="58978"/>
+      <exit direction="south" target="58971"/>
    </room>
-   <room id="58940" area="181" title="In the Ice Valley" environment="1">
-      <coord x="-1" y="8" z="1" />
-      <exit direction="east" target="58927"/>
-      <exit direction="north" target="58942"/>
+   <room id="58962" area="181" title="In the Ice Valley" environment="1">
+      <coord x="0" y="7" z="1" />
+      <exit direction="down" target="58965"/>
+      <exit direction="east" target="58966"/>
+      <exit direction="west" target="58961"/>
+      <exit direction="north" target="58967"/>
    </room>
-   <room id="58923" area="181" title="In the Ice Valley" environment="1">
+   <room id="58982" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-3" y="8" z="1" />
+      <exit direction="east" target="58968"/>
+      <exit direction="north" target="58984"/>
+   </room>
+   <room id="58994" area="181" title="Near a huge castle" environment="1">
+      <coord x="-1" y="16" z="1" />
+      <exit direction="east" target="58996"/>
+      <exit direction="west" target="58995"/>
+      <exit direction="south" target="58991"/>
+   </room>
+   <room id="58961" area="181" title="In the Ice Valley" environment="1">
       <coord x="-1" y="7" z="1" />
-      <exit direction="east" target="58921"/>
-      <exit direction="west" target="58925"/>
-      <exit direction="north" target="58926"/>
+      <exit direction="east" target="58962"/>
+      <exit direction="west" target="58963"/>
+      <exit direction="north" target="58964"/>
    </room>
-   <room id="58948" area="181" title="In the Ice Valley, near the sea" environment="1">
-      <coord x="-1" y="10" z="1" />
-      <exit direction="east" target="58947"/>
-      <exit direction="west" target="58949"/>
-      <exit direction="south" target="58950"/>
-   </room>
-   <room id="58914" area="181" title="In the Caves of the Whistling Wind" environment="10">
+   <room id="59002" area="181" title="In the Caves of the Whistling Wind" environment="10">
       <coord x="0" y="5" z="0" />
-      <exit direction="east" target="58915"/>
-      <exit direction="south" target="58912"/>
+      <exit direction="east" target="59000"/>
+      <exit direction="south" target="59003"/>
    </room>
-   <room id="58922" area="181" title="In the Ice Valley" environment="1">
+   <room id="58986" area="181" title="In the Ice Valley, near the sea" environment="1">
+      <coord x="-1" y="10" z="1" />
+      <exit direction="east" target="58987"/>
+      <exit direction="west" target="58985"/>
+      <exit direction="south" target="58981"/>
+   </room>
+   <room id="59006" area="181" title="In a small tunnel" environment="63">
+      <coord x="0" y="2" z="0" />
+      <exit direction="north" target="59005"/>
+      <exit direction="south" target="59007"/>
+   </room>
+   <room id="58964" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-1" y="8" z="1" />
+      <exit direction="east" target="58967"/>
+      <exit direction="west" target="58968"/>
+      <exit direction="north" target="58981"/>
+      <exit direction="south" target="58961"/>
+   </room>
+   <room id="58991" area="181" title="On the snowfield" environment="1">
+      <coord x="-1" y="15" z="1" />
+      <exit direction="east" target="58992"/>
+      <exit direction="west" target="58993"/>
+      <exit direction="north" target="58994"/>
+      <exit direction="south" target="58990"/>
+   </room>
+   <room id="58966" area="181" title="In the Ice Valley" environment="1">
       <coord x="1" y="7" z="1" />
-      <exit direction="east" target="58928"/>
-      <exit direction="west" target="58921"/>
-      <exit direction="north" target="58929"/>
+      <exit direction="east" target="58969"/>
+      <exit direction="west" target="58962"/>
+      <exit direction="north" target="58970"/>
    </room>
-   <room id="58938" area="181" title="In the Ice Valley, near the sea" environment="1">
+   <room id="58979" area="181" title="In the Ice Valley, near the sea" environment="1">
       <coord x="2" y="9" z="1" />
-      <exit direction="east" target="58937"/>
-      <exit direction="west" target="58939"/>
-      <exit direction="south" target="58931"/>
+      <exit direction="east" target="58978"/>
+      <exit direction="west" target="58980"/>
+      <exit direction="south" target="58972"/>
+   </room>
+   <room id="58981" area="181" title="In the Ice Valley" environment="1">
+      <coord x="-1" y="9" z="1" />
+      <exit direction="east" target="58945"/>
+      <exit direction="west" target="58983"/>
+      <exit direction="north" target="58986"/>
+      <exit direction="south" target="58964"/>
+   </room>
+   <room id="59008" area="181" title="In a small tunnel" environment="63">
+      <coord x="0" y="0" z="0" />
+      <exit direction="north" target="59007"/>
+      <exit direction="south" target="3902"/>
    </room>
    <room id="340" area="6" title="Hall" environment="12">
       <coord x="0" y="0" z="0" />
@@ -21737,6 +21812,10 @@
       <coord x="1" y="0" z="0" />
       <exit direction="west" target="58811"/>
    </room>
+   <room id="58954" area="182" title="In a rather messy room" environment="9">
+      <coord x="-1" y="3" z="1" />
+      <exit direction="east" target="58952"/>
+   </room>
    <room id="58898" area="182" title="In the alchemist's workroom" environment="9">
       <coord x="-1" y="3" z="0" />
       <exit direction="east" target="58883"/>
@@ -21763,19 +21842,43 @@
       <exit direction="up" target="58905"/>
       <exit direction="down" target="58903"/>
    </room>
+   <room id="58894" area="182" title="In the food store" environment="9">
+      <coord x="-3" y="1" z="0" />
+      <exit direction="east" target="58892"/>
+   </room>
    <room id="58901" area="182" title="In the alchemist's bedroom" environment="9">
       <coord x="-2" y="3" z="0" />
       <exit direction="east" target="58898"/>
       <exit direction="/areas/ultima_thule/castle/lvl1_r" target="58902"/>
+   </room>
+   <room id="58959" area="182" title="In the bedroom" environment="9">
+      <coord x="-1" y="1" z="1" />
+      <exit direction="east" target="58957"/>
+      <exit direction="north" target="58960" door="1"/>
    </room>
    <room id="58903" area="182" title="In the hallway near the stairway" environment="9">
       <coord x="-3" y="2" z="0" />
       <exit direction="up" target="58904"/>
       <exit direction="east" target="58891"/>
    </room>
+   <room id="58957" area="182" title="In the throne-room" environment="9">
+      <coord x="0" y="1" z="1" />
+      <exit direction="east" target="58958"/>
+      <exit direction="west" target="58959"/>
+      <exit direction="north" target="58955"/>
+   </room>
    <room id="58879" area="182" title="In the guards' chamber" environment="9">
       <coord x="1" y="1" z="0" />
       <exit direction="west" target="58878"/>
+   </room>
+   <room id="58892" area="182" title="In the dining room" environment="9">
+      <coord x="-1" y="1" z="0" />
+      <exit direction="west" target="58893"/>
+      <exit direction="north" target="58881"/>
+   </room>
+   <room id="58953" area="182" title="In a room" environment="9">
+      <coord x="1" y="3" z="1" />
+      <exit direction="west" target="58952"/>
    </room>
    <room id="58885" area="182" title="In a dimly lit room" environment="9">
       <coord x="1" y="3" z="0" />
@@ -21788,10 +21891,14 @@
       <exit direction="west" target="58891"/>
       <exit direction="south" target="58892"/>
    </room>
+   <room id="58958" area="182" title="In the guards' resting place" environment="9">
+      <coord x="1" y="1" z="1" />
+      <exit direction="west" target="58957"/>
+   </room>
    <room id="58900" area="182" title="In the hallway near the stairway leading down" environment="9">
       <coord x="0" y="4" z="1" />
-      <exit direction="west" target="58951" door="1"/>
       <exit direction="down" target="58899"/>
+      <exit direction="west" target="58951" door="1"/>
       <exit direction="south" target="58952"/>
    </room>
    <room id="58907" area="182" title="In the fortune teller's bedroom" environment="9">
@@ -21803,6 +21910,11 @@
       <exit direction="east" target="58879"/>
       <exit direction="north" target="58880"/>
       <exit direction="south" target="58875"/>
+   </room>
+   <room id="58893" area="182" title="In the castle's kitchen" environment="9">
+      <coord x="-2" y="1" z="0" />
+      <exit direction="east" target="58892"/>
+      <exit direction="west" target="58894"/>
    </room>
    <room id="58882" area="182" title="In the hallway" environment="9">
       <coord x="1" y="2" z="0" />
@@ -21824,12 +21936,33 @@
       <exit direction="up" target="58906"/>
       <exit direction="down" target="58887"/>
    </room>
+   <room id="58956" area="182" title="In the library" environment="9">
+      <coord x="1" y="2" z="1" />
+      <exit direction="west" target="58955"/>
+   </room>
+   <room id="58952" area="182" title="In the north-south hallway" environment="9">
+      <coord x="0" y="3" z="1" />
+      <exit direction="east" target="58953"/>
+      <exit direction="west" target="58954"/>
+      <exit direction="north" target="58900"/>
+      <exit direction="south" target="58955"/>
+   </room>
+   <room id="58955" area="182" title="In the north-south hallway" environment="9">
+      <coord x="0" y="2" z="1" />
+      <exit direction="east" target="58956"/>
+      <exit direction="north" target="58952"/>
+      <exit direction="south" target="58957"/>
+   </room>
    <room id="58880" area="182" title="In a crossing of two hallways" environment="9">
       <coord x="0" y="2" z="0" />
       <exit direction="east" target="58882"/>
       <exit direction="west" target="58881"/>
       <exit direction="north" target="58883"/>
       <exit direction="south" target="58878"/>
+   </room>
+   <room id="58951" area="182" title="In a storeroom" environment="9">
+      <coord x="-1" y="4" z="1" />
+      <exit direction="east" target="58900" door="1"/>
    </room>
    <room id="58890" area="182" title="In the servants' bedroom" environment="9">
       <coord x="3" y="1" z="0" />
@@ -21855,22 +21988,9 @@
       <exit direction="up" target="58889"/>
       <exit direction="west" target="58884"/>
    </room>
-   <room id="58955" area="182" title="In the north-south hallway" environment="9">
-      <coord x="0" y="2" z="1" />
-      <exit direction="east" target="58956"/>
-      <exit direction="north" target="58952"/>
-      <exit direction="south" target="58957"/>
-   </room>
-   <room id="58952" area="182" title="In the north-south hallway" environment="9">
-      <coord x="0" y="3" z="1" />
-      <exit direction="east" target="58953"/>
-      <exit direction="west" target="58954"/>
-      <exit direction="north" target="58900"/>
-      <exit direction="south" target="58955"/>
-   </room>
-   <room id="58951" area="182" title="In a storeroom" environment="9">
-      <coord x="-1" y="4" z="1" />
-      <exit direction="east" target="58900" door="1"/>
+   <room id="58960" area="182" title="In the clothes closet" environment="9">
+      <coord x="-1" y="2" z="1" />
+      <exit direction="south" target="58959" door="1"/>
    </room>
    <room id="2081" area="66" title="Cave" environment="24">
       <coord x="-1" y="0" z="2" />
